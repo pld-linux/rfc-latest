@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 09/13/2002.)
+(CREATED ON: 09/18/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -8993,8 +8993,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      March 1999. (Format: TXT=22717 bytes) (Status: PROPOSED STANDARD)
 
 2533 A Syntax for Describing Media Feature Sets. G. Klyne. March 1999.
-     (Format: TXT=79057 bytes) (Updated by RFC2938) (Status: PROPOSED
-     STANDARD)
+     (Format: TXT=79057 bytes) (Updated by RFC2738, RFC2938) (Status:
+     PROPOSED STANDARD)
 
 2534 Media Features for Display, Print, and Fax. L. Masinter, D. Wing,
      A. Mutz, K. Holtman. March 1999. (Format: TXT=15466 bytes) (Status:
@@ -9765,8 +9765,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      STANDARD)
 
 2738 Corrections to "A Syntax for Describing Media Feature Sets". G.
-     Klyne. December 1999. (Format: TXT=8353 bytes) (Status: PROPOSED
-     STANDARD)
+     Klyne. December 1999. (Format: TXT=8353 bytes) (Updates RFC2533)
+     (Status: PROPOSED STANDARD)
 
 2739 Calendar Attributes for vCard and LDAP. T. Small, D. Hennessy, F.
      Dawson. January 2000. (Format: TXT=25892 bytes) (Status: PROPOSED
@@ -12042,6 +12042,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Format: TXT=49893 bytes) (Also BCP0063) (Status: BEST CURRENT
      PRACTICE)
 
+3373 Three-Way Handshake for Intermediate System to Intermediate
+     System (IS-IS) Point-to-Point Adjacencies. D. Katz, R. Saluja.
+     September 2002. (Format: TXT=19522 bytes) (Status: INFORMATIONAL)
+
 3374 Problem Description: Reasons For Performing Context Transfers
      Between Nodes in an IP Access Network. J. Kempf, Ed.. September 2002.
      (Format: TXT=28245 bytes) (Status: INFORMATIONAL)
@@ -12052,3 +12056,12 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3377 Lightweight Directory Access Protocol (v3): Technical
      Specification. J. Hodges, R. Morgan. September 2002. (Format:
      TXT=9981 bytes) (Status: PROPOSED STANDARD)
+
+3379 Delegated Path Validation and Delegated Path Discovery Protocol
+     Requirements. D. Pinkas, R. Housley. September 2002. (Format:
+     TXT=32455 bytes) (Status: INFORMATIONAL)
+
+3383 Internet Assigned Numbers Authority (IANA) Considerations for the
+     Lightweight Directory Access Protocol (LDAP). K. Zeilenga. September
+     2002. (Format: TXT=45893 bytes) (Also BCP0064) (Status: BEST CURRENT
+     PRACTICE)
