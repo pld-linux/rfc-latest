@@ -8,14 +8,15 @@
 Summary:	Latest RFC documents
 Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
-Version:	3601
+Version:	3655
 %define		rfcindex_version	1.2
 Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs3501-latest.tar.gz
-# Source0-md5:	cd9205562f065ff37b51c50bc33493c9
+# Source0-md5:	RFCs3501-latest.tar.gz
 Source1:	ftp://ftp.isi.edu/in-notes/rfc-index.txt
+Source2:	ftp://ftp.isi.edu/in-notes/rfc3500.txt
 Source10:	http://www.kernighan.demon.co.uk/software/rfcindex-%{rfcindex_version}
 # Source10-md5:	2b35cdd18096517e048fd455364dd77a
 Patch0:		rfc-index-typo.patch
@@ -134,7 +135,7 @@ Dokumenty RFC (Request For Comments) w formacie Adobe PDF.
 
 %prep
 %setup -q -c
-install %{SOURCE1} .
+install %{SOURCE1} %{SOURCE2} .
 %patch0 -p0
 
 %if %{!?_without_html_index:1}%{?_without_html_index:0}
