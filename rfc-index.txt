@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 05/30/2002.)
+(CREATED ON: 06/06/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11764,7 +11764,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      PROPOSED STANDARD)
 
 3282 Content Language Headers. H. Alvestrand. May 2002. (Format:
-     TXT=14022 bytes) (Updates 1766) (Status: DRAFT STANDARD)
+     TXT=14022 bytes) (Obsoletes RFC1766) (Status: DRAFT STANDARD)
 
 3285 Using Microsoft Word to create Internet Drafts and RFCs. M.
      Gahrns, T. Hain. May 2002. (Format: TXT=34556 bytes) (Status:
@@ -11773,6 +11773,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3286 An Introduction to the Stream Control Transmission Protocol
      (SCTP). L. Ong, J. Yoakum. May 2002. (Format: TXT=22644 bytes)
      (Status: INFORMATIONAL)
+
+3289 Management Information Base for the Differentiated Services
+     Architecture. F. Baker, K. Chan, A. Smith. May 2002. (Format:
+     TXT=239041 bytes) (Status: PROPOSED STANDARD)
 
 3290 An Informal Management Model for Diffserv Routers. Y. Bernet, S.
      Blake, D. Grossman, A. Smith. May 2002. (Format: TXT=129443 bytes)
