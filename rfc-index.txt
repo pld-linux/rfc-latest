@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 02/06/2004.)
+(CREATED ON: 03/02/2004.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -8901,7 +8901,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2471 IPv6 Testing Address Allocation. R. Hinden, R. Fink, J. Postel
      (deceased). December 1998. (Format: TXT=8031 bytes) (Obsoletes
-     RFC1897) (Status: EXPERIMENTAL)
+     RFC1897) (Obsoleted by RFC3701) (Status: HISTORIC)
 
 2472 IP Version 6 over PPP. D. Haskin, E. Allen. December 1998.
      (Format: TXT=29696 bytes) (Obsoletes RFC2023) (Status: PROPOSED
@@ -9571,8 +9571,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      STANDARD)
 
 2646 The Text/Plain Format Parameter. R. Gellens, Ed.. August 1999.
-     (Format: TXT=29175 bytes) (Updates RFC2046) (Status: PROPOSED
-     STANDARD)
+     (Format: TXT=29175 bytes) (Obsoleted by RFC3676) (Updates RFC2046)
+     (Status: PROPOSED STANDARD)
 
 2647 Benchmarking Terminology for Firewall Performance. D. Newman.
      August 1999. (Format: TXT=45374 bytes) (Status: INFORMATIONAL)
@@ -10147,7 +10147,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      PROPOSED STANDARD)
 
 2798 Definition of the inetOrgPerson LDAP Object Class. M. Smith.
-     April 2000. (Format: TXT=32929 bytes) (Status: INFORMATIONAL)
+     April 2000. (Format: TXT=32929 bytes) (Updated by RFC3698) (Status:
+     INFORMATIONAL)
 
 2799 Request for Comments Summary RFC Numbers 2700-2799. S. Ginoza.
      September 2000. (Format: TXT=42622 bytes) (Status: INFORMATIONAL)
@@ -13559,6 +13560,17 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Cunningham, K. Summers. December 2003. (Format: TXT=200478 bytes)
      (Also BCP0076) (Status: BEST CURRENT PRACTICE)
 
+3667 IETF Rights in Contributions. S. Bradner. February 2004. (Format:
+     TXT=43297 bytes) (Also BCP0078) (Status: BEST CURRENT PRACTICE)
+
+3668 Intellectual Property Rights in IETF Technology. S. Bradner.
+     February 2004. (Format: TXT=41365 bytes) (Also BCP0079) (Status: BEST
+     CURRENT PRACTICE)
+
+3669 Guidelines for Working Groups on Intellectual Property Issues. S.
+     Brim. February 2004. (Format: TXT=40946 bytes) (Status:
+     INFORMATIONAL)
+
 3670 Information Model for Describing Network Device QoS Datapath
      Mechanisms. B. Moore, D. Durham, J. Strassner, A. Westerinen, W.
      Weiss. January 2004. (Format: TXT=221687 bytes) (Status: PROPOSED
@@ -13583,6 +13595,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3675 .sex Considered Dangerous. D. Eastlake 3rd. February 2004.
      (Format: TXT=53211 bytes) (Status: INFORMATIONAL)
 
+3676 The Text/Plain Format and DelSp Parameters. R. Gellens. February
+     2004. (Format: TXT=42441 bytes) (Obsoletes RFC2646) (Status: PROPOSED
+     STANDARD)
+
 3677 IETF ISOC Board of Trustee Appointment Procedures. L. Daigle,
      Ed., Internet Architecture Board. December 2003. (Format: TXT=13008
      bytes) (Also BCP0077) (Status: BEST CURRENT PRACTICE)
@@ -13598,6 +13614,14 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3681 Delegation of E.F.F.3.IP6.ARPA. R. Bush, R. Fink. January 2004.
      (Format: TXT=7137 bytes) (Also BCP0080) (Status: BEST CURRENT
      PRACTICE)
+
+3682 The Generalized TTL Security Mechanism (GTSM). V. Gill, J.
+     Heasley, D. Meyer. February 2004. (Format: TXT=23321 bytes) (Status:
+     EXPERIMENTAL)
+
+3684 Topology Dissemination Based on Reverse-Path Forwarding (TBRPF).
+     R. Ogier, F. Templin, M. Lewis. February 2004. (Format: TXT=107963
+     bytes) (Status: EXPERIMENTAL)
 
 3685 SIEVE Email Filtering: Spamtest and VirusTest Extensions. C.
      Daboo. February 2004. (Format: TXT=17436 bytes) (Status: PROPOSED
@@ -13622,14 +13646,98 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (ETS). K. Carlberg, R. Atkinson. February 2004. (Format: TXT=13919
      bytes) (Status: INFORMATIONAL)
 
+3691 Internet Message Access Protocol (IMAP) UNSELECT command. A.
+     Melnikov. February 2004. (Format: TXT=8436 bytes) (Status: PROPOSED
+     STANDARD)
+
 3692 Assigning Experimental and Testing Numbers Considered Useful. T.
      Narten. January 2004. (Format: TXT=15054 bytes) (Updates RFC2434)
      (Also BCP0082) (Status: BEST CURRENT PRACTICE)
+
+3693 Geopriv Requirements. J. Cuellar, J. Morris, D. Mulligan, J.
+     Peterson, J. Polk. February 2004. (Format: TXT=68881 bytes) (Status:
+     INFORMATIONAL)
+
+3694 Threat Analysis of the Geopriv Protocol. M. Danley, D. Mulligan,
+     J. Morris, J. Peterson. February 2004. (Format: TXT=44364 bytes)
+     (Status: INFORMATIONAL)
+
+3695 Compact Forward Error Correction (FEC) Schemes. M. Luby, L.
+     Vicisano. February 2004. (Format: TXT=32012 bytes) (Status:
+     EXPERIMENTAL)
+
+3696 Application Techniques for Checking and Transformation of Names.
+     J. Klensin. February 2004. (Format: TXT=39238 bytes) (Status:
+     INFORMATIONAL)
+
+3697 IPv6 Flow Label Specification. J. Rajahalme, A. Conta, B.
+     Carpenter, S. Deering. March 2004. (Format: TXT=21296 bytes) (Status:
+     PROPOSED STANDARD)
+
+3698 Lightweight Directory Access Protocol (LDAP): Additional Matching
+     Rules. K. Zeilenga, Ed.. February 2004. (Format: TXT=17562 bytes)
+     (Updates RFC2798) (Status: PROPOSED STANDARD)
+
+3701 6bone (IPv6 Testing Address Allocation) Phaseout. R. Fink, R.
+     Hinden. March 2004. (Format: TXT=12019 bytes) (Obsoletes RFC2471)
+     (Status: INFORMATIONAL)
+
+3702 Authentication, Authorization, and Accounting Requirements for
+     the Session Initiation Protocol (SIP). J. Loughney, G. Camarillo.
+     February 2004. (Format: TXT=31243 bytes) (Status: INFORMATIONAL)
+
+3703 Policy Core Lightweight Directory Access Protocol (LDAP) Schema.
+     J. Strassner, B. Moore, R. Moats, E. Ellesson. February 2004.
+     (Format: TXT=142983 bytes) (Status: PROPOSED STANDARD)
 
 3705 High Capacity Textual Conventions for MIB Modules Using
      Performance History Based on 15 Minute Intervals. B. Ray, R. Abbi.
      February 2004. (Format: TXT=24158 bytes) (Status: PROPOSED STANDARD)
 
+3706 A Traffic-Based Method of Detecting Dead Internet Key Exchange
+     (IKE) Peers. G. Huang, S. Beaulieu, D. Rochefort. February 2004.
+     (Format: TXT=30196 bytes) (Status: INFORMATIONAL)
+
 3707 Cross Registry Internet Service Protocol (CRISP) Requirements. A.
      Newton. February 2004. (Format: TXT=52411 bytes) (Status:
      INFORMATIONAL)
+
+3708 Using TCP Duplicate Selective Acknowledgement (DSACKs) and Stream
+     Control Transmission Protocol (SCTP) Duplicate Transmission Sequence
+     Numbers (TSNs) to Detect Spurious Retransmissions. E. Blanton, M.
+     Allman. February 2004. (Format: TXT=20818 bytes) (Status:
+     EXPERIMENTAL)
+
+3709 Internet X.509 Public Key Infrastructure: Logotypes in X.509
+     Certificates. S. Santesson, R. Housley, T. Freeman. February 2004.
+     (Format: TXT=46453 bytes) (Status: PROPOSED STANDARD)
+
+3710 An IESG charter. H. Alvestrand. February 2004. (Format: TXT=24912
+     bytes) (Status: INFORMATIONAL)
+
+3712 Lightweight Directory Access Protocol (LDAP): Schema for Printer
+     Services. P. Fleming, I. McDonald. February 2004. (Format: TXT=62301
+     bytes) (Status: INFORMATIONAL)
+
+3717 IP over Optical Networks: A Framework. B. Rajagopalan, J.
+     Luciani, D. Awduche. March 2004. (Format: TXT=124421 bytes) (Status:
+     INFORMATIONAL)
+
+3718 A Summary of Unicode Consortium Procedures, Policies, Stability,
+     and Public Access. R. McGowan. February 2004. (Format: TXT=25865
+     bytes) (Status: INFORMATIONAL)
+
+3719 Recommendations for Interoperable Networks using Intermediate
+     System to Intermediate System (IS-IS). J. Parker, Ed.. February 2004.
+     (Format: TXT=33941 bytes) (Status: INFORMATIONAL)
+
+3727 ASN.1 Module Definition for the LDAP and X.500 Component Matching
+     Rules. S. Legg. February 2004. (Format: TXT=8297 bytes) (Status:
+     PROPOSED STANDARD)
+
+3728 Definitions of Managed Objects for Very High Speed Digital
+     Subscriber Lines (VDSL). B. Ray, R. Abbi. February 2004. (Format:
+     TXT=147232 bytes) (Status: PROPOSED STANDARD)
+
+3729 Application Performance Measurement MIB. S. Waldbusser. March
+     2004. (Format: TXT=131354 bytes) (Status: PROPOSED STANDARD)
