@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 08/26/2003.)
+(CREATED ON: 09/08/2003.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -8980,7 +8980,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2493 Textual Conventions for MIB Modules Using Performance History
      Based on 15 Minute Intervals. K. Tesink, Ed.. January 1999. (Format:
-     TXT=18749 bytes) (Status: PROPOSED STANDARD)
+     TXT=18749 bytes) (Obsoleted by RFC3593) (Status: PROPOSED STANDARD)
 
 2494 Definitions of Managed Objects for the DS0 and DS0 Bundle
      Interface Type. D. Fowler, Ed.. January 1999. (Format: TXT=47208
@@ -9229,7 +9229,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2558 Definitions of Managed Objects for the SONET/SDH Interface Type.
      K. Tesink. March 1999. (Format: TXT=138550 bytes) (Obsoletes RFC1595)
-     (Status: PROPOSED STANDARD)
+     (Obsoleted by RFC3592) (Status: PROPOSED STANDARD)
 
 2559 Internet X.509 Public Key Infrastructure Operational Protocols -
      LDAPv2. S. Boeyen, T. Howes, P. Richard. April 1999. (Format:
@@ -9804,8 +9804,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      INFORMATIONAL)
 
 2710 Multicast Listener Discovery (MLD) for IPv6. S. Deering, W.
-     Fenner, B. Haberman. October 1999. (Format: TXT=46838 bytes) (Status:
-     PROPOSED STANDARD)
+     Fenner, B. Haberman. October 1999. (Format: TXT=46838 bytes) (Updated
+     by RFC3590) (Status: PROPOSED STANDARD)
 
 2711 IPv6 Router Alert Option. C. Partridge, A. Jackson. October 1999.
      (Format: TXT=11973 bytes) (Status: PROPOSED STANDARD)
@@ -10406,7 +10406,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Format: TXT=42609 bytes) (Updates RFC2865) (Status: INFORMATIONAL)
 
 2869 RADIUS Extensions. C. Rigney, W. Willats, P. Calhoun. June 2000.
-     (Format: TXT=96854 bytes) (Status: INFORMATIONAL)
+     (Format: TXT=96854 bytes) (Updated by RFC3579) (Status:
+     INFORMATIONAL)
 
 2870 Root Name Server Operational Requirements. R. Bush, D.
      Karrenberg, M. Kosters, R. Plzak. June 2000. (Format: TXT=21133
@@ -13180,6 +13181,15 @@ See the RFC Editor Web page http://www.rfc-editor.org
      G. Camarillo, A. B. Roach, J. Peterson, L. Ong. August 2003. (Format:
      TXT=26667 bytes) (Status: PROPOSED STANDARD)
 
+3579 RADIUS (Remote Authentication Dial In User Service) Support For
+     Extensible Authentication Protocol (EAP). B. Aboba, P. Calhoun.
+     September 2003. (Format: TXT=104469 bytes) (Updates RFC2869) (Status:
+     INFORMATIONAL)
+
+3580 IEEE 802.1X Remote Authentication Dial In User Service (RADIUS)
+     Usage Guidelines. P. Congdon, B. Aboba, A. Smith, G. Zorn, J. Roese.
+     September 2003. (Format: TXT=66136 bytes) (Status: INFORMATIONAL)
+
 3581 An Extension to the Session Initiation Protocol (SIP) for
      Symmetric Response Routing. J. Rosenberg, H. Schulzrinne. August
      2003. (Format: TXT=66133 bytes) (Status: PROPOSED STANDARD)
@@ -13187,6 +13197,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3582 Goals for IPv6 Site-Multihoming Architectures. J. Abley, B.
      Black, V. Gill. August 2003. (Format: TXT=17045 bytes) (Status:
      INFORMATIONAL)
+
+3583 Requirements of a Quality of Service (QoS) Solution for Mobile
+     IP. H. Chaskar, Ed.. September 2003. (Format: TXT=22541 bytes)
+     (Status: INFORMATIONAL)
 
 3584 Coexistence between Version 1, Version 2, and Version 3 of the
      Internet-standard Network Management Framework. R. Frye, D. Levi, S.
@@ -13204,3 +13218,36 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3587 IPv6 Global Unicast Address Format. R. Hinden, S. Deering, E.
      Nordmark. August 2003. (Format: TXT=8783 bytes) (Obsoletes RFC2374)
      (Status: INFORMATIONAL)
+
+3590 Source Address Selection for the Multicast Listener Discovery
+     (MLD) Protocol. B. Haberman. September 2003. (Format: TXT=11554
+     bytes) (Updates RFC2710) (Status: PROPOSED STANDARD)
+
+3591 Definitions of Managed Objects for the Optical Interface Type.
+     H-K. Lam, M. Stewart, A. Huynh. September 2003. (Format: TXT=310815
+     bytes) (Status: PROPOSED STANDARD)
+
+3592 Definitions of Managed Objects for the Synchronous Optical
+     Network/Synchronous Digital Hierarchy (SONET/SDH) Interface Type. K.
+     Tesink. September 2003. (Format: TXT=143588 bytes) (Obsoletes
+     RFC2558) (Status: DRAFT STANDARD)
+
+3593 Textual Conventions for MIB Modules Using Performance History
+     Based on 15 Minute Intervals. K. Tesink, Ed.. September 2003.
+     (Format: TXT=20363 bytes) (Obsoletes RFC2493) (Status: DRAFT
+     STANDARD)
+
+3594 PacketCable Security Ticket Control Sub-Option for the DHCP
+     CableLabs Client Configuration (CCC) Option. P. Duffy. September
+     2003. (Format: TXT=12521 bytes) (Status: PROPOSED STANDARD)
+
+3597 Handling of Unknown DNS Resource Record (RR) Types. A.
+     Gustafsson. September 2003. (Format: TXT=17559 bytes) (Status:
+     PROPOSED STANDARD)
+
+3598 Sieve Email Filtering -- Subaddress Extension. K. Murchison.
+     September 2003. (Format: TXT=11151 bytes) (Status: PROPOSED STANDARD)
+
+3601 Text String Notation for Dial Sequences and Global Switched
+     Telephone Network (GSTN) / E.164 Addresses. C. Allocchio. September
+     2003. (Format: TXT=18572 bytes) (Status: PROPOSED STANDARD)
