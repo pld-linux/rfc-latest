@@ -7,9 +7,9 @@
 Summary:	Latest RFC documents
 Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
-Version:	3531
+Version:	3541
 %define		rfcindex_version	1.2
-Release:	2
+Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs3501-latest.tar.gz
