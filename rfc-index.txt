@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 03/05/2002.)
+(CREATED ON: 03/06/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11636,3 +11636,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3244 Microsoft Windows 2000 Kerberos Change Password and Set Password
      Protocols. M. Swift, J. Trostle, J. Brezak. February 2002. (Format:
      TXT=13334 bytes) (Status: INFORMATIONAL)
+
+3253 Versioning Extensions to WebDAV (Web Distributed Authoring and
+     Versioning). G. Clemm, J. Amsden, T. Ellison, C. Kaler, J. Whitehead.
+     March 2002. (Format: TXT=245514 bytes) (Status: PROPOSED STANDARD)
