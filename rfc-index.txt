@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 03/19/2002.)
+(CREATED ON: 03/22/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -9238,7 +9238,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      STANDARD)
 
 2598 An Expedited Forwarding PHB. V. Jacobson, K. Nichols, K. Poduri.
-     June 1999. (Format: TXT=23656 bytes) (Status: PROPOSED STANDARD)
+     June 1999. (Format: TXT=23656 bytes) (Obsoleted by RFC3246) (Status:
+     PROPOSED STANDARD)
 
 2599 Request for Comments Summary RFC Numbers 2500-2599. A. DeLaCruz.
      March 2000. (Format: TXT=45845 bytes) (Status: INFORMATIONAL)
@@ -11640,7 +11641,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3246 An Expedited Forwarding PHB (Per-Hop Behavior). B. Davie, A.
      Charny, J.C.R. Bennet, K. Benson, J.Y. Le Boudec, W. Courtney, S.
      Davari, V. Firoiu, D. Stiliadis. March 2002. (Format: TXT=33896
-     bytes) (Status: PROPOSED STANDARD)
+     bytes) (Obsoletes RFC2598) (Status: PROPOSED STANDARD)
 
 3248 A Delay Bound alternative revision of RFC 2598. G. Armitage, B.
      Carpenter, A. Casati, J. Crowcroft, J. Halpern, B. Kumar, J.
