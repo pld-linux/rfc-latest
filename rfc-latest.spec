@@ -14,8 +14,11 @@ Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs3501-latest.tar.gz
+# Source0-md5:	db47a7ca02ace83dfb01ade5ade26d46
 Source1:	ftp://ftp.isi.edu/in-notes/rfc-index.txt
+# Source1-md5:	d339353ffc6fef7d9a8485a08028d0b3
 Source10:	http://www.kernighan.demon.co.uk/software/rfcindex-%{rfcindex_version}
+# Source10-md5:	2b35cdd18096517e048fd455364dd77a
 Patch0:		rfc-index-typo.patch
 Patch10:	rfcindex-pld.patch
 URL:		http://www.rfc.net/
