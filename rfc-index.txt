@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 05/01/2002.)
+(CREATED ON: 05/08/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -4454,8 +4454,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Obsoleted by RFC1548) (Status: PROPOSED STANDARD)
 
 1332 The PPP Internet Protocol Control Protocol (IPCP). G. McGregor.
-     May 1992. (Format: TXT=17613 bytes) (Obsoletes RFC1172) (Status:
-     PROPOSED STANDARD)
+     May 1992. (Format: TXT=17613 bytes) (Obsoletes RFC1172) (Updated by
+     RFC3241) (Status: PROPOSED STANDARD)
 
 1333 PPP Link Quality Monitoring. W. Simpson. May 1992. (Format:
      TXT=29965 bytes) (Obsoleted by RFC1989) (Status: PROPOSED STANDARD)
@@ -8765,11 +8765,11 @@ See the RFC Editor Web page http://www.rfc-editor.org
 2474 Definition of the Differentiated Services Field (DS Field) in the
      IPv4 and IPv6 Headers. K. Nichols, S. Blake, F. Baker, D. Black.
      December 1998. (Format: TXT=50576 bytes) (Obsoletes RFC1455, RFC1349)
-     (Updated by RFC3168) (Status: PROPOSED STANDARD)
+     (Updated by RFC3168, RFC3260) (Status: PROPOSED STANDARD)
 
 2475 An Architecture for Differentiated Service. S. Blake, D. Black,
      M. Carlson, E. Davies, Z. Wang, W. Weiss. December 1998. (Format:
-     TXT=94786 bytes) (Status: INFORMATIONAL)
+     TXT=94786 bytes) (Updated by RFC3260) (Status: INFORMATIONAL)
 
 2476 Message Submission. R. Gellens, J. Klensin. December 1998.
      (Format: TXT=30050 bytes) (Status: PROPOSED STANDARD)
@@ -9234,8 +9234,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Format: TXT=17413 bytes) (Status: PROPOSED STANDARD)
 
 2597 Assured Forwarding PHB Group. J. Heinanen, F. Baker, W. Weiss, J.
-     Wroclawski. June 1999. (Format: TXT=24068 bytes) (Status: PROPOSED
-     STANDARD)
+     Wroclawski. June 1999. (Format: TXT=24068 bytes) (Updated by RFC3260)
+     (Status: PROPOSED STANDARD)
 
 2598 An Expedited Forwarding PHB. V. Jacobson, K. Nichols, K. Poduri.
      June 1999. (Format: TXT=23656 bytes) (Obsoleted by RFC3246) (Status:
@@ -11634,6 +11634,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Cordonnier. February 2002. (Format: TXT=9102 bytes) (Status:
      INFORMATIONAL)
 
+3241 Robust Header Compression (ROHC) over PPP. C. Bormann. April
+     2002. (Format: TXT=24424 bytes) (Updates RFC1332) (Status: PROPOSED
+     STANDARD)
+
 3242 RObust Header Compression (ROHC): A Link-Layer Assisted Profile
      for IP/UDP/RTP. L-E. Jonsson, G. Pelletier. April 2002. (Format:
      TXT=49007 bytes) (Status: PROPOSED STANDARD)
@@ -11701,6 +11705,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3260 New Terminology and Clarifications for Diffserv. D. Grossman.
      April 2002. (Format: TXT=21900 bytes) (Updates RFC2474, RFC2475,
      RFC2597) (Status: INFORMATIONAL)
+
+3269 Author Guidelines for Reliable Multicast Transport (RMT) Building
+     Blocks and Protocol Instantiation documents. R. Kermode, L. Vicisano.
+     April 2002. (Format: TXT=25258 bytes) (Status: INFORMATIONAL)
 
 3271 The Internet is for Everyone. V. Cerf. April 2002. (Format:
      TXT=12345 bytes) (Status: INFORMATIONAL)
