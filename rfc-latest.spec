@@ -1,9 +1,9 @@
-
-# Conditionals:
+#
+# Conditional build:
 # _with_ps
 # _without_pdf
 # _without_html_index
-
+#
 Summary:	Latest RFC documents
 Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
@@ -18,12 +18,14 @@ Source10:	http://www.kernighan.demon.co.uk/software/rfcindex-%{rfcindex_version}
 Patch0:		rfc-index-typo.patch
 Patch10:	rfcindex-pld.patch
 URL:		http://www.rfc.net/
-%if %{!?_with_ps:%{!?_without_pdf:1}%{?_without_pdf:0}}%{?_with_ps:1}
+%if %{!?_with_ps:%{!?_without_pdf:1}0}%{?_with_ps:1}
 BuildRequires:	enscript
 BuildRequires:	ghostscript
 %endif
-%if %{!?_without_html_index:1}%{?_without_html_index:0}
+%if %{!?_without_html_index:1}0
 BuildRequires:	perl-devel
+BuildRequires:	rpm-perlprov
+%include	/usr/lib/rpm/macros.perl
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -70,7 +72,6 @@ poszczególnych dokumentów.
 Summary:	Script to generate HTML-ized index of RFC documents
 Summary(pl):	Indeks dokumentów RFC
 Group:		Utilities
-Requires:	perl
 Requires:	rfc-index
 
 %description -n rfcindex
