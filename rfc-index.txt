@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 07/02/2002.)
+(CREATED ON: 07/10/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11771,6 +11771,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Awduche, A. Chiu, A. Elwalid, I. Widjaja, X. Xiao. May 2002. (Format:
      TXT=190384 bytes) (Status: INFORMATIONAL)
 
+3273 Remote Network Monitoring Management Information Base for High
+     Capacity Networks. S. Waldbusser. July 2002. (Format: TXT=150924
+     bytes) (Status: PROPOSED STANDARD)
+
 3274 Compressed Data Content Type for Cryptographic Message Syntax
      (CMS). P. Gutmann. June 2002. (Format: TXT=11276 bytes) (Status:
      PROPOSED STANDARD)
@@ -11824,6 +11828,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3286 An Introduction to the Stream Control Transmission Protocol
      (SCTP). L. Ong, J. Yoakum. May 2002. (Format: TXT=22644 bytes)
      (Status: INFORMATIONAL)
+
+3287 Remote Monitoring MIB Extensions for Differentiated Services. A.
+     Bierman. July 2002. (Format: TXT=249622 bytes) (Status: PROPOSED
+     STANDARD)
 
 3288 Using the Simple Object Access Protocol (SOAP) in Blocks
      Extensible Exchange Protocol (BEEP). E. O'Tuathail, M. Rose. June
