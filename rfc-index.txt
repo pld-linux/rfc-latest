@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 12/24/2003.)
+(CREATED ON: 02/06/2004.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -8754,8 +8754,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Format: TXT=34502 bytes) (Status: INFORMATIONAL)
 
 2434 Guidelines for Writing an IANA Considerations Section in RFCs. T.
-     Narten, H. Alvestrand. October 1998. (Format: TXT=25092 bytes) (Also
-     BCP0026) (Status: BEST CURRENT PRACTICE)
+     Narten, H. Alvestrand. October 1998. (Format: TXT=25092 bytes)
+     (Updated by RFC3692) (Also BCP0026) (Status: BEST CURRENT PRACTICE)
 
 2435 RTP Payload Format for JPEG-compressed Video. L. Berc, W. Fenner,
      R. Frederick, S. McCanne, P. Stewart. October 1998. (Format:
@@ -13199,9 +13199,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
      User Service (RADIUS). M. Chiba, G. Dommety, M. Eklund, D. Mitton, B.
      Aboba. July 2003. (Format: TXT=70027 bytes) (Status: INFORMATIONAL)
 
-3577 Introduction to the Remote Monitoring (RMON) Family of MIB Modul.
-     S. Waldbusser, R. Cole, C. Kalbfleisch, D. Romascanu. August 2003.
-     (Format: TXT=68551 bytes) (Status: INFORMATIONAL)
+3577 Introduction to the Remote Monitoring (RMON) Family of MIB
+     Modules. S. Waldbusser, R. Cole, C. Kalbfleisch, D. Romascanu. August
+     2003. (Format: TXT=68551 bytes) (Status: INFORMATIONAL)
 
 3578 Mapping of Integrated Services Digital Network (ISDN) User Part
      (ISUP) Overlap Signalling to the Session Initiation Protocol (SIP).
@@ -13382,6 +13382,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3621 Power Ethernet MIB. A. Berger, D. Romascanu. December 2003.
      (Format: TXT=37294 bytes) (Status: PROPOSED STANDARD)
 
+3622 A Uniform Resource Name (URN) Namespace for the Liberty Alliance
+     Project. M. Mealling. February 2004. (Format: TXT=11432 bytes)
+     (Status: INFORMATIONAL)
+
 3623 Graceful OSPF Restart. J. Moy, P. Pillay-Esnault, A. Lindem.
      November 2003. (Format: TXT=38757 bytes) (Status: PROPOSED STANDARD)
 
@@ -13517,6 +13521,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Protocol. R. Siemborski. December 2003. (Format: TXT=35509 bytes)
      (Status: EXPERIMENTAL)
 
+3657 Use of the Camellia Encryption Algorithm in Cryptographic Message
+     Syntax (CMS). S. Moriai, A. Kato. January 2004. (Format: TXT=26282
+     bytes) (Status: PROPOSED STANDARD)
+
 3658 Delegation Signer (DS) Resource Record (RR). O. Gudmundsson.
      December 2003. (Format: TXT=42120 bytes) (Updates RFC3090, RFC3008,
      RFC2535, RFC1035) (Status: PROPOSED STANDARD)
@@ -13537,6 +13545,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Protocol (LDAP). A. Newton. December 2003. (Format: TXT=42260 bytes)
      (Status: EXPERIMENTAL)
 
+3664 The AES-XCBC-PRF-128 Algorithm for the Internet Key Exchange
+     Protocol (IKE). P. Hoffman. January 2004. (Format: TXT=6711 bytes)
+     (Status: PROPOSED STANDARD)
+
 3665 Session Initiation Protocol (SIP) Basic Call Flow Examples. A.
      Johnston, S. Donovan, R. Sparks, C. Cunningham, K. Summers. December
      2003. (Format: TXT=163159 bytes) (Also BCP0075) (Status: BEST CURRENT
@@ -13546,6 +13558,11 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Network (PSTN) Call Flows. A. Johnston, S. Donovan, R. Sparks, C.
      Cunningham, K. Summers. December 2003. (Format: TXT=200478 bytes)
      (Also BCP0076) (Status: BEST CURRENT PRACTICE)
+
+3670 Information Model for Describing Network Device QoS Datapath
+     Mechanisms. B. Moore, D. Durham, J. Strassner, A. Westerinen, W.
+     Weiss. January 2004. (Format: TXT=221687 bytes) (Status: PROPOSED
+     STANDARD)
 
 3671 Collective Attributes in the Lightweight Directory Access
      Protocol (LDAP). K. Zeilenga. December 2003. (Format: TXT=17912
@@ -13563,6 +13580,56 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (LDAP). K. Zeilenga. December 2003. (Format: TXT=10282 bytes)
      (Status: PROPOSED STANDARD)
 
+3675 .sex Considered Dangerous. D. Eastlake 3rd. February 2004.
+     (Format: TXT=53211 bytes) (Status: INFORMATIONAL)
+
 3677 IETF ISOC Board of Trustee Appointment Procedures. L. Daigle,
      Ed., Internet Architecture Board. December 2003. (Format: TXT=13008
      bytes) (Also BCP0077) (Status: BEST CURRENT PRACTICE)
+
+3678 Socket Interface Extensions for Multicast Source Filters. D.
+     Thaler, B. Fenner, B. Quinn. January 2004. (Format: TXT=36320 bytes)
+     (Status: INFORMATIONAL)
+
+3679 Unused Dynamic Host Configuration Protocol (DHCP) Option Codes.
+     R. Droms. January 2004. (Format: TXT=13804 bytes) (Status:
+     INFORMATIONAL)
+
+3681 Delegation of E.F.F.3.IP6.ARPA. R. Bush, R. Fink. January 2004.
+     (Format: TXT=7137 bytes) (Also BCP0080) (Status: BEST CURRENT
+     PRACTICE)
+
+3685 SIEVE Email Filtering: Spamtest and VirusTest Extensions. C.
+     Daboo. February 2004. (Format: TXT=17436 bytes) (Status: PROPOSED
+     STANDARD)
+
+3686 Using Advanced Encryption Standard (AES) Counter Mode With IPsec
+     Encapsulating Security Payload (ESP). R. Housley. January 2004.
+     (Format: TXT=43777 bytes) (Status: PROPOSED STANDARD)
+
+3687 Lightweight Directory Access Protocol (LDAP) and X.500 Component
+     Matching Rules. S. Legg. February 2004. (Format: TXT=96256 bytes)
+     (Status: PROPOSED STANDARD)
+
+3688 The IETF XML Registry. M. Mealling. January 2004. (Format:
+     TXT=17325 bytes) (Also BCP0081) (Status: BEST CURRENT PRACTICE)
+
+3689 General Requirements for Emergency Telecommunication Service
+     (ETS). K. Carlberg, R. Atkinson. February 2004. (Format: TXT=21680
+     bytes) (Status: INFORMATIONAL)
+
+3690 IP Telephony Requirements for Emergency Telecommunication Service
+     (ETS). K. Carlberg, R. Atkinson. February 2004. (Format: TXT=13919
+     bytes) (Status: INFORMATIONAL)
+
+3692 Assigning Experimental and Testing Numbers Considered Useful. T.
+     Narten. January 2004. (Format: TXT=15054 bytes) (Updates RFC2434)
+     (Also BCP0082) (Status: BEST CURRENT PRACTICE)
+
+3705 High Capacity Textual Conventions for MIB Modules Using
+     Performance History Based on 15 Minute Intervals. B. Ray, R. Abbi.
+     February 2004. (Format: TXT=24158 bytes) (Status: PROPOSED STANDARD)
+
+3707 Cross Registry Internet Service Protocol (CRISP) Requirements. A.
+     Newton. February 2004. (Format: TXT=52411 bytes) (Status:
+     INFORMATIONAL)
