@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 05/15/2002.)
+(CREATED ON: 05/22/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -8704,7 +8704,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2459 Internet X.509 Public Key Infrastructure Certificate and CRL
      Profile. R. Housley, W. Ford, W. Polk, D. Solo. January 1999.
-     (Format: TXT=278438 bytes) (Status: PROPOSED STANDARD)
+     (Format: TXT=278438 bytes) (Obsoleted by RFC3280) (Status: PROPOSED
+     STANDARD)
 
 2460 Internet Protocol, Version 6 (IPv6) Specification. S. Deering, R.
      Hinden. December 1998. (Format: TXT=85490 bytes) (Obsoletes RFC1883)
@@ -11163,6 +11164,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Sanmugam, S. Bradner, J. Klensin. June 2001. (Format: TXT=11405
      bytes) (Status: INFORMATIONAL)
 
+3114 Implementing Company Classification Policy with the S/MIME
+     Security Label. W. Nicolls. May 2002. (Format: TXT=27764 bytes)
+     (Status: INFORMATIONAL)
+
 3115 Mobile IP Vendor/Organization-Specific Extensions. G. Dommety, K.
      Leung. April 2001. (Format: TXT=16363 bytes) (Obsoletes RFC3025)
      (Status: PROPOSED STANDARD)
@@ -11714,12 +11719,26 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Blocks and Protocol Instantiation documents. R. Kermode, L. Vicisano.
      April 2002. (Format: TXT=25258 bytes) (Status: INFORMATIONAL)
 
+3270 Multi-Protocol Label Switching (MPLS) Support of Differentiated
+     Services. F. Le Faucheur, L. Wu, B. Davie, S. Davari, P. Vaananen, R.
+     Krishnan, P. Cheval, J. Heinanen. May 2002. (Format: TXT=137960
+     bytes) (Status: PROPOSED STANDARD)
+
 3271 The Internet is for Everyone. V. Cerf. April 2002. (Format:
      TXT=12345 bytes) (Status: INFORMATIONAL)
+
+3272 Overview and Principles of Internet Traffic Engineering. D.
+     Awduche, A. Chiu, A. Elwalid, I. Widjaja, X. Xiao. May 2002. (Format:
+     TXT=190384 bytes) (Status: INFORMATIONAL)
 
 3275 (Extensible Markup Language) XML-Signature Syntax and Processing.
      D. Eastlake 3rd, J. Reagle, D. Solo. March 2002. (Format: TXT=164198
      bytes) (Obsoletes RFC3075) (Status: DRAFT STANDARD)
+
+3276 Definitions of Managed Objects for High Bit-Rate DSL - 2nd
+     generation (HDSL2) and Single-Pair High-Speed Digital Subscriber Line
+     (SHDSL) Lines Processing. B. Ray, R. Abbi. May 2002. (Format:
+     TXT=122991 bytes) (Status: PROPOSED STANDARD)
 
 3277 Intermediate System to Intermediate System (IS-IS) Transient
      Blackhole Avoidance. D. McPherson. April 2002. (Format: TXT=13077
@@ -11737,12 +11756,16 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3280 Internet X.509 Public Key Infrastructure Certificate and
      Certificate Revocation List (CRL) Profile. R. Housley, W. Polk, W.
-     Ford, D. Solo. April 2002. (Format: TXT=295556 bytes) (Status:
-     PROPOSED STANDARD)
+     Ford, D. Solo. April 2002. (Format: TXT=295556 bytes) (Obsoletes
+     RFC2459) (Status: PROPOSED STANDARD)
 
 3281 An Internet Attribute Certificate Profile for Authorization. S.
      Farrell, R. Housley. April 2002. (Format: TXT=90580 bytes) (Status:
      PROPOSED STANDARD)
+
+3286 An Introduction to the Stream Control Transmission Protocol
+     (SCTP). L. Ong, J. Yoakum. May 2002. (Format: TXT=22644 bytes)
+     (Status: INFORMATIONAL)
 
 3291 Textual Conventions for Internet Network Addresses. M. Daniele,
      B. Haberman, S. Routhier, J. Schoenwaelder. May 2002. (Format:
