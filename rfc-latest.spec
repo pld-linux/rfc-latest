@@ -9,7 +9,7 @@ Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
 Version:	3506
 %define		rfcindex_version	1.2
-Release:	0.1
+Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs3501-latest.tar.gz
@@ -220,7 +220,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files text
 %defattr(644,root,root,755)
-%dir %{_defaultdocdir}/RFC/text
 %{_defaultdocdir}/RFC/text/[0-9]*
 
 %files -n rfc-index
@@ -231,13 +230,13 @@ rm -rf $RPM_BUILD_ROOT
 %if %{!?_with_ps:0}%{?_with_ps:1}
 %files ps
 %defattr(644,root,root,755)
-%{_defaultdocdir}/RFC/postscript
+%{_defaultdocdir}/RFC/postscript/*
 %endif
 
 %if %{!?_without_pdf:1}%{?_without_pdf:0}
 %files pdf
 %defattr(644,root,root,755)
-%{_defaultdocdir}/RFC/pdf
+%{_defaultdocdir}/RFC/pdf/*
 %endif
 
 %if %{!?_without_html_index:1}%{?_without_html_index:0}
