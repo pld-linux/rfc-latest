@@ -1279,7 +1279,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 0378 Traffic statistics (July 1972). A.M. McKenzie. Aug-10-1972.
      (Format: TXT=5730 bytes) (Obsoleted by RFC0391) (Status: UNKNOWN)
 
-0379 Using TSO at CCN. R.. Braden. Aug-11-1972. (Format: TXT=8674
+0379 Using TSO at CCN. R.T. Braden. Aug-11-1972. (Format: TXT=8674
      bytes) (Status: UNKNOWN)
 
 0381 Three aids to improved network operation. J.M. McQuillan.
