@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 08/23/2002.)
+(CREATED ON: 09/04/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -9360,7 +9360,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      TXT=48677 bytes) (Status: INFORMATIONAL)
 
 2630 Cryptographic Message Syntax. R. Housley. June 1999. (Format:
-     TXT=128599 bytes) (Status: PROPOSED STANDARD)
+     TXT=128599 bytes) (Obsoleted by RFC3369, RFC3370) (Status: PROPOSED
+     STANDARD)
 
 2631 Diffie-Hellman Key Agreement Method. E. Rescorla. June 1999.
      (Format: TXT=25932 bytes) (Status: PROPOSED STANDARD)
@@ -11536,7 +11537,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      bytes) (Status: INFORMATIONAL)
 
 3211 Password-based Encryption for CMS. P. Gutmann. December 2001.
-     (Format: TXT=30527 bytes) (Status: PROPOSED STANDARD)
+     (Format: TXT=30527 bytes) (Obsoleted by RFC3369, RFC3370) (Status:
+     PROPOSED STANDARD)
 
 3212 Constraint-Based LSP Setup using LDP. B. Jamoussi, Ed., L.
      Andersson, R. Callon, R. Dantu, L. Wu, P. Doolan, T. Worster, N.
@@ -11877,6 +11879,11 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Klyne, R. Iwazaki, D. Crocker. July 2002. (Format: TXT=97094 bytes)
      (Status: PROPOSED STANDARD)
 
+3298 Service in the Public Switched Telephone Network/Intelligent
+     Network (PSTN/IN) Requesting InTernet Service (SPIRITS) Protocol
+     Requirements. I. Faynberg, J. Gato, H. Lu, L. Slutsman. August 2002.
+     (Format: TXT=36560 bytes) (Status: INFORMATIONAL)
+
 3301 Layer Two Tunnelling Protocol (L2TP): ATM access network
      extensions. Y. T'Joens, P. Crivellari, B. Sales. June 2002. (Format:
      TXT=42756 bytes) (Status: PROPOSED STANDARD)
@@ -11888,6 +11895,19 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3304 Middlebox Communications (midcom) Protocol Requirements. R. P.
      Swale, P. A. Mart, P. Sijben, S. Brim, M. Shore. August 2002.
      (Format: TXT=16187 bytes) (Status: INFORMATIONAL)
+
+3305 Report from the Joint W3C/IETF URI Planning Interest Group:
+     Uniform Resource Identifiers (URIs), URLs, and Uniform Resource Names
+     (URNs): Clarifications and Recommendations. M. Mealling, Ed., R.
+     Denenberg, Ed.. August 2002. (Format: TXT=21793 bytes) (Status:
+     INFORMATIONAL)
+
+3306 Unicast-Prefix-based IPv6 Multicast Addresses. B. Haberman, D.
+     Thaler. August 2002. (Format: TXT=12713 bytes) (Status: PROPOSED
+     STANDARD)
+
+3307 Allocation Guidelines for IPv6 Multicast Addresses. B. Haberman.
+     August 2002. (Format: TXT=15742 bytes) (Status: PROPOSED STANDARD)
 
 3339 Date and Time on the Internet: Timestamps. G. Klyne, C. Newman.
      July 2002. (Format: TXT=35064 bytes) (Status: PROPOSED STANDARD)
@@ -11935,7 +11955,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Charlton, M. Gasson, G. Gybels, M. Spanner, A. van Wijk. August 2002.
      (Format: TXT=33894 bytes) (Status: INFORMATIONAL)
 
-3352 Overview of IP Multicast in a Multi-Protocol Label Switching
+3353 Overview of IP Multicast in a Multi-Protocol Label Switching
      (MPLS) Environment. D. Ooms, B. Sales, W. Livens, A. Acharya, F.
      Griffoul, F. Ansari. August 2002. (Format: TXT=65860 bytes) (Status:
      INFORMATIONAL)
@@ -11943,6 +11963,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3354 Internet Open Trading Protocol Version 2 Requirements. D.
      Eastlake, III. August 2002. (Format: TXT=9671 bytes) (Status:
      INFORMATIONAL)
+
+3355 Layer Two Tunnelling Protocol (L2TP) Over ATM Adaptation Layer 5
+     (AAL5). D. Eastlake, III. August 2002. (Format: TXT=25114 bytes)
+     (Status: PROPOSED STANDARD)
 
 3356 Internet Engineering Task Force and International
      Telecommunication Union - Telecommunications Standardization Sector
@@ -11968,6 +11992,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Session Initiation Protocol (SIP) Servers. H. Schulzrinne. August
      2002. (Format: TXT=12549 bytes) (Status: PROPOSED STANDARD)
 
+3362 Real-time Facsimile (T.38) - image/t38 MIME Sub-type
+     Registration. G. Parsons. August 2002. (Format: TXT=8301 bytes)
+     (Status: PROPOSED STANDARD)
+
 3363 Representing Internet Protocol version 6 (IPv6) Addresses in the
      Domain Name System (DNS). R. Bush, A. Durand, B. Fink, O.
      Gudmundsson, T. Hain. August 2002. (Format: TXT=11055 bytes) (Updates
@@ -11980,3 +12008,27 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3365 Strong Security Requirements for Internet Engineering Task Force
      Standard Protocols. J. Schiller. August 2002. (Format: TXT=16411
      bytes) (Also BCP0061) (Status: BEST CURRENT PRACTICE)
+
+3366 Advice to link designers on link Automatic Repeat reQuest (ARQ).
+     G. Fairhurst, L. Wood. August 2002. (Format: TXT=66097 bytes) (Also
+     BCP0062) (Status: BEST CURRENT PRACTICE)
+
+3367 Common Name Resolution Protocol (CNRP). N. Popp, M. Mealling, M.
+     Moseley. August 2002. (Format: TXT=86889 bytes) (Status: PROPOSED
+     STANDARD)
+
+3368 The 'go' URI Scheme for the Common Name Resolution Protocol. M.
+     Mealling. August 2002. (Format: TXT=12726 bytes) (Status: PROPOSED
+     STANDARD)
+
+3369 Cryptographic Message Syntax (CMS). R. Housley. August 2002.
+     (Format: TXT=113975 bytes) (Obsoletes RFC2630, RFC3211) (Status:
+     PROPOSED STANDARD)
+
+3370 Cryptographic Message Syntax (CMS) Algorithms. R. Housley. August
+     2002. (Format: TXT=51001 bytes) (Obsoletes RFC2630, RFC3211) (Status:
+     PROPOSED STANDARD)
+
+3371 Layer Two Tunneling Protocol "L2TP" Management Information Base.
+     E. Caves, P. Calhoun, R. Wheeler. August 2002. (Format: TXT=139974
+     bytes) (Status: PROPOSED STANDARD)
