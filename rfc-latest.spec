@@ -4,6 +4,7 @@
 # _without_pdf
 # _without_html_index
 #
+%include	/usr/lib/rpm/macros.perl
 Summary:	Latest RFC documents
 Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
@@ -22,10 +23,9 @@ URL:		http://www.rfc.net/
 BuildRequires:	enscript
 BuildRequires:	ghostscript
 %endif
-%if %{!?_without_html_index:1}0
 BuildRequires:	perl-devel
+%if %{!?_without_html_index:1}0
 BuildRequires:	rpm-perlprov
-%include	/usr/lib/rpm/macros.perl
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
