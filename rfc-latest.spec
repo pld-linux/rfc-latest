@@ -1,8 +1,8 @@
 #
 # Conditional build:
-# _with_ps
-# _without_pdf
-# _without_html_index
+# _with_ps		- build package with RFCs in PostScript format too
+# _without_pdf		- don't build package with RFCs in PDF format
+# _without_html_index	- don't build HTML index
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Latest RFC documents
@@ -54,7 +54,6 @@ Plik indeksowy dokumentów RFC (Request For Comments) zawieraj±cy
 informacje takie, jak: tytu³, autorzy, status, rozmiar itp. dla
 poszczególnych dokumentów.
 
-%if %{!?_without_html_index:1}%{?_without_html_index:0}
 %package -n rfc-index-html
 Summary:	HTML-ized index of RFC documents
 Summary(pl):	Indeks dokumentów RFC w HTML-u
@@ -84,9 +83,8 @@ index file with hyperlinks to appropriate RFCs.
 Skrypt w perlu generujacy na podstawie tekstowego pliku rfc-index.txt
 indeks w HTML-u zawieraj±cy przekierowania do odpowiednich dokumentów
 RFC.
-%endif
 
-%package	text
+%package text
 Summary:	RFC documents - pure text version
 Summary(pl):	Wersja czysto tekstowa dokumentów RFC
 Group:		Documentation
@@ -106,8 +104,7 @@ Wersja tekstowa dokumentów RFC (Request For Comments). Zbiór jest
 niepe³ny, gdy¿ niektóre dokumenty s± dostêpne wy³±cznie w postaci
 postscriptowej i PDF.
 
-%if %{!?_with_ps:0}%{?_with_ps:1}
-%package	ps
+%package ps
 Summary:	RFC documents - PostScript version
 Summary(pl):	Wersja postscriptowa dokumentów RFC
 Group:		Documentation
@@ -120,10 +117,8 @@ PostScript version of RFC (Request For Comments) documents.
 
 %description ps -l pl
 Wersja postscriptowa dokumentów RFC (Request For Comments).
-%endif
 
-%if %{!?_without_pdf:1}%{?_without_pdf:0}
-%package	pdf
+%package pdf
 Summary:	RFC documents - pdf version
 Summary(pl):	Wersja postscriptowa dokumentów RFC
 Group:		Documentation
@@ -136,7 +131,6 @@ RFC (Request For Comments) documents in Adobe PDF format.
 
 %description pdf -l pl
 Dokumenty RFC (Request For Comments) w formacie Adobe PDF.
-%endif
 
 %prep
 %setup -q -c
