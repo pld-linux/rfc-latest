@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 06/25/2002.)
+(CREATED ON: 06/28/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11772,6 +11772,13 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3282 Content Language Headers. H. Alvestrand. May 2002. (Format:
      TXT=14022 bytes) (Obsoletes RFC1766) (Status: DRAFT STANDARD)
 
+3283 Guide to Internet Calendaring. B. Mahoney, G. Babics, A. Taler.
+     June 2002. (Format: TXT=31768 bytes) (Status: INFORMATIONAL)
+
+3284 The VCDIFF Generic Differencing and Compression Data Format. D.
+     Korn, J. MacDonald, J. Mogul, K. Vo. June 2002. (Format: TXT=64035
+     bytes) (Status: PROPOSED STANDARD)
+
 3285 Using Microsoft Word to create Internet Drafts and RFCs. M.
      Gahrns, T. Hain. May 2002. (Format: TXT=34556 bytes) (Status:
      INFORMATIONAL)
@@ -11780,7 +11787,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (SCTP). L. Ong, J. Yoakum. May 2002. (Format: TXT=22644 bytes)
      (Status: INFORMATIONAL)
 
-3287 Using the Simple Object Access Protocol (SOAP) in Blocks
+3288 Using the Simple Object Access Protocol (SOAP) in Blocks
      Extensible Exchange Protocol (BEEP). E. O'Tuathail, M. Rose. June
      2002. (Format: TXT=27434 bytes) (Status: PROPOSED STANDARD)
 
