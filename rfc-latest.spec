@@ -7,7 +7,7 @@
 Summary:	Latest RFC documents
 Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
-Version:	3506
+Version:	3514
 %define		rfcindex_version	1.2
 Release:	1
 License:	distributable
