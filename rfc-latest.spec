@@ -8,13 +8,13 @@
 Summary:	Latest RFC documents
 Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
-Version:	3587
+Version:	3601
 %define		rfcindex_version	1.2
 Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs3501-latest.tar.gz
-# Source0-md5:	86e32150278ac9c9c6b2105c635524af
+# Source0-md5:	cd9205562f065ff37b51c50bc33493c9
 Source1:	ftp://ftp.isi.edu/in-notes/rfc-index.txt
 Source10:	http://www.kernighan.demon.co.uk/software/rfcindex-%{rfcindex_version}
 # Source10-md5:	2b35cdd18096517e048fd455364dd77a
@@ -190,14 +190,14 @@ find . -name 'rfc[1-9]*.ps' -print | xargs gzip -9
 %endif
 
 # install rfc[1-9]*.txt* $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text
-for i in 35; do
+for i in 3{5,6}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.]*txt* \
 		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text/${i}00
 done
 
 %if %{!?_without_pdf:1}%{?_without_pdf:0}
 # install rfc*.pdf $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf
-for i in 35; do
+for i in 3{5,6}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*pdf \
 		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf/${i}00
 done
@@ -205,7 +205,7 @@ done
 
 %if %{!?_with_ps:0}%{?_with_ps:1}
 # install rfc*.ps $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript
-for i in 35; do
+for i in 3{5,6}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*ps* \
 		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript/${i}00
 done
