@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 12/18/2002.)
+(CREATED ON: 01/08/2003.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11962,6 +11962,18 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (3GPP) Standards. M. Wasserman, Ed.. September 2002. (Format:
      TXT=48168 bytes) (Status: INFORMATIONAL)
 
+3320 Signaling Compression (SigComp). R. Price, C. Bormann, J.
+     Christoffersson, H. Hannu, Z. Liu, J. Rosenberg. January 2003.
+     (Format: TXT=137035 bytes) (Status: PROPOSED STANDARD)
+
+3321 Signaling Compression (SigComp) - Extended Operations. H. Hannu,
+     J. Christoffersson, S. Forsgren, K.-C. Leung, Z. Liu, R. Price.
+     January 2003. (Format: TXT=39433 bytes) (Status: PROPOSED STANDARD)
+
+3322 Signaling Compression (SigComp) Requirements & Assumptions. H.
+     Hannu. January 2003. (Format: TXT=27533 bytes) (Status:
+     INFORMATIONAL)
+
 3323 A Privacy Mechanism for the Session Initiation Protocol (SIP). J.
      Peterson. November 2002. (Format: TXT=54116 bytes) (Status: PROPOSED
      STANDARD)
@@ -11981,6 +11993,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3327 Session Initiation Protocol (SIP) Extension Header Field for
      Registering Non-Adjacent Contacts. D. Willis, B. Hoeneisen. December
      2002. (Format: TXT=36493 bytes) (Status: PROPOSED STANDARD)
+
+3329 Security Mechanism Agreement for the Session Initiation Protocol
+     (SIP). J. Arkko, V. Torvinen, G. Camarillo, A. Niemi, T. Haukka.
+     January 2003. (Format: TXT=51503 bytes) (Status: PROPOSED STANDARD)
 
 3330 Special-Use IPv4 Addresses. IANA. September 2002. (Format:
      TXT=16200 bytes) (Status: INFORMATIONAL)
@@ -12321,9 +12337,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
      STD0062) (Status: STANDARD)
 
 3415 View-based Access Control Model (VACM) for the Simple Network
-     Management Protocol (SNMP). U. Blumenthal, B. Wijnen. December 2002.
-     (Format: TXT=82046 bytes) (Obsoletes RFC2575) (Also STD0062) (Status:
-     STANDARD)
+     Management Protocol (SNMP). B. Wijnen, R. Presuhn, K. McCloghrie.
+     December 2002. (Format: TXT=82046 bytes) (Obsoletes RFC2575) (Also
+     STD0062) (Status: STANDARD)
 
 3416 Version 2 of the Protocol Operations for the Simple Network
      Management Protocol (SNMP). R. Presuhn, Ed.. December 2002. (Format:
@@ -12369,6 +12385,11 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3426 General Architectural and Policy Considerations. S. Floyd.
      November 2002. (Format: TXT=54868 bytes) (Status: INFORMATIONAL)
 
+3427 Change Process for the Session Initiation Protocol (SIP). A.
+     Mankin, S. Bradner, R. Mahy, D. Willis, J. Ott, B. Rosen. December
+     2002. (Format: TXT=26234 bytes) (Also BCP0067) (Status: BEST CURRENT
+     PRACTICE)
+
 3428 Session Initiation Protocol (SIP) Extension for Instant
      Messaging. B. Campbell, Ed., J. Rosenberg, H. Schulzrinne, C.
      Huitema, D. Gurle. December 2002. (Format: TXT=41475 bytes) (Status:
@@ -12390,13 +12411,34 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Raisanen, G. Grotefeld, A. Morton. November 2002. (Format: TXT=52493
      bytes) (Status: PROPOSED STANDARD)
 
+3433 Entity Sensor Management Information Base. A. Bierman, D.
+     Romascanu, K.C. Norseth. December 2002. (Format: TXT=31857 bytes)
+     (Status: PROPOSED STANDARD)
+
+3434 Remote Monitoring MIB Extensions for High Capacity Alarms. A.
+     Bierman, K. McCloghrie. December 2002. (Format: TXT=51072 bytes)
+     (Status: PROPOSED STANDARD)
+
 3436 Transport Layer Security over Stream Control Transmission
      Protocol. A. Jungmaier, E. Rescorla, M. Tuexen. December 2002.
      (Format: TXT=16333 bytes) (Status: PROPOSED STANDARD)
 
+3437 Layer-Two Tunneling Protocol Extensions for PPP Link Control
+     Protocol Negotiation. W. Palter, W. Townsley. December 2002. (Format:
+     TXT=20820 bytes) (Status: PROPOSED STANDARD)
+
+3438 Layer Two Tunneling Protocol (L2TP) Internet Assigned Numbers
+     Authority (IANA) Considerations Update. W. Townsley. December 2002.
+     (Format: TXT=9135 bytes) (Also BCP0068) (Status: BEST CURRENT
+     PRACTICE)
+
 3439 Some Internet Architectural Guidelines and Philosophy. R. Bush,
      D. Meyer. December 2002. (Format: TXT=70333 bytes) (Updates RFC1958)
      (Status: INFORMATIONAL)
+
+3440 Definitions of Extension Managed Objects for Asymmetric Digital
+     Subscriber Lines. F. Ly, G. Bathrick. December 2002. (Format:
+     TXT=76058 bytes) (Status: PROPOSED STANDARD)
 
 3442 The Classless Static Route Option for Dynamic Host Configuration
      Protocol (DHCP) version 4. T. Lemon, S. Cheshire, B. Volz. December
@@ -12411,3 +12453,28 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Balakrishnan, V. Padmanabhan, G. Fairhurst, M. Sooriyabandara.
      December 2002. (Format: TXT=108839 bytes) (Also BCP0069) (Status:
      BEST CURRENT PRACTICE)
+
+3450 Asynchronous Layered Coding (ALC) Protocol Instantiation. M.
+     Luby, J. Gemmell, L. Vicisano, L. Rizzo, J. Crowcroft. December 2002.
+     (Format: TXT=86022 bytes) (Status: EXPERIMENTAL)
+
+3451 Layered Coding Transport (LCT) Building Block. M. Luby, J.
+     Gemmell, L. Vicisano, L. Rizzo, M. Handley, J. Crowcroft. December
+     2002. (Format: TXT=72594 bytes) (Status: EXPERIMENTAL)
+
+3452 Forward Error Correction (FEC) Building Block. M. Luby, L.
+     Vicisano, J. Gemmell, L. Rizzo, M. Handley, J. Crowcroft. December
+     2002. (Format: TXT=38368 bytes) (Status: EXPERIMENTAL)
+
+3453 The Use of Forward Error Correction (FEC) in Reliable Multicast.
+     M. Luby, L. Vicisano, J. Gemmell, L. Rizzo, M. Handley, J. Crowcroft.
+     December 2002. (Format: TXT=46853 bytes) (Status: INFORMATIONAL)
+
+3454 Preparation of Internationalized Strings ("stringprep"). P.
+     Hoffman, M. Blanchet. December 2002. (Format: TXT=138684 bytes)
+     (Status: PROPOSED STANDARD)
+
+3455 Private Header (P-Header) Extensions to the Session Initiation
+     Protocol (SIP) for the 3rd-Generation Partnership Project (3GPP). M.
+     Garcia-Martin, E. Henrikson, D. Mills. January 2003. (Format:
+     TXT=79620 bytes) (Status: INFORMATIONAL)
