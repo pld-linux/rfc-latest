@@ -9,7 +9,7 @@ Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
 Version:	3531
 %define		rfcindex_version	1.2
-Release:	2
+Release:	3
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs3501-latest.tar.gz
@@ -69,7 +69,7 @@ poszczególnych dokumentów.
 %package -n rfcindex
 Summary:	Script to generate HTML-ized index of RFC documents
 Summary(pl):	Indeks dokumentów RFC
-Group:		Utilities
+Group:		Applications/Publishing
 Requires:	perl
 Requires:	rfc-index
 
