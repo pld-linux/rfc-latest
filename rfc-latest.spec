@@ -8,13 +8,13 @@
 Summary:	Latest RFC documents
 Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
-Version:	3559
+Version:	3576
 %define		rfcindex_version	1.2
 Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs3501-latest.tar.gz
-# Source0-md5:	32f3ac5b128e666e6f05a0fe93f94268
+# Source0-md5:	4147640201764c6ab4ca2e27f7bad9ca
 Source1:	ftp://ftp.isi.edu/in-notes/rfc-index.txt
 Source10:	http://www.kernighan.demon.co.uk/software/rfcindex-%{rfcindex_version}
 # Source10-md5:	2b35cdd18096517e048fd455364dd77a
