@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 06/28/2002.)
+(CREATED ON: 07/02/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -8211,7 +8211,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      STANDARD)
 
 2327 SDP: Session Description Protocol. M. Handley, V. Jacobson. April
-     1998. (Format: TXT=87096 bytes) (Status: PROPOSED STANDARD)
+     1998. (Format: TXT=87096 bytes) (Updated by RFC3266) (Status:
+     PROPOSED STANDARD)
 
 2328 OSPF Version 2. J. Moy. April 1998. (Format: TXT=447367 bytes)
      (Obsoletes RFC2178) (Also STD0054) (Status: STANDARD)
@@ -9027,7 +9028,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2543 SIP: Session Initiation Protocol. M. Handley, H. Schulzrinne, E.
      Schooler, J. Rosenberg. March 1999. (Format: TXT=338861 bytes)
-     (Status: PROPOSED STANDARD)
+     (Obsoleted by RFC3261, RFC3262, RFC3263, RFC3264, RFC3265) (Status:
+     PROPOSED STANDARD)
 
 2544 Benchmarking Methodology for Network Interconnect Devices. S.
      Bradner, J. McQuaid. March 1999. (Format: TXT=66688 bytes) (Obsoletes
@@ -11716,6 +11718,42 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3260 New Terminology and Clarifications for Diffserv. D. Grossman.
      April 2002. (Format: TXT=21900 bytes) (Updates RFC2474, RFC2475,
      RFC2597) (Status: INFORMATIONAL)
+
+3261 SIP: Session Initiation Protocol. J. Rosenberg, H. Schulzrinne,
+     G. Camarillo, A. Johnston, J. Peterson, R. Sparks, M. Handley, E.
+     Schooler. June 2002. (Format: TXT=647976 bytes) (Obsoletes RFC2543)
+     (Status: PROPOSED STANDARD)
+
+3262 Reliability of Provisional Responses in Session Initiation
+     Protocol (SIP). jdrosen@dynamicsoft.com, schulzrinne@cs.columbia.edu.
+     June 2002. (Format: TXT=29643 bytes) (Obsoletes RFC2543) (Status:
+     PROPOSED STANDARD)
+
+3263 Session Initiation Protocol (SIP): Locating SIP Servers. J.
+     Rosenberg, H. Schulzrinne. June 2002. (Format: TXT=42310 bytes)
+     (Obsoletes RFC2543) (Status: PROPOSED STANDARD)
+
+3264 An Offer/Answer Model with Session Description Protocol (SDP). J.
+     Rosenberg, H. Schulzrinne. June 2002. (Format: TXT=60854 bytes)
+     (Obsoletes RFC2543) (Status: PROPOSED STANDARD)
+
+3265 Session Initiation Protocol (SIP)-Specific Event Notification. A.
+     B. Roach. June 2002. (Format: TXT=89005 bytes) (Obsoletes RFC2543)
+     (Status: PROPOSED STANDARD)
+
+3266 Support for IPv6 in Session Description Protocol (SDP). S. Olson,
+     G. Camarillo, A. B. Roach. June 2002. (Format: TXT=8693 bytes)
+     (Updates RFC2327) (Status: PROPOSED STANDARD)
+
+3267 Real-Time Transport Protocol (RTP) Payload Format and File
+     Storage Format for the Adaptive Multi-Rate (AMR) and Adaptive
+     Multi-Rate Wideband (AMR-WB) Audio Codecs. J. Sjoberg, M. Westerlund,
+     A. Lakaniemi, Q. Xie. June 2002. (Format: TXT=110652 bytes) (Status:
+     PROPOSED STANDARD)
+
+3268 Advanced Encryption Standard (AES) Ciphersuites for Transport
+     Layer Security (TLS). P. Chown. June 2002. (Format: TXT=13530 bytes)
+     (Status: PROPOSED STANDARD)
 
 3269 Author Guidelines for Reliable Multicast Transport (RMT) Building
      Blocks and Protocol Instantiation documents. R. Kermode, L. Vicisano.
