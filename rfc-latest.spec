@@ -103,7 +103,7 @@ Script de Perl que lee el plano rfc-index.txt y devuelve un fichero
 índice en HTML con hiperenlaces a los RFC adecuados.
 
 %description -n rfcindex -l pl
-Skrypt w perlu generujacy na podstawie tekstowego pliku rfc-index.txt
+Skrypt w Perlu generujacy na podstawie tekstowego pliku rfc-index.txt
 spis tre¶ci w HTML-u zawieraj±cy przekierowania do odpowiednich
 dokumentów RFC.
 
