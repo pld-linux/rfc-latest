@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 04/15/2002.)
+(CREATED ON: 04/17/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11671,6 +11671,17 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3254 Definitions for talking about directories. H. Alvestrand. April
      2002. (Format: TXT=21541 bytes) (Status: INFORMATIONAL)
+
+3255 Extending Point-to-Point Protocol (PPP) over Synchronous Optical
+     NETwork/Synchronous Digital Hierarchy (SONET/SDH) with virtual
+     concatenation, high order and low order payloads. N. Jones, C.
+     Murton. April 2002. (Format: TXT=14192 bytes) (Status: PROPOSED
+     STANDARD)
+
+3256 The DOCSIS (Data-Over-Cable Service Interface Specifications)
+     Device Class DHCP (Dynamic Host Configuration Protocol) Relay Agent
+     Information Sub-option. D. Jones, R. Woundy. April 2002. (Format:
+     TXT=8551 bytes) (Status: PROPOSED STANDARD)
 
 3257 Stream Control Transmission Protocol Applicability Statement. L.
      Coene. April 2002. (Format: TXT=24198 bytes) (Status: INFORMATIONAL)
