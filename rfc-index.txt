@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 02/22/2002.)
+(CREATED ON: 02/26/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -4274,9 +4274,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 1285 FDDI Management Information Base. J. Case. January 1992. (Format:
      TXT=99747 bytes) (Updated by RFC1512) (Status: PROPOSED STANDARD)
 
-1286 Definitions of Managed Objects for Bridges. P. Langille, A.
-     Rijsinghani, K. McCloghrie. December 1991. (Format: TXT=79104 bytes)
-     (Obsoleted by RFC1493, RFC1525) (Status: PROPOSED STANDARD)
+1286 Definitions of Managed Objects for Bridges. E. Decker, P.
+     Langille, A. Rijsinghani, K. McCloghrie. December 1991. (Format:
+     TXT=79104 bytes) (Obsoleted by RFC1493, RFC1525) (Status: PROPOSED
+     STANDARD)
 
 1287 Towards the Future Internet Architecture. D. Clark, L. Chapin, V.
      Cerf, R. Braden, R. Hobby. December 1991. (Format: TXT=59812 bytes)
@@ -5061,9 +5062,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
 1492 An Access Control Protocol, Sometimes Called TACACS. C. Finseth.
      July 1993. (Format: TXT=41880 bytes) (Status: INFORMATIONAL)
 
-1493 Definitions of Managed Objects for Bridges. P. Langille, A.
-     Rijsinghani, K. McCloghrie. July 1993. (Format: TXT=74493 bytes)
-     (Obsoletes RFC1286) (Status: DRAFT STANDARD)
+1493 Definitions of Managed Objects for Bridges. E. Decker, P.
+     Langille, A. Rijsinghani, K. McCloghrie. July 1993. (Format:
+     TXT=74493 bytes) (Obsoletes RFC1286) (Status: DRAFT STANDARD)
 
 1494 Equivalences between 1988 X.400 and RFC-822 Message Bodies. H.
      Alvestrand, S. Thompson. August 1993. (Format: TXT=37273 bytes)
@@ -5481,7 +5482,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      March 1994. (Format: TXT=12424 bytes) (Obsoletes RFC1358) (Obsoleted
      by RFC2850) (Status: INFORMATIONAL)
 
-1602 The Internet Standards Process -- Revision 2. March 1994.
+1602 The Internet Standards Process -- Revision 2. Internet
+     Architecture Board, Internet Engineering Steering Group. March 1994.
      (Format: TXT=88465 bytes) (Obsoletes RFC1310) (Obsoleted by RFC2026)
      (Updated by RFC1871) (Status: INFORMATIONAL)
 
@@ -6026,13 +6028,13 @@ See the RFC Editor Web page http://www.rfc-editor.org
      using SMIv2. J. Hilgeman, Chair, S. Nix, A. Bartky, W. Clark, Ed..
      January 1995. (Format: TXT=147388 bytes) (Status: PROPOSED STANDARD)
 
-1748 IEEE 802.5 MIB using SMIv2. K. McCloghrie. December 1994.
-     (Format: TXT=43224 bytes) (Obsoletes RFC1743, RFC1231) (Updated by
-     RFC1749) (Status: DRAFT STANDARD)
+1748 IEEE 802.5 MIB using SMIv2. K. McCloghrie, E. Decker. December
+     1994. (Format: TXT=43224 bytes) (Obsoletes RFC1743, RFC1231) (Updated
+     by RFC1749) (Status: DRAFT STANDARD)
 
 1749 IEEE 802.5 Station Source Routing MIB using SMIv2. K. McCloghrie,
-     F. Baker. December 1994. (Format: TXT=17563 bytes) (Updates RFC1748)
-     (Status: PROPOSED STANDARD)
+     F. Baker, E. Decker. December 1994. (Format: TXT=17563 bytes)
+     (Updates RFC1748) (Status: PROPOSED STANDARD)
 
 1750 Randomness Recommendations for Security. D. Eastlake, S. Crocker,
      J. Schiller. December 1994. (Format: TXT=73842 bytes) (Status:
@@ -6647,7 +6649,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      C. Weider. February 1996. (Format: TXT=17842 bytes) (Status: PROPOSED
      STANDARD)
 
-1915 Variance for The PPP Connection Control Protocol and The PPP
+1915 Variance for The PPP Compression Control Protocol and The PPP
      Encryption Control Protocol. F. Kastenholz. February 1996. (Format:
      TXT=14347 bytes) (Also BCP0003) (Status: BEST CURRENT PRACTICE)
 
@@ -8995,7 +8997,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      RFC1035, RFC1034) (Updated by RFC2931, RFC3007, RFC3008, RFC3090,
      RFC3226) (Status: PROPOSED STANDARD)
 
-2536 DSA KEYs and SIGs in the Domain Name System (DNS). D. EastLake.
+2536 DSA KEYs and SIGs in the Domain Name System (DNS). D. Eastlake.
      March 1999. (Format: TXT=11121 bytes) (Status: PROPOSED STANDARD)
 
 2537 RSA/MD5 KEYs and SIGs in the Domain Name System (DNS). D.
@@ -9268,8 +9270,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      INFORMATIONAL)
 
 2608 Service Location Protocol, Version 2. E. Guttman, C. Perkins, J.
-     Veizades, M. Day. June 1999. (Format: TXT=129475 bytes) (Obsoleted by
-     RFC3224) (Updates RFC2165) (Status: PROPOSED STANDARD)
+     Veizades, M. Day. June 1999. (Format: TXT=129475 bytes) (Updates
+     RFC2165) (Updated by RFC3224) (Status: PROPOSED STANDARD)
 
 2609 Service Templates and Service: Schemes. E. Guttman, C. Perkins,
      J. Kempf. June 1999. (Format: TXT=72842 bytes) (Updates RFC2165)
@@ -10773,8 +10775,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
      PROPOSED STANDARD)
 
 3010 NFS version 4 Protocol. S. Shepler, B. Callaghan, D. Robinson, R.
-     Thurlow, C. Beame, M. Eisler. December 2000. (Format: TXT=450434
-     bytes) (Obsoletes RFC1813, RFC1094) (Status: PROPOSED STANDARD)
+     Thurlow, C. Beame, M. Eisler, D. Noveck. December 2000. (Format:
+     TXT=450434 bytes) (Obsoletes RFC1813, RFC1094) (Status: PROPOSED
+     STANDARD)
 
 3011 The IPv4 Subnet Selection Option for DHCP. G. Waters. November
      2000. (Format: TXT=13967 bytes) (Status: PROPOSED STANDARD)
