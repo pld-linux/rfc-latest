@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 06/11/2002.)
+(CREATED ON: 06/18/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11808,3 +11808,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3295 Definitions of Managed Objects for the General Switch Management
      Protocol (GSMP). H. Sjostrand, J. Buerkle, B. Srinivasan. June 2002.
      (Format: TXT=95516 bytes) (Status: PROPOSED STANDARD)
+
+3301 Layer Two Tunnelling Protocol (L2TP): ATM access network
+     extensions. Y. T'Joens, P. Crivellari, B. Sales. June 2002. (Format:
+     TXT=42756 bytes) (Status: PROPOSED STANDARD)
