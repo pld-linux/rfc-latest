@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 03/22/2002.)
+(CREATED ON: 03/28/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -9769,11 +9769,11 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2741 Agent Extensibility (AgentX) Protocol Version 1. M. Daniele, B.
      Wijnen, M. Ellison, D. Francisco. January 2000. (Format: TXT=199867
-     bytes) (Obsoletes RFC2257) (Status: DRAFT STANDARD)
+     bytes) (Obsoletes RFC2257) (Status: PROPOSED STANDARD)
 
 2742 Definitions of Managed Objects for Extensible SNMP Agents. L.
      Heintz, S. Gudur, M. Ellison. January 2000. (Format: TXT=36644 bytes)
-     (Status: DRAFT STANDARD)
+     (Status: PROPOSED STANDARD)
 
 2743 Generic Security Service Application Program Interface Version 2,
      Update 1. J. Linn. January 2000. (Format: TXT=229418 bytes)
@@ -11642,6 +11642,12 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Charny, J.C.R. Bennet, K. Benson, J.Y. Le Boudec, W. Courtney, S.
      Davari, V. Firoiu, D. Stiliadis. March 2002. (Format: TXT=33896
      bytes) (Obsoletes RFC2598) (Status: PROPOSED STANDARD)
+
+3247 Supplemental Information for the New Definition of the EF PHB
+     (Expedited Forwarding Per-Hop Behavior). A. Charny, J. Bennet, K.
+     Benson, J. Boudec, A. Chiu, W. Courtney, S. Davari, V. Firoiu, C.
+     Kalmanek, K. Ramakrishnan. March 2002. (Format: TXT=53786 bytes)
+     (Status: INFORMATIONAL)
 
 3248 A Delay Bound alternative revision of RFC 2598. G. Armitage, B.
      Carpenter, A. Casati, J. Crowcroft, J. Halpern, B. Kumar, J.
