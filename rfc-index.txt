@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 04/04/2003.)
+(CREATED ON: 04/16/2003.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -8522,8 +8522,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      TXT=53699 bytes) (Status: INFORMATIONAL)
 
 2373 IP Version 6 Addressing Architecture. R. Hinden, S. Deering. July
-     1998. (Format: TXT=52526 bytes) (Obsoletes RFC1884) (Status: PROPOSED
-     STANDARD)
+     1998. (Format: TXT=52526 bytes) (Obsoletes RFC1884) (Obsoleted by
+     RFC3513) (Status: PROPOSED STANDARD)
 
 2374 An IPv6 Aggregatable Global Unicast Address Format. R. Hinden, M.
      O'Dell, S. Deering. July 1998. (Format: TXT=25068 bytes) (Obsoletes
@@ -10438,8 +10438,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      INFORMATIONAL)
 
 2878 PPP Bridging Control Protocol (BCP). M. Higashiyama, F. Baker.
-     July 2000. (Format: TXT=79527 bytes) (Obsoletes RFC1638) (Status:
-     PROPOSED STANDARD)
+     July 2000. (Format: TXT=79527 bytes) (Obsoletes RFC1638) (Obsoleted
+     by RFC3518) (Status: PROPOSED STANDARD)
 
 2879 Content Feature Schema for Internet Fax (V2). G. Klyne, L.
      McIntyre. August 2000. (Format: TXT=104032 bytes) (Obsoletes RFC2531)
@@ -12479,10 +12479,6 @@ See the RFC Editor Web page http://www.rfc-editor.org
      December 2002. (Format: TXT=61461 bytes) (Obsoletes RFC2570) (Status:
      INFORMATIONAL)
 
-3412 Configuring Networks and Devices with Simple Network Management
-     Protocol (SNMP). M. MacFaden, D. Partain, J. Saperia, W. Tackabury.
-     April 2003. (Format: TXT=196529 bytes) (Status: INFORMATIONAL)
-
 3411 An Architecture for Describing Simple Network Management Protocol
      (SNMP) Management Frameworks. D. Harrington, R. Presuhn, B. Wijnen.
      December 2002. (Format: TXT=140096 bytes) (Obsoletes RFC2571) (Also
@@ -12886,6 +12882,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Fujimura, D. Eastlake. March 2003. (Format: TXT=30945 bytes) (Status:
      INFORMATIONAL)
 
+3507 Internet Content Adaptation Protocol (ICAP). J. Elson, A. Cerpa.
+     April 2003. (Format: TXT=98772 bytes) (Status: INFORMATIONAL)
+
 3508 H.323 Uniform Resource Locator (URL) Scheme Registration. O.
      Levin. April 2003. (Format: TXT=10983 bytes) (Status: INFORMATIONAL)
 
@@ -12897,5 +12896,47 @@ See the RFC Editor Web page http://www.rfc-editor.org
      McDonald. April 2003. (Format: TXT=22009 bytes) (Updates RFC2910)
      (Status: PROPOSED STANDARD)
 
+3511 Benchmarking Methodology for Firewall Performance. B. Hickman, D.
+     Newman, S. Tadjudin, T. Martin. April 2003. (Format: TXT=67916 bytes)
+     (Status: INFORMATIONAL)
+
+3512 Configuring Networks and Devices with Simple Network Management
+     Protocol (SNMP). M. MacFaden, D. Partain, J. Saperia, W. Tackabury.
+     April 2003. (Format: TXT=196529 bytes) (Status: INFORMATIONAL)
+
+3513 Internet Protocol Version 6 (IPv6) Addressing Architecture. R.
+     Hinden, S. Deering. April 2003. (Format: TXT=53920 bytes) (Obsoletes
+     RFC2373) (Status: PROPOSED STANDARD)
+
 3514 The Security Flag in the IPv4 Header. S. Bellovin. 1 April 2003.
      (Format: TXT=11211 bytes) (Status: INFORMATIONAL)
+
+3515 The Session Initiation Protocol (SIP) Refer Method. R. Sparks.
+     April 2003. (Format: TXT=47788 bytes) (Status: PROPOSED STANDARD)
+
+3516 IMAP4 Binary Content Extension. L. Nerenberg. April 2003.
+     (Format: TXT=14598 bytes) (Status: PROPOSED STANDARD)
+
+3517 A Conservative Selective Acknowledgment (SACK)-based Loss
+     Recovery Algorithm for TCP. E. Blanton, M. Allman, K. Fall, L. Wang.
+     April 2003. (Format: TXT=27855 bytes) (Status: PROPOSED STANDARD)
+
+3518 Point-to-Point Protocol (PPP) Bridging Control Protocol (BCP). M.
+     Higashiyama, F. Baker, T. Liao. April 2003. (Format: TXT=82102 bytes)
+     (Obsoletes RFC2878) (Status: PROPOSED STANDARD)
+
+3519 Mobile IP Traversal of Network Address Translation (NAT) Devices.
+     H. Levkowetz, S. Vaarala. April 2003. (Format: TXT=80522 bytes)
+     (Status: PROPOSED STANDARD)
+
+3520 Session Authorization Policy Element. L-N. Hamer, B. Gage, B.
+     Kosinski, H. Shieh. April 2003. (Format: TXT=63445 bytes) (Status:
+     PROPOSED STANDARD)
+
+3521 Framework for Session Set-up with Media Authorization. L-N.
+     Hamer, B. Gage, H. Shieh. April 2003. (Format: TXT=59548 bytes)
+     (Status: INFORMATIONAL)
+
+3523 Internet Emergency Preparedness (IEPREP) Telephony Topology
+     Terminology. J. Polk. April 2003. (Format: TXT=10190 bytes) (Status:
+     INFORMATIONAL)
