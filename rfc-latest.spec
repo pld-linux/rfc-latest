@@ -1,11 +1,12 @@
 #
 # Conditional build:
-# _with_ps		- build package with RFCs in PostScript format too
-# _without_pdf		- don't build package with RFCs in PDF format
-# _without_html_index	- don't build HTML index
-#
+%bcond_with ps			# build package with RFCs in PostScript format too
+%bcond_without pdf		# don't build package with RFCs in PDF format
+%bcond_without html_index	# don't build HTML index
+
 %include	/usr/lib/rpm/macros.perl
 Summary:	Latest RFC documents
+Summary(es):	Los últimos documentos RFC
 Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
 Version:	3655
@@ -22,12 +23,12 @@ Source10:	http://www.kernighan.demon.co.uk/software/rfcindex-%{rfcindex_version}
 Patch0:		rfc-index-typo.patch
 Patch10:	rfcindex-pld.patch
 URL:		http://www.rfc.net/
-%if %{!?_with_ps:%{!?_without_pdf:1}0}%{?_with_ps:1}
+%if %{with ps} || %{with pdf}
 BuildRequires:	enscript
 BuildRequires:	ghostscript
 %endif
 BuildRequires:	perl-devel
-%if %{!?_without_html_index:1}0
+%if %{with html_index}
 BuildRequires:	rpm-perlprov
 %endif
 BuildArch:	noarch
@@ -37,43 +38,60 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 RFC (Request For Comments) documents are actual and suggested Internet
 standards.
 
+%description -l es
+Los documentos RFC (Request For Comments: petición de comentarios) son
+los estándares actuales y sugeridos del Internet.
+
 %description -l pl
 Dokumenty RFC (Request For Comments) zawieraj± opis obowi±zuj±cych i
 proponowanych standardów internetowych.
 
 %package -n rfc-index
 Summary:	Index for RFC documents
-Summary(pl):	Indeks dokumentów RFC
+Summary(es):	Índice para los documentos RFC
+Summary(pl):	Spis tre¶ci dokumentów RFC
 Group:		Documentation
 
 %description -n rfc-index
-Index file for RFC (Request For Comments) documents containing info
-about document title, authors, status, size, etc.
+Index file for RFC (Request For Comments) documents containing
+information about document title, authors, status, size, etc.
+
+%description -n rfc-index -l es
+Fichero índice para los documentos RFC (Request For Comments: petición
+de comentarios) que contiene informaciones sobre el título de
+documento, su autores, estado, tamaño, etc.
 
 %description -n rfc-index -l pl
-Plik indeksowy dokumentów RFC (Request For Comments) zawieraj±cy
+Plik spisu tre¶ci dokumentów RFC (Request For Comments) zawieraj±cy
 informacje takie, jak: tytu³, autorzy, status, rozmiar itp. dla
 poszczególnych dokumentów.
 
 %package -n rfc-index-html
 Summary:	HTML-ized index of RFC documents
-Summary(pl):	Indeks dokumentów RFC w HTML-u
+Summary(es):	Índice de los documentos RFC en HTML
+Summary(pl):	Spis tre¶ci dokumentów RFC w HTML-u
 Group:		Documentation
 Requires:	%{name}-text >= %{version}-%{release}
 
 %description -n rfc-index-html
-Index file for RFC (Request For Comments) documents containing info
-about document title, authors, status, size, etc.
+Index file for RFC (Request For Comments) documents containing
+information about document title, authors, status, size, etc.
+
+%description -n rfc-index -l es
+Fichero índice para los documentos RFC (Request For Comments: petición
+de comentarios) que contiene informaciones sobre el título de
+documento, su autores, estado, tamaño, etc.
 
 %description -n rfc-index-html -l pl
-Plik indeksowy dokumentów RFC (Request For Comments) zawieraj±cy
+Plik spisu tre¶ci dokumentów RFC (Request For Comments) zawieraj±cy
 informacje takie, jak: tytu³, autorzy, status, rozmiar itp. dla
 poszczególnych dokumentów.
 
 %package -n rfcindex
 Summary:	Script to generate HTML-ized index of RFC documents
-Summary(pl):	Indeks dokumentów RFC
-Group:		Utilities
+Summary(es):	Script para generar un índice HTML de documentos RFC
+Summary(pl):	Skrypt do generowania HTML-owego spisu tre¶ci dokumentów RFC
+Group:		Base/Utilities
 Requires:	rfc-index
 
 %description -n rfcindex
@@ -81,12 +99,17 @@ Perl script that reads the plain rfc-index.txt and outputs an HTML
 index file with hyperlinks to appropriate RFCs.
 
 %description -n rfcindex -l pl
+Script de Perl que lee el plano rfc-index.txt y devuelve un fichero
+índice en HTML con hiperenlaces a los RFC adecuados.
+
+%description -n rfcindex -l pl
 Skrypt w perlu generujacy na podstawie tekstowego pliku rfc-index.txt
-indeks w HTML-u zawieraj±cy przekierowania do odpowiednich dokumentów
-RFC.
+spis tre¶ci w HTML-u zawieraj±cy przekierowania do odpowiednich
+dokumentów RFC.
 
 %package text
 Summary:	RFC documents - pure text version
+Summary(es):	Documentos RFC - versión de texto puro
 Summary(pl):	Wersja czysto tekstowa dokumentów RFC
 Group:		Documentation
 Requires:	rfc-index >= %{version}
@@ -100,6 +123,12 @@ This is pure text version of RFC (Request For Comments) documents. The
 set is incomplete. Some documents are available in PostScript and PDF
 formats only.
 
+%description text -l es
+Ésta es la versión de texto puro de los documentos RFC (Request For
+Comments: petición de comentarios). Este conjunto es incompleto, ya
+que algunos documentos son disponibles sólo en los formatos PostScript
+y PDF.
+
 %description text -l pl
 Wersja tekstowa dokumentów RFC (Request For Comments). Zbiór jest
 niepe³ny, gdy¿ niektóre dokumenty s± dostêpne wy³±cznie w postaci
@@ -107,6 +136,7 @@ postscriptowej i PDF.
 
 %package ps
 Summary:	RFC documents - PostScript version
+Summary(es):	Documentos RFC - versión PostScript
 Summary(pl):	Wersja postscriptowa dokumentów RFC
 Group:		Documentation
 Requires:	rfc-index >= %{version}
@@ -116,12 +146,17 @@ Requires:	rfc-ps
 %description ps
 PostScript version of RFC (Request For Comments) documents.
 
+%description ps -l es
+La versión PostScript de los documentos RFC (Request For Comments:
+petición de comentarios).
+
 %description ps -l pl
 Wersja postscriptowa dokumentów RFC (Request For Comments).
 
 %package pdf
-Summary:	RFC documents - pdf version
-Summary(pl):	Wersja postscriptowa dokumentów RFC
+Summary:	RFC documents - PDF version
+Summary(es):	Documentos RFC - versión PDF
+Summary(pl):	Wersja PDF dokumentów RFC
 Group:		Documentation
 Requires:	rfc-index >= %{version}
 # common dirs
@@ -129,6 +164,10 @@ Requires:	rfc-pdf
 
 %description pdf
 RFC (Request For Comments) documents in Adobe PDF format.
+
+%description pdf -l es
+Documentos RFC (Request For Comments: petición de comentarios) en
+formato Adobe PDF.
 
 %description pdf -l pl
 Dokumenty RFC (Request For Comments) w formacie Adobe PDF.
@@ -138,14 +177,14 @@ Dokumenty RFC (Request For Comments) w formacie Adobe PDF.
 install %{SOURCE1} %{SOURCE2} .
 %patch0 -p0
 
-%if %{!?_without_html_index:1}%{?_without_html_index:0}
+%if %{with html_index}
 install %{SOURCE10} rfcindex
 %patch10 -p0
 %endif
 
 %build
 # Generate .ps and .pdf versions when they are not provided
-%if %{!?_with_ps:%{!?_without_pdf:1}%{?_without_pdf:0}}%{?_with_ps:1}
+%if %{with ps} || %{with pdf}
 for i in rfc[1-9]*.txt ; do
 	BASE=`echo $i | sed "s/.txt$//"`
 	PSFILE=$BASE.ps
@@ -155,16 +194,16 @@ for i in rfc[1-9]*.txt ; do
 		enscript --margin=54 -B -fCourier11 -p $BASE.ps $i 2>/dev/null || :
 	fi
 %endif
-%if %{!?_without_pdf:1}%{?_without_pdf:0}
+%if %{with pdf}
 	if [ ! -e $BASE.pdf ] ; then
 		ps2pdf $BASE.ps $BASE.pdf 2>/dev/null
 	fi
 %endif
-%if %{!?_with_ps:%{!?_without_pdf:1}%{?_without_pdf:0}}%{?_with_ps:1}
+%if %{with ps} || %{with pdf}
 done
 %endif
 
-%if %{!?_without_html_index:1}%{?_without_html_index:0}
+%if %{with html_index}
 ./rfcindex --gzip --by100 --nodate --nocredit \
 	--base="file://%{_defaultdocdir}/RFC/" rfc-index.txt >rfc-index.html
 pod2man rfcindex > rfcindex.1
@@ -178,7 +217,7 @@ install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript/3{5,6}00
 
 install rfc-index.txt $RPM_BUILD_ROOT%{_defaultdocdir}/RFC
 
-%if %{!?_without_html_index:1}%{?_without_html_index:0}
+%if %{with html_index}
 install rfc-index.html $RPM_BUILD_ROOT%{_defaultdocdir}/RFC
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install rfcindex $RPM_BUILD_ROOT%{_bindir}/rfcindex
@@ -186,7 +225,7 @@ install rfcindex.1 $RPM_BUILD_ROOT%{_mandir}/man1
 %endif
 
 find . -name 'rfc[1-9]*.txt' -print | xargs gzip -9
-%if %{!?_with_ps:0}%{?_with_ps:1}
+%if %{with ps}
 find . -name 'rfc[1-9]*.ps' -print | xargs gzip -9
 %endif
 
@@ -196,7 +235,7 @@ for i in 3{5,6}; do
 		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text/${i}00
 done
 
-%if %{!?_without_pdf:1}%{?_without_pdf:0}
+%if %{with pdf}
 # install rfc*.pdf $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf
 for i in 3{5,6}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*pdf \
@@ -204,7 +243,7 @@ for i in 3{5,6}; do
 done
 %endif
 
-%if %{!?_with_ps:0}%{?_with_ps:1}
+%if %{with ps}
 # install rfc*.ps $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript
 for i in 3{5,6}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*ps* \
@@ -224,25 +263,25 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_defaultdocdir}/RFC
 %{_defaultdocdir}/RFC/rfc-index.txt
 
-%if %{!?_with_ps:0}%{?_with_ps:1}
+%if %{with ps}
 %files ps
 %defattr(644,root,root,755)
 %{_defaultdocdir}/RFC/postscript/*
 %endif
 
-%if %{!?_without_pdf:1}%{?_without_pdf:0}
+%if %{with pdf}
 %files pdf
 %defattr(644,root,root,755)
 %{_defaultdocdir}/RFC/pdf/*
 %endif
 
-%if %{!?_without_html_index:1}%{?_without_html_index:0}
+%if %{with html_index}
 %files -n rfc-index-html
 %defattr(644,root,root,755)
 %{_defaultdocdir}/RFC/rfc-index.html
 
 %files -n rfcindex
 %defattr(644,root,root,755)
-%{_bindir}/rfcindex
+%attr(755,root,root) %{_bindir}/rfcindex
 %{_mandir}/man1/*
 %endif
