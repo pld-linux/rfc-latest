@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 04/11/2002.)
+(CREATED ON: 04/15/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11669,8 +11669,19 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Versioning). G. Clemm, J. Amsden, T. Ellison, C. Kaler, J. Whitehead.
      March 2002. (Format: TXT=245514 bytes) (Status: PROPOSED STANDARD)
 
+3254 Definitions for talking about directories. H. Alvestrand. April
+     2002. (Format: TXT=21541 bytes) (Status: INFORMATIONAL)
+
 3257 Stream Control Transmission Protocol Applicability Statement. L.
      Coene. April 2002. (Format: TXT=24198 bytes) (Status: INFORMATIONAL)
+
+3258 Distributing Authoritative Name Servers via Shared Unicast
+     Addresses. T. Hardie. April 2002. (Format: TXT=22195 bytes) (Status:
+     INFORMATIONAL)
+
+3260 New Terminology and Clarifications for Diffserv. D. Grossman.
+     April 2002. (Format: TXT=21900 bytes) (Updates RFC2474, RFC2475,
+     RFC2597) (Status: INFORMATIONAL)
 
 3275 (Extensible Markup Language) XML-Signature Syntax and Processing.
      D. Eastlake 3rd, J. Reagle, D. Solo. March 2002. (Format: TXT=164198
