@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 02/26/2002.)
+(CREATED ON: 03/05/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -84,8 +84,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 0006 Conversation with Bob Kahn. S.D. Crocker. Apr-10-1969. (Format:
      TXT=1568 bytes) (Status: UNKNOWN)
 
-0007 Host-IMP interface. G. Deloche. May-01-1969. (Not online)
-     (Status: UNKNOWN)
+0007 Host-IMP interface. G. Deloche. May-01-1969. (Format: TXT=13408
+     bytes) (Status: UNKNOWN)
 
 0008 Functional specifications for the ARPA Network. G. Deloche.
      May-05-1969. (Not online) (Status: UNKNOWN)
@@ -331,7 +331,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      bytes) (Status: UNKNOWN)
 
 0083 Language-machine for data reconfiguration. R.H. Anderson, E.
-     Harslem, J.F. Heafner. Dec-18-1970. (Not online) (Status: UNKNOWN)
+     Harslem, J.F. Heafner. Dec-18-1970. (Format: TXT=22253 bytes)
+     (Status: UNKNOWN)
 
 0084 List of NWG/RFC's 1-80. J.B. North. Dec-23-1970. (Format:
      TXT=12613 bytes) (Status: UNKNOWN)
@@ -510,23 +511,24 @@ See the RFC Editor Web page http://www.rfc-editor.org
 0134 Network Graphics meeting. A. Vezza. Apr-29-1971. (Format:
      TXT=2684 bytes) (Status: UNKNOWN)
 
-0135 Response to NWG/RFC 110. W. Hathaway. Apr-29-1971. (Not online)
-     (Updates RFC0110) (Status: UNKNOWN)
+0135 Response to NWG/RFC 110. W. Hathaway. Apr-29-1971. (Format:
+     TXT=5282 bytes) (Updates RFC0110) (Status: UNKNOWN)
 
 0136 Host accounting and administrative procedures. R.E. Kahn.
      Apr-29-1971. (Format: TXT=8016 bytes) (Status: UNKNOWN)
 
 0137 Telnet Protocol - a proposed document. T.C. O'Sullivan.
-     Apr-30-1971. (Not online) (Updated by RFC0139) (Status: UNKNOWN)
+     Apr-30-1971. (Format: TXT=17606 bytes) (Updated by RFC0139) (Status:
+     UNKNOWN)
 
 0138 Status report on proposed Data Reconfiguration Service. R.H.
      Anderson, V.G. Cerf, E. Harslem, J.F. Heafner, J. Madden, R.M.
      Metcalfe, A. Shoshani, J.E. White, D.C.M. Wood. Apr-28-1971. (Format:
      TXT=46641 bytes) (Status: UNKNOWN)
 
-0139 Discussion of Telnet Protocol. T.C. O'Sullivan. May-07-1971. (Not
-     online) (Updates RFC0137) (Updated by RFC0158) (Also RFC0393)
-     (Status: UNKNOWN)
+0139 Discussion of Telnet Protocol. T.C. O'Sullivan. May-07-1971.
+     (Format: TXT=26085 bytes) (Updates RFC0137) (Updated by RFC0158)
+     (Also RFC0393) (Status: UNKNOWN)
 
 0140 Agenda for the May NWG meeting. S.D. Crocker. May-04-1971.
      (Format: TXT=6934 bytes) (Updated by RFC0149) (Status: UNKNOWN)
@@ -688,8 +690,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 0185 NIC distribution of manuals and handbooks. J.B. North.
      Jul-07-1971. (Format: TXT=1406 bytes) (Status: UNKNOWN)
 
-0186 Network graphics loader. J.C. Michener. Jul-12-1971. (Not online)
-     (Status: UNKNOWN)
+0186 Network graphics loader. J.C. Michener. Jul-12-1971. (Format:
+     TXT=30557 bytes) (Status: UNKNOWN)
 
 0187 Network/440 Protocol Concept. D.B. McKay, D.P. Karp. Jul-01-1971.
      (Format: TXT=25042 bytes) (Status: UNKNOWN)
@@ -702,14 +704,14 @@ See the RFC Editor Web page http://www.rfc-editor.org
      by RFC0283) (Status: UNKNOWN)
 
 0190 DEC PDP-10-IMLAC communications system. L.P. Deutsch.
-     Jul-13-1971. (Not online) (Status: UNKNOWN)
+     Jul-13-1971. (Format: TXT=18752 bytes) (Status: UNKNOWN)
 
 0191 Graphics implementation and conceptualization at Augmentation
      Research Center. C.H. Irby. Jul-13-1971. (Format: TXT=8179 bytes)
      (Status: UNKNOWN)
 
 0192 Some factors which a Network Graphics Protocol must consider.
-     R.W. Watson. Jul-12-1971. (Not online) (Status: UNKNOWN)
+     R.W. Watson. Jul-12-1971. (Format: TXT=48540 bytes) (Status: UNKNOWN)
 
 0193 NETWORK CHECKOUT. E. Harslem, J.F. Heafner. Jul-14-1971. (Format:
      TXT=3622 bytes) (Obsoleted by RFC0198) (Updated by RFC0198) (Status:
@@ -749,7 +751,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Updated by RFC0234) (Status: UNKNOWN)
 
 0205 NETCRT - a character display protocol. R.T. Braden. Aug-06-1971.
-     (Not online) (Status: UNKNOWN)
+     (Format: TXT=28272 bytes) (Status: UNKNOWN)
 
 0206 User Telnet - description of an initial implementation. J.E.
      White. Aug-09-1971. (Not online) (Status: UNKNOWN)
@@ -1807,7 +1809,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Aug-28-1973. (Format: TXT=9307 bytes) (Status: UNKNOWN)
 
 0566 Traffic statistics (August 1973). A.M. McKenzie. Sep-04-1973.
-     (Not online) (Status: UNKNOWN)
+     (Format: TXT=6674 bytes) (Status: UNKNOWN)
 
 0567 Cross Country Network Bandwidth. L.P. Deutsch. Sep-06-1973.
      (Format: TXT=1529 bytes) (Updated by RFC0568) (Status: UNKNOWN)
@@ -1853,7 +1855,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      online) (Status: UNKNOWN)
 
 0582 Comments on RFC 580: Machine readable protocols. R. Clements.
-     Nov-05-1973. (Not online) (Updates RFC0580) (Status: UNKNOWN)
+     Nov-05-1973. (Format: TXT=1635 bytes) (Updates RFC0580) (Status:
+     UNKNOWN)
 
 0584 Charter for ARPANET Users Interest Working Group. J. Iseli, D.
      Crocker, N. Neigus. Nov-06-1973. (Format: TXT=3461 bytes) (Status:
@@ -1875,8 +1878,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 0589 CCN NETRJS server messages to remote user. R.T. Braden.
      Nov-26-1973. (Format: TXT=7998 bytes) (Status: UNKNOWN)
 
-0590 MULTICS address change. M.A. Padlipsky. Nov-19-1973. (Not online)
-     (Status: UNKNOWN)
+0590 MULTICS address change. M.A. Padlipsky. Nov-19-1973. (Format:
+     TXT=1436 bytes) (Status: UNKNOWN)
 
 0591 Addition to the Very Distant Host specifications. D.C. Walden.
      Nov-29-1973. (Format: TXT=901 bytes) (Status: UNKNOWN)
@@ -2075,7 +2078,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Format: TXT=6484 bytes) (Status: HISTORIC)
 
 0659 Announcing additional Telnet options. J. Postel. Oct-18-1974.
-     (Not online) (Status: UNKNOWN)
+     (Format: TXT=2016 bytes) (Status: UNKNOWN)
 
 0660 Some changes to the IMP and the IMP/Host interface. D.C. Walden.
      Oct-23-1974. (Format: TXT=4991 bytes) (Status: UNKNOWN)
@@ -11629,3 +11632,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Application/dicom MIME Sub-type Registration. D. Clunie, E.
      Cordonnier. February 2002. (Format: TXT=9102 bytes) (Status:
      INFORMATIONAL)
+
+3244 Microsoft Windows 2000 Kerberos Change Password and Set Password
+     Protocols. M. Swift, J. Trostle, J. Brezak. February 2002. (Format:
+     TXT=13334 bytes) (Status: INFORMATIONAL)
