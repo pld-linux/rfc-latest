@@ -1,5 +1,5 @@
---- rfcindex-1.2.orig	Thu Jul 11 16:23:01 2002
-+++ rfcindex-1.2	Thu Jul 11 17:44:20 2002
+--- rfcindex.orig	Thu Jul 11 16:23:01 2002
++++ rfcindex	Thu Jul 11 17:44:20 2002
 @@ -29,6 +29,16 @@
  
  Hyperlinks to RFC texts will be relative to the base URL specified.
