@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 11/26/2002.)
+(CREATED ON: 12/18/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -3801,7 +3801,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 1157 Simple Network Management Protocol (SNMP). J.D. Case, M. Fedor,
      M.L. Schoffstall, C. Davin. May-01-1990. (Format: TXT=74894 bytes)
-     (Obsoletes RFC1098) (Also STD0015) (Status: STANDARD)
+     (Obsoletes RFC1098) (Also STD0015) (Status: HISTORIC)
 
 1158 Management Information Base for network management of
      TCP/IP-based internets: MIB-II. M.T. Rose. May-01-1990. (Format:
@@ -4865,7 +4865,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 1441 Introduction to version 2 of the Internet-standard Network
      Management Framework. J. Case, K. McCloghrie, M. Rose, S. Waldbusser.
-     April 1993. (Format: TXT=25386 bytes) (Status: PROPOSED STANDARD)
+     April 1993. (Format: TXT=25386 bytes) (Status: HISTORIC)
 
 1442 Structure of Management Information for version 2 of the Simple
      Network Management Protocol (SNMPv2). J. Case, K. McCloghrie, M.
@@ -6596,7 +6596,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 1901 Introduction to Community-based SNMPv2. J. Case, K. McCloghrie,
      M. Rose, S. Waldbusser. January 1996. (Format: TXT=15903 bytes)
-     (Status: EXPERIMENTAL)
+     (Status: HISTORIC)
 
 1902 Structure of Management Information for Version 2 of the Simple
      Network Management Protocol (SNMPv2). J. Case, K. McCloghrie, M.
@@ -6616,17 +6616,17 @@ See the RFC Editor Web page http://www.rfc-editor.org
 1905 Protocol Operations for Version 2 of the Simple Network
      Management Protocol (SNMPv2). J. Case, K. McCloghrie, M. Rose, S.
      Waldbusser. January 1996. (Format: TXT=55526 bytes) (Obsoletes
-     RFC1448) (Status: DRAFT STANDARD)
+     RFC1448) (Obsoleted by RFC3416) (Status: DRAFT STANDARD)
 
 1906 Transport Mappings for Version 2 of the Simple Network Management
      Protocol (SNMPv2). J. Case, K. McCloghrie, M. Rose, S. Waldbusser.
-     January 1996. (Format: TXT=27465 bytes) (Obsoletes RFC1449) (Status:
-     DRAFT STANDARD)
+     January 1996. (Format: TXT=27465 bytes) (Obsoletes RFC1449)
+     (Obsoleted by RFC3417) (Status: DRAFT STANDARD)
 
 1907 Management Information Base for Version 2 of the Simple Network
      Management Protocol (SNMPv2). J. Case, K. McCloghrie, M. Rose, S.
      Waldbusser. January 1996. (Format: TXT=34881 bytes) (Obsoletes
-     RFC1450) (Status: DRAFT STANDARD)
+     RFC1450) (Obsoleted by RFC3418) (Status: DRAFT STANDARD)
 
 1908 Coexistence between Version 1 and Version 2 of the
      Internet-standard Network Management Framework. J. Case, K.
@@ -6635,10 +6635,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      STANDARD)
 
 1909 An Administrative Infrastructure for SNMPv2. K. McCloghrie, Ed..
-     February 1996. (Format: TXT=45773 bytes) (Status: EXPERIMENTAL)
+     February 1996. (Format: TXT=45773 bytes) (Status: HISTORIC)
 
 1910 User-based Security Model for SNMPv2. G. Waters, Ed.. February
-     1996. (Format: TXT=98252 bytes) (Status: EXPERIMENTAL)
+     1996. (Format: TXT=98252 bytes) (Status: HISTORIC)
 
 1911 Voice Profile for Internet Mail. G. Vaudreuil. February 1996.
      (Format: TXT=50242 bytes) (Obsoleted by RFC2421, RFC2422, RFC2423)
@@ -6816,7 +6816,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      RFC1939) (Status: INFORMATIONAL)
 
 1958 Architectural Principles of the Internet. B. Carpenter, Ed.. June
-     1996. (Format: TXT=17345 bytes) (Status: INFORMATIONAL)
+     1996. (Format: TXT=17345 bytes) (Updated by RFC3439) (Status:
+     INFORMATIONAL)
 
 1959 An LDAP URL Format. T. Howes, M. Smith. June 1996. (Format:
      TXT=7243 bytes) (Obsoleted by RFC2255) (Status: PROPOSED STANDARD)
@@ -7473,8 +7474,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Status: DRAFT STANDARD)
 
 2132 DHCP Options and BOOTP Vendor Extensions. S. Alexander, R. Droms.
-     March 1997. (Format: TXT=63670 bytes) (Obsoletes RFC1533) (Status:
-     DRAFT STANDARD)
+     March 1997. (Format: TXT=63670 bytes) (Obsoletes RFC1533) (Updated by
+     RFC3442) (Status: DRAFT STANDARD)
 
 2133 Basic Socket Interface Extensions for IPv6. R. Gilligan, S.
      Thomson, J. Bound, W. Stevens. April 1997. (Format: TXT=69737 bytes)
@@ -9008,7 +9009,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 2535 Domain Name System Security Extensions. D. Eastlake 3rd. March
      1999. (Format: TXT=110958 bytes) (Obsoletes RFC2065) (Updates
      RFC2181, RFC1035, RFC1034) (Updated by RFC2931, RFC3007, RFC3008,
-     RFC3090, RFC3226) (Status: PROPOSED STANDARD)
+     RFC3090, RFC3226, RFC3445) (Status: PROPOSED STANDARD)
 
 2536 DSA KEYs and SIGs in the Domain Name System (DNS). D. Eastlake
      3rd. March 1999. (Format: TXT=11121 bytes) (Status: PROPOSED
@@ -9140,30 +9141,32 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2570 Introduction to Version 3 of the Internet-standard Network
      Management Framework. J. Case, R. Mundy, D. Partain, B. Stewart.
-     April 1999. (Format: TXT=50381 bytes) (Status: INFORMATIONAL)
+     April 1999. (Format: TXT=50381 bytes) (Obsoleted by RFC3410) (Status:
+     INFORMATIONAL)
 
 2571 An Architecture for Describing SNMP Management Frameworks. B.
      Wijnen, D. Harrington, R. Presuhn. April 1999. (Format: TXT=139260
-     bytes) (Obsoletes RFC2271) (Status: DRAFT STANDARD)
+     bytes) (Obsoletes RFC2271) (Obsoleted by RFC3411) (Status: DRAFT
+     STANDARD)
 
 2572 Message Processing and Dispatching for the Simple Network
      Management Protocol (SNMP). J. Case, D. Harrington, R. Presuhn, B.
      Wijnen. April 1999. (Format: TXT=96035 bytes) (Obsoletes RFC2272)
-     (Status: DRAFT STANDARD)
+     (Obsoleted by RFC3412) (Status: DRAFT STANDARD)
 
 2573 SNMP Applications. D. Levi, P. Meyer, B. Stewart. April 1999.
-     (Format: TXT=150427 bytes) (Obsoletes RFC2273) (Status: DRAFT
-     STANDARD)
+     (Format: TXT=150427 bytes) (Obsoletes RFC2273) (Obsoleted by RFC3413)
+     (Status: DRAFT STANDARD)
 
 2574 User-based Security Model (USM) for version 3 of the Simple
      Network Management Protocol (SNMPv3). U. Blumenthal, B. Wijnen. April
-     1999. (Format: TXT=190755 bytes) (Obsoletes RFC2274) (Status: DRAFT
-     STANDARD)
+     1999. (Format: TXT=190755 bytes) (Obsoletes RFC2274) (Obsoleted by
+     RFC3414) (Status: DRAFT STANDARD)
 
 2575 View-based Access Control Model (VACM) for the Simple Network
      Management Protocol (SNMP). B. Wijnen, R. Presuhn, K. McCloghrie.
-     April 1999. (Format: TXT=79642 bytes) (Obsoletes RFC2275) (Status:
-     DRAFT STANDARD)
+     April 1999. (Format: TXT=79642 bytes) (Obsoletes RFC2275) (Obsoleted
+     by RFC3415) (Status: DRAFT STANDARD)
 
 2576 Coexistence between Version 1, Version 2, and Version 3 of the
      Internet-standard Network Management Framework. R. Frye, D. Levi, S.
@@ -11966,6 +11969,19 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3324 Short Term Requirements for Network Asserted Identity. M. Watson.
      November 2002. (Format: TXT=21964 bytes) (Status: INFORMATIONAL)
 
+3325 Private Extensions to the Session Initiation Protocol (SIP) for
+     Asserted Identity within Trusted Networks. C. Jennings, J. Peterson,
+     M. Watson. November 2002. (Format: TXT=36170 bytes) (Status:
+     INFORMATIONAL)
+
+3326 The Reason Header Field for the Session Initiation Protocol
+     (SIP). H. Schulzrinne, D. Oran, G. Camarillo. December 2002. (Format:
+     TXT=15695 bytes) (Status: PROPOSED STANDARD)
+
+3327 Session Initiation Protocol (SIP) Extension Header Field for
+     Registering Non-Adjacent Contacts. D. Willis, B. Hoeneisen. December
+     2002. (Format: TXT=36493 bytes) (Status: PROPOSED STANDARD)
+
 3330 Special-Use IPv4 Addresses. IANA. September 2002. (Format:
      TXT=16200 bytes) (Status: INFORMATIONAL)
 
@@ -11985,6 +12001,14 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3335 MIME-based Secure Peer-to-Peer Business Data Interchange over the
      Internet. T. Harding, R. Drummond, C. Shih. September 2002. (Format:
      TXT=59687 bytes) (Status: PROPOSED STANDARD)
+
+3336 PPP Over Asynchronous Transfer Mode Adaptation Layer 2 (AAL2). B.
+     Thompson, T. Koren, B. Buffam. December 2002. (Format: TXT=33631
+     bytes) (Status: PROPOSED STANDARD)
+
+3337 Class Extensions for PPP over Asynchronous Transfer Mode
+     Adaptation Layer 2. B. Thompson, T. Koren, B. Buffam. December 2002.
+     (Format: TXT=14911 bytes) (Status: PROPOSED STANDARD)
 
 3338 Dual Stack Hosts Using "Bump-in-the-API" (BIA). S. Lee, M-K.
      Shin, Y-J. Kim, E. Nordmark, A. Durand. October 2002. (Format:
@@ -12185,6 +12209,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      S. Nag. September 2002. (Format: TXT=52693 bytes) (Status:
      INFORMATIONAL)
 
+3388 Grouping of Media Lines in the Session Description Protocol
+     (SDP). G. Camarillo, G. Eriksson, J. Holler, H. Schulzrinne. December
+     2002. (Format: TXT=39365 bytes) (Status: PROPOSED STANDARD)
+
 3389 Real-time Transport Protocol (RTP) Payload for Comfort Noise
      (CN). R. Zopf. September 2002. (Format: TXT=17018 bytes) (Status:
      PROPOSED STANDARD)
@@ -12192,6 +12220,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3390 Increasing TCP's Initial Window. M. Allman, S. Floyd, C.
      Partridge. October 2002. (Format: TXT=36177 bytes) (Obsoletes
      RFC2414) (Updates RFC2581) (Status: PROPOSED STANDARD)
+
+3391 The MIME Application/Vnd.pwg-multiplexed Content-Type. R.
+     Herriot. December 2002. (Format: TXT=54739 bytes) (Status:
+     INFORMATIONAL)
 
 3392 Capabilities Advertisement with BGP-4. R. Chandra, J. Scudder.
      November 2002. (Format: TXT=9885 bytes) (Obsoletes RFC2842) (Status:
@@ -12220,7 +12252,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3398 Integrated Services Digital Network (ISDN) User Part (ISUP) to
      Session Initiation Protocol (SIP) Mapping. G. Camarillo, A. B. Roach,
-     J. Peterson, L. Ong. November 2002. (Format: TXT=166197 bytes)
+     J. Peterson, L. Ong. December 2002. (Format: TXT=166197 bytes)
      (Status: PROPOSED STANDARD)
 
 3401 Dynamic Delegation Discovery System (DDDS) Part One: The
@@ -12257,8 +12289,59 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3408 Zero-byte Support for Bidirectional Reliable Mode (R-mode) in
      Extended Link-Layer Assisted RObust Header Compression (ROHC)
-     Profile. Z. Liu, K. Le. November 2002. (Format: TXT=14805 bytes)
+     Profile. Z. Liu, K. Le. December 2002. (Format: TXT=14805 bytes)
      (Status: PROPOSED STANDARD)
+
+3409 Lower Layer Guidelines for Robust RTP/UDP/IP Header Compression.
+     K. Svanbro. December 2002. (Format: TXT=25815 bytes) (Status:
+     INFORMATIONAL)
+
+3410 Introduction and Applicability Statements for Internet-Standard
+     Management Framework. J. Case, R. Mundy, D. Partain, B. Stewart.
+     December 2002. (Format: TXT=61461 bytes) (Obsoletes RFC2570) (Status:
+     INFORMATIONAL)
+
+3411 An Architecture for Describing Simple Network Management Protocol
+     (SNMP) Management Frameworks. D. Harrington, R. Presuhn, B. Wijnen.
+     December 2002. (Format: TXT=140096 bytes) (Obsoletes RFC2571) (Also
+     STD0062) (Status: STANDARD)
+
+3412 Message Processing and Dispatching for the Simple Network
+     Management Protocol (SNMP). J. Case, D. Harrington, R. Presuhn, B.
+     Wijnen. December 2002. (Format: TXT=95710 bytes) (Obsoletes RFC2572)
+     (Also STD0062) (Status: STANDARD)
+
+3413 Simple Network Management Protocol (SNMP) Applications. D. Levi,
+     P. Meyer, B. Stewart. December 2002. (Format: TXT=153719 bytes)
+     (Obsoletes RFC2573) (Also STD0062) (Status: STANDARD)
+
+3414 User-based Security Model (USM) for version 3 of the Simple
+     Network Management Protocol (SNMPv3). U. Blumenthal, B. Wijnen.
+     December 2002. (Format: TXT=193558 bytes) (Obsoletes RFC2574) (Also
+     STD0062) (Status: STANDARD)
+
+3415 View-based Access Control Model (VACM) for the Simple Network
+     Management Protocol (SNMP). U. Blumenthal, B. Wijnen. December 2002.
+     (Format: TXT=82046 bytes) (Obsoletes RFC2575) (Also STD0062) (Status:
+     STANDARD)
+
+3416 Version 2 of the Protocol Operations for the Simple Network
+     Management Protocol (SNMP). R. Presuhn, Ed.. December 2002. (Format:
+     TXT=70043 bytes) (Obsoletes RFC1905) (Also STD0062) (Status:
+     STANDARD)
+
+3417 Transport Mappings for the Simple Network Management Protocol
+     (SNMP). R. Presuhn, Ed.. December 2002. (Format: TXT=38650 bytes)
+     (Obsoletes RFC1906) (Also STD0062) (Status: STANDARD)
+
+3418 Management Information Base (MIB) for the Simple Network
+     Management Protocol (SNMP). R. Presuhn, Ed.. December 2002. (Format:
+     TXT=49096 bytes) (Obsoletes RFC1907) (Also STD0062) (Status:
+     STANDARD)
+
+3419 Textual Conventions for Transport Addresses. M. Daniele, J.
+     Schoenwaelder. December 2002. (Format: TXT=37466 bytes) (Status:
+     PROPOSED STANDARD)
 
 3420 Internet Media Type message/sipfrag. R. Sparks. November 2002.
      (Format: TXT=14745 bytes) (Status: PROPOSED STANDARD)
@@ -12286,7 +12369,45 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3426 General Architectural and Policy Considerations. S. Floyd.
      November 2002. (Format: TXT=54868 bytes) (Status: INFORMATIONAL)
 
+3428 Session Initiation Protocol (SIP) Extension for Instant
+     Messaging. B. Campbell, Ed., J. Rosenberg, H. Schulzrinne, C.
+     Huitema, D. Gurle. December 2002. (Format: TXT=41475 bytes) (Status:
+     PROPOSED STANDARD)
+
 3429 Assignment of the 'OAM Alert Label' for Multiprotocol Label
      Switching Architecture (MPLS) Operation and Maintenance (OAM)
      Functions. H. Ohta. November 2002. (Format: TXT=10903 bytes) (Status:
      INFORMATIONAL)
+
+3430 Simple Network Management Protocol Over Transmission Control
+     Protocol Transport Mapping. J. Schoenwaelder. December 2002. (Format:
+     TXT=21527 bytes) (Status: EXPERIMENTAL)
+
+3431 Sieve Extension: Relational Tests. W. Segmuller. December 2002.
+     (Format: TXT=12849 bytes) (Status: PROPOSED STANDARD)
+
+3432 Network performance measurement with periodic streams. V.
+     Raisanen, G. Grotefeld, A. Morton. November 2002. (Format: TXT=52493
+     bytes) (Status: PROPOSED STANDARD)
+
+3436 Transport Layer Security over Stream Control Transmission
+     Protocol. A. Jungmaier, E. Rescorla, M. Tuexen. December 2002.
+     (Format: TXT=16333 bytes) (Status: PROPOSED STANDARD)
+
+3439 Some Internet Architectural Guidelines and Philosophy. R. Bush,
+     D. Meyer. December 2002. (Format: TXT=70333 bytes) (Updates RFC1958)
+     (Status: INFORMATIONAL)
+
+3442 The Classless Static Route Option for Dynamic Host Configuration
+     Protocol (DHCP) version 4. T. Lemon, S. Cheshire, B. Volz. December
+     2002. (Format: TXT=19370 bytes) (Updates RFC2132) (Status: PROPOSED
+     STANDARD)
+
+3445 Limiting the Scope of the KEY Resource Record (RR). D. Massey, S.
+     Rose. December 2002. (Format: TXT=20947 bytes) (Updates RFC2535)
+     (Status: PROPOSED STANDARD)
+
+3449 TCP Performance Implications of Network Path Asymmetry. H.
+     Balakrishnan, V. Padmanabhan, G. Fairhurst, M. Sooriyabandara.
+     December 2002. (Format: TXT=108839 bytes) (Also BCP0069) (Status:
+     BEST CURRENT PRACTICE)
