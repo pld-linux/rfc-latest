@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 05/08/2002.)
+(CREATED ON: 05/10/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11702,6 +11702,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Addresses. T. Hardie. April 2002. (Format: TXT=22195 bytes) (Status:
      INFORMATIONAL)
 
+3259 A Message Bus for Local Coordination. J. Ott, C. Perkins, D.
+     Kutscher. April 2002. (Format: TXT=84125 bytes) (Status:
+     INFORMATIONAL)
+
 3260 New Terminology and Clarifications for Diffserv. D. Grossman.
      April 2002. (Format: TXT=21900 bytes) (Updates RFC2474, RFC2475,
      RFC2597) (Status: INFORMATIONAL)
@@ -11720,3 +11724,22 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3277 Intermediate System to Intermediate System (IS-IS) Transient
      Blackhole Avoidance. D. McPherson. April 2002. (Format: TXT=13077
      bytes) (Status: INFORMATIONAL)
+
+3278 Use of Elliptic Curve Cryptography (ECC) Algorithms in
+     Cryptographic Message Syntax (CMS). S. Blake-Wilson, D. Brown, P.
+     Lambert. April 2002. (Format: TXT=33779 bytes) (Status:
+     INFORMATIONAL)
+
+3279 Algorithms and Identifiers for the Internet X.509 Public Key
+     Infrastructure Certificate and Certificate Revocation List (CRL)
+     Profile. L. Bassham, W. Polk, R. Housley. April 2002. (Format:
+     TXT=53833 bytes) (Status: PROPOSED STANDARD)
+
+3280 Internet X.509 Public Key Infrastructure Certificate and
+     Certificate Revocation List (CRL) Profile. R. Housley, W. Polk, W.
+     Ford, D. Solo. April 2002. (Format: TXT=295556 bytes) (Status:
+     PROPOSED STANDARD)
+
+3281 An Internet Attribute Certificate Profile for Authorization. S.
+     Farrell, R. Housley. April 2002. (Format: TXT=90580 bytes) (Status:
+     PROPOSED STANDARD)
