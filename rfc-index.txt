@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 09/18/2002.)
+(CREATED ON: 09/25/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11686,6 +11686,14 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Schnizlein. March 2002. (Format: TXT=21597 bytes) (Status:
      INFORMATIONAL)
 
+3249 Implementers Guide for Facsimile Using Internet Mail. V. Cancio,
+     M. Moldovan, H. Tamura, D. Wing. September 2002. (Format: TXT=40413
+     bytes) (Status: INFORMATIONAL)
+
+3250 Tag Image File Format Fax eXtended (TIFF-FX) - image/tiff-fx MIME
+     Sub-type Registration. L. McIntyre, G. Parsons, J. Rafferty.
+     September 2002. (Format: TXT=17876 bytes) (Status: PROPOSED STANDARD)
+
 3251 Electricity over IP. B. Rajagopalan. April-01-2002. (Format:
      TXT=18994 bytes) (Status: INFORMATIONAL)
 
@@ -11909,6 +11917,25 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3307 Allocation Guidelines for IPv6 Multicast Addresses. B. Haberman.
      August 2002. (Format: TXT=15742 bytes) (Status: PROPOSED STANDARD)
 
+3310 Hypertext Transfer Protocol (HTTP) Digest Authentication Using
+     Authentication and Key Agreement (AKA). A. Niemi, J. Arkko, V.
+     Torvinen. September 2002. (Format: TXT=36985 bytes) (Status:
+     INFORMATIONAL)
+
+3314 Recommendations for IPv6 in Third Generation Partnership Project
+     (3GPP) Standards. M. Wasserman, Ed.. September 2002. (Format:
+     TXT=48168 bytes) (Status: INFORMATIONAL)
+
+3331 Signaling System 7 (SS7) Message Transfer Part 2 (MTP2) - User
+     Adaptation Layer. K. Morneault, R. Dantu, G. Sidebottom, B. Bidulock,
+     J. Heitz. September 2002. (Format: TXT=210807 bytes) (Status:
+     PROPOSED STANDARD)
+
+3332 Signaling System 7 (SS7) Message Transfer Part 3 (MTP3) - User
+     Adaptation Layer (M3UA). G. Sidebottom, Ed., K. Morneault, Ed., J.
+     Pastor-Balbas, Ed.. September 2002. (Format: TXT=265055 bytes)
+     (Status: PROPOSED STANDARD)
+
 3335 MIME-based Secure Peer-to-Peer Business Data Interchange over the
      Internet. T. Harding, R. Drummond, C. Shih. September 2002. (Format:
      TXT=59687 bytes) (Status: PROPOSED STANDARD)
@@ -12056,6 +12083,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3377 Lightweight Directory Access Protocol (v3): Technical
      Specification. J. Hodges, R. Morgan. September 2002. (Format:
      TXT=9981 bytes) (Status: PROPOSED STANDARD)
+
+3378 EtherIP: Tunneling Ethernet Frames in IP Datagrams. R. Housley,
+     S. Hollenbeck. September 2002. (Format: TXT=18803 bytes) (Status:
+     INFORMATIONAL)
 
 3379 Delegated Path Validation and Delegated Path Discovery Protocol
      Requirements. D. Pinkas, R. Housley. September 2002. (Format:
