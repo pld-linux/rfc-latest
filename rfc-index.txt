@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 03/06/2002.)
+(CREATED ON: 03/11/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11027,8 +11027,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      STANDARD)
 
 3075 XML-Signature Syntax and Processing. D. Eastlake, J. Reagle, D.
-     Solo. March 2001. (Format: TXT=145520 bytes) (Status: PROPOSED
-     STANDARD)
+     Solo. March 2001. (Format: TXT=145520 bytes) (Obsoleted by RFC3275)
+     (Status: PROPOSED STANDARD)
 
 3076 Canonical XML Version 1.0. J. Boyer. March 2001. (Format:
      TXT=63955 bytes) (Status: INFORMATIONAL)
@@ -11640,3 +11640,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3253 Versioning Extensions to WebDAV (Web Distributed Authoring and
      Versioning). G. Clemm, J. Amsden, T. Ellison, C. Kaler, J. Whitehead.
      March 2002. (Format: TXT=245514 bytes) (Status: PROPOSED STANDARD)
+
+3275 (Extensible Markup Language) XML-Signature Syntax and Processing.
+     D. Eastlake 3rd, J. Reagle, D. Solo. March 2002. (Format: TXT=164198
+     bytes) (Obsoletes RFC3075) (Status: DRAFT STANDARD)
