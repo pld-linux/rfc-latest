@@ -8,13 +8,13 @@
 Summary:	Latest RFC documents
 Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
-Version:	3576
+Version:	3587
 %define		rfcindex_version	1.2
 Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs3501-latest.tar.gz
-# Source0-md5:	4147640201764c6ab4ca2e27f7bad9ca
+# Source0-md5:	86e32150278ac9c9c6b2105c635524af
 Source1:	ftp://ftp.isi.edu/in-notes/rfc-index.txt
 Source10:	http://www.kernighan.demon.co.uk/software/rfcindex-%{rfcindex_version}
 # Source10-md5:	2b35cdd18096517e048fd455364dd77a
@@ -151,7 +151,7 @@ for i in rfc[1-9]*.txt ; do
 	if [ ! -e $BASE.ps ] ; then
 		# avoid stopping on errors ; .ps file may be correct
 		# even after processing problems
-		enscript --margin=54 -B  -fCourier11 -p $BASE.ps $i 2>/dev/null || :
+		enscript --margin=54 -B -fCourier11 -p $BASE.ps $i 2>/dev/null || :
 	fi
 %endif
 %if %{!?_without_pdf:1}%{?_without_pdf:0}
@@ -178,7 +178,7 @@ install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript/3{5,6}00
 install rfc-index.txt $RPM_BUILD_ROOT%{_defaultdocdir}/RFC
 
 %if %{!?_without_html_index:1}%{?_without_html_index:0}
-install rfc-index.html      $RPM_BUILD_ROOT%{_defaultdocdir}/RFC
+install rfc-index.html $RPM_BUILD_ROOT%{_defaultdocdir}/RFC
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install rfcindex $RPM_BUILD_ROOT%{_bindir}/rfcindex
 install rfcindex.1 $RPM_BUILD_ROOT%{_mandir}/man1
@@ -186,7 +186,7 @@ install rfcindex.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 find . -name 'rfc[1-9]*.txt' -print | xargs gzip -9
 %if %{!?_with_ps:0}%{?_with_ps:1}
-find . -name 'rfc[1-9]*.ps'  -print | xargs gzip -9
+find . -name 'rfc[1-9]*.ps' -print | xargs gzip -9
 %endif
 
 # install rfc[1-9]*.txt* $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text
@@ -195,8 +195,8 @@ for i in 35; do
 		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text/${i}00
 done
 
-# install rfc*.pdf       $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf
 %if %{!?_without_pdf:1}%{?_without_pdf:0}
+# install rfc*.pdf $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf
 for i in 35; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*pdf \
 		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf/${i}00
@@ -204,7 +204,7 @@ done
 %endif
 
 %if %{!?_with_ps:0}%{?_with_ps:1}
-# install rfc*.ps        $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript
+# install rfc*.ps $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript
 for i in 35; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*ps* \
 		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript/${i}00
