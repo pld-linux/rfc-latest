@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 06/06/2002.)
+(CREATED ON: 06/10/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11086,14 +11086,14 @@ See the RFC Editor Web page http://www.rfc-editor.org
      March 2001. (Format: TXT=24166 bytes) (Updates RFC2535) (Status:
      PROPOSED STANDARD)
 
-3091 Pi Digit Generation Protocol. H. Kennedy. 1 April 2001. (Format:
+3091 Pi Digit Generation Protocol. H. Kennedy. Apr-01-2001. (Format:
      TXT=10375 bytes) (Status: INFORMATIONAL)
 
-3092 Etymology of "Foo". D. Eastlake 3rd, C. Manros, E. Raymond. 1
-     April 2001. (Format: TXT=29235 bytes) (Status: INFORMATIONAL)
+3092 Etymology of "Foo". D. Eastlake 3rd, C. Manros, E. Raymond.
+     April-01-2001. (Format: TXT=29235 bytes) (Status: INFORMATIONAL)
 
-3093 Firewall Enhancement Protocol (FEP). M. Gaynor, S. Bradner. 1
-     April 2001. (Format: TXT=22405 bytes) (Status: INFORMATIONAL)
+3093 Firewall Enhancement Protocol (FEP). M. Gaynor, S. Bradner.
+     April-01-2001. (Format: TXT=22405 bytes) (Status: INFORMATIONAL)
 
 3094 Tekelec's Transport Adapter Layer Interface. D. Sprague, R.
      Benedyk, D. Brendes, J. Keller. April 2001. (Format: TXT=265099
@@ -11676,10 +11676,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Schnizlein. March 2002. (Format: TXT=21597 bytes) (Status:
      INFORMATIONAL)
 
-3251 Electricity over IP. B. Rajagopalan. 1 April 2002. (Format:
+3251 Electricity over IP. B. Rajagopalan. April-01-2002. (Format:
      TXT=18994 bytes) (Status: INFORMATIONAL)
 
-3252 Binary Lexical Octet Ad-hoc Transport. H. Kennedy. 1 April 2002.
+3252 Binary Lexical Octet Ad-hoc Transport. H. Kennedy. April-01-2002.
      (Format: TXT=25962 bytes) (Status: INFORMATIONAL)
 
 3253 Versioning Extensions to WebDAV (Web Distributed Authoring and
@@ -11730,6 +11730,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3272 Overview and Principles of Internet Traffic Engineering. D.
      Awduche, A. Chiu, A. Elwalid, I. Widjaja, X. Xiao. May 2002. (Format:
      TXT=190384 bytes) (Status: INFORMATIONAL)
+
+3274 Compressed Data Content Type for Cryptographic Message Syntax
+     (CMS). P. Gutmann. June 2002. (Format: TXT=11276 bytes) (Status:
+     PROPOSED STANDARD)
 
 3275 (Extensible Markup Language) XML-Signature Syntax and Processing.
      D. Eastlake 3rd, J. Reagle, D. Solo. March 2002. (Format: TXT=164198
