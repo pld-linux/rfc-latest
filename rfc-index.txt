@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 09/25/2002.)
+(CREATED ON: 09/30/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -7914,28 +7914,30 @@ See the RFC Editor Web page http://www.rfc-editor.org
      bytes) (Obsoletes RFC2038) (Status: PROPOSED STANDARD)
 
 2251 Lightweight Directory Access Protocol (v3). M. Wahl, T. Howes, S.
-     Kille. December 1997. (Format: TXT=114488 bytes) (Status: PROPOSED
-     STANDARD)
+     Kille. December 1997. (Format: TXT=114488 bytes) (Updated by RFC3377)
+     (Status: PROPOSED STANDARD)
 
 2252 Lightweight Directory Access Protocol (v3): Attribute Syntax
      Definitions. M. Wahl, A. Coulbeck, T. Howes, S. Kille. December 1997.
-     (Format: TXT=60204 bytes) (Status: PROPOSED STANDARD)
+     (Format: TXT=60204 bytes) (Updated by RFC3377) (Status: PROPOSED
+     STANDARD)
 
 2253 Lightweight Directory Access Protocol (v3): UTF-8 String
      Representation of Distinguished Names. M. Wahl, S. Kille, T. Howes.
-     December 1997. (Format: TXT=18226 bytes) (Obsoletes RFC1779) (Status:
-     PROPOSED STANDARD)
+     December 1997. (Format: TXT=18226 bytes) (Obsoletes RFC1779) (Updated
+     by RFC3377) (Status: PROPOSED STANDARD)
 
 2254 The String Representation of LDAP Search Filters. T. Howes.
-     December 1997. (Format: TXT=13511 bytes) (Obsoletes RFC1960) (Status:
-     PROPOSED STANDARD)
+     December 1997. (Format: TXT=13511 bytes) (Obsoletes RFC1960) (Updated
+     by RFC3377) (Status: PROPOSED STANDARD)
 
 2255 The LDAP URL Format. T. Howes, M. Smith. December 1997. (Format:
-     TXT=20685 bytes) (Obsoletes RFC1959) (Status: PROPOSED STANDARD)
+     TXT=20685 bytes) (Obsoletes RFC1959) (Updated by RFC3377) (Status:
+     PROPOSED STANDARD)
 
 2256 A Summary of the X.500(96) User Schema for use with LDAPv3. M.
-     Wahl. December 1997. (Format: TXT=32377 bytes) (Status: PROPOSED
-     STANDARD)
+     Wahl. December 1997. (Format: TXT=32377 bytes) (Updated by RFC3377)
+     (Status: PROPOSED STANDARD)
 
 2257 Agent Extensibility (AgentX) Protocol Version 1. M. Daniele, B.
      Wijnen, D. Francisco. January 1998. (Format: TXT=177452 bytes)
@@ -8121,7 +8123,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2302 Tag Image File Format (TIFF) - image/tiff MIME Sub-type
      Registration. G. Parsons, J. Rafferty, S. Zilles. March 1998.
-     (Format: TXT=14375 bytes) (Status: PROPOSED STANDARD)
+     (Format: TXT=14375 bytes) (Obsoleted by RFC3302) (Status: PROPOSED
+     STANDARD)
 
 2303 Minimal PSTN address format in Internet Mail. C. Allocchio. March
      1998. (Format: TXT=14625 bytes) (Obsoleted by RFC3191) (Status:
@@ -10106,12 +10109,13 @@ See the RFC Editor Web page http://www.rfc-editor.org
      TXT=489292 bytes) (Also FYI0036) (Status: INFORMATIONAL)
 
 2829 Authentication Methods for LDAP. M. Wahl, H. Alvestrand, J.
-     Hodges, R. Morgan. May 2000. (Format: TXT=33471 bytes) (Status:
-     PROPOSED STANDARD)
+     Hodges, R. Morgan. May 2000. (Format: TXT=33471 bytes) (Updated by
+     RFC3377) (Status: PROPOSED STANDARD)
 
 2830 Lightweight Directory Access Protocol (v3): Extension for
      Transport Layer Security. J. Hodges, R. Morgan, M. Wahl. May 2000.
-     (Format: TXT=24469 bytes) (Status: PROPOSED STANDARD)
+     (Format: TXT=24469 bytes) (Updated by RFC3377) (Status: PROPOSED
+     STANDARD)
 
 2831 Using Digest Authentication as a SASL Mechanism. P. Leach, C.
      Newman. May 2000. (Format: TXT=58124 bytes) (Status: PROPOSED
@@ -10357,7 +10361,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2895 Remote Network Monitoring MIB Protocol Identifier Reference. A.
      Bierman, C. Bucci, R. Iddon. August 2000. (Format: TXT=88094 bytes)
-     (Obsoletes RFC2074) (Status: PROPOSED STANDARD)
+     (Obsoletes RFC2074) (Updated by RFC3395) (Status: PROPOSED STANDARD)
 
 2896 Remote Network Monitoring MIB Protocol Identifier Macros. A.
      Bierman, C. Bucci, R. Iddon. August 2000. (Format: TXT=135768 bytes)
@@ -10598,7 +10602,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 2960 Stream Control Transmission Protocol. R. Stewart, Q. Xie, K.
      Morneault, C. Sharp, H. Schwarzbauer, T. Taylor, I. Rytina, M. Kalla,
      L. Zhang, V. Paxson. October 2000. (Format: TXT=297757 bytes)
-     (Status: PROPOSED STANDARD)
+     (Updated by RFC3309) (Status: PROPOSED STANDARD)
 
 2961 RSVP Refresh Overhead Reduction Extensions. L. Berger, D. Gan, G.
      Swallow, P. Pan, F. Tommasi, S. Molendini. April 2001. (Format:
@@ -11667,8 +11671,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3245 The History and Context of Telephone Number Mapping (ENUM)
      Operational Decisions: Informational Documents Contributed to ITU-T
-     Study. J. Klensin, Ed.. March 2002. (Format: TXT=23758 bytes)
-     (Status: INFORMATIONAL)
+     Study Group 2 (SG2). J. Klensin, Ed., IAB. March 2002. (Format:
+     TXT=23758 bytes) (Status: INFORMATIONAL)
 
 3246 An Expedited Forwarding PHB (Per-Hop Behavior). B. Davie, A.
      Charny, J.C.R. Bennet, K. Benson, J.Y. Le Boudec, W. Courtney, S.
@@ -11896,6 +11900,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      extensions. Y. T'Joens, P. Crivellari, B. Sales. June 2002. (Format:
      TXT=42756 bytes) (Status: PROPOSED STANDARD)
 
+3302 Tag Image File Format (TIFF) - image/tiff MIME Sub-type
+     Registration. G. Parsons, J. Rafferty. September 2002. (Format:
+     TXT=15183 bytes) (Obsoletes RFC2302) (Status: PROPOSED STANDARD)
+
 3303 Middlebox communication architecture and framework. P. Srisuresh,
      J. Kuthan, J. Rosenberg, A. Molitor, A. Rayhan. August 2002. (Format:
      TXT=91209 bytes) (Status: INFORMATIONAL)
@@ -11917,6 +11925,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3307 Allocation Guidelines for IPv6 Multicast Addresses. B. Haberman.
      August 2002. (Format: TXT=15742 bytes) (Status: PROPOSED STANDARD)
 
+3309 Stream Control Transmission Protocol (SCTP) Checksum Change. J.
+     Stone, R. Stewart, D. Otis. September 2002. (Format: TXT=34670 bytes)
+     (Updates RFC2960) (Status: PROPOSED STANDARD)
+
 3310 Hypertext Transfer Protocol (HTTP) Digest Authentication Using
      Authentication and Key Agreement (AKA). A. Niemi, J. Arkko, V.
      Torvinen. September 2002. (Format: TXT=36985 bytes) (Status:
@@ -11925,6 +11937,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3314 Recommendations for IPv6 in Third Generation Partnership Project
      (3GPP) Standards. M. Wasserman, Ed.. September 2002. (Format:
      TXT=48168 bytes) (Status: INFORMATIONAL)
+
+3330 Special-Use IPv4 Addresses. IANA. September 2002. (Format:
+     TXT=16200 bytes) (Status: INFORMATIONAL)
 
 3331 Signaling System 7 (SS7) Message Transfer Part 2 (MTP2) - User
      Adaptation Layer. K. Morneault, R. Dantu, G. Sidebottom, B. Bidulock,
@@ -12082,7 +12097,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3377 Lightweight Directory Access Protocol (v3): Technical
      Specification. J. Hodges, R. Morgan. September 2002. (Format:
-     TXT=9981 bytes) (Status: PROPOSED STANDARD)
+     TXT=9981 bytes) (Updates RFC2251, RFC2252, RFC2253, RFC2254, RFC2255,
+     RFC2256, RFC2829, RFC2830) (Status: PROPOSED STANDARD)
 
 3378 EtherIP: Tunneling Ethernet Frames in IP Datagrams. R. Housley,
      S. Hollenbeck. September 2002. (Format: TXT=18803 bytes) (Status:
@@ -12096,3 +12112,21 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Lightweight Directory Access Protocol (LDAP). K. Zeilenga. September
      2002. (Format: TXT=45893 bytes) (Also BCP0064) (Status: BEST CURRENT
      PRACTICE)
+
+3385 Internet Protocol Small Computer System Interface (iSCSI) Cyclic
+     Redundancy Check (CRC)/Checksum Considerations. D. Sheinwald, J.
+     Satran, P. Thaler, V. Cavanna. September 2002. (Format: TXT=53450
+     bytes) (Status: INFORMATIONAL)
+
+3389 Real-time Transport Protocol (RTP) Payload for Comfort Noise
+     (CN). R. Zopf. September 2002. (Format: TXT=17018 bytes) (Status:
+     PROPOSED STANDARD)
+
+3394 Advanced Encryption Standard (AES) Key Wrap Algorithm. J. Schaad,
+     R. Housley. September 2002. (Format: TXT=73072 bytes) (Status:
+     INFORMATIONAL)
+
+3395 Remote Network Monitoring MIB Protocol Identifier Reference
+     Extensions.. Bierman, C. Bucci, R. Dietz, A. Warth. September 2002.
+     (Format: TXT=43862 bytes) (Updates RFC2895) (Status: PROPOSED
+     STANDARD)
