@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 06/18/2002.)
+(CREATED ON: 06/25/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11779,6 +11779,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3286 An Introduction to the Stream Control Transmission Protocol
      (SCTP). L. Ong, J. Yoakum. May 2002. (Format: TXT=22644 bytes)
      (Status: INFORMATIONAL)
+
+3287 Using the Simple Object Access Protocol (SOAP) in Blocks
+     Extensible Exchange Protocol (BEEP). E. O'Tuathail, M. Rose. June
+     2002. (Format: TXT=27434 bytes) (Status: PROPOSED STANDARD)
 
 3289 Management Information Base for the Differentiated Services
      Architecture. F. Baker, K. Chan, A. Smith. May 2002. (Format:
