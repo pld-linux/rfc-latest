@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 05/10/2002.)
+(CREATED ON: 05/15/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -10182,7 +10182,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2851 Textual Conventions for Internet Network Addresses. M. Daniele,
      B. Haberman, S. Routhier, J. Schoenwaelder. June 2000. (Format:
-     TXT=32587 bytes) (Status: PROPOSED STANDARD)
+     TXT=32587 bytes) (Obsoleted by RFC3291) (Status: PROPOSED STANDARD)
 
 2852 Deliver By SMTP Service Extension. D. Newman. June 2000. (Format:
      TXT=29285 bytes) (Updates RFC1894) (Status: PROPOSED STANDARD)
@@ -11743,3 +11743,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3281 An Internet Attribute Certificate Profile for Authorization. S.
      Farrell, R. Housley. April 2002. (Format: TXT=90580 bytes) (Status:
      PROPOSED STANDARD)
+
+3291 Textual Conventions for Internet Network Addresses. M. Daniele,
+     B. Haberman, S. Routhier, J. Schoenwaelder. May 2002. (Format:
+     TXT=43564 bytes) (Obsoletes RFC2851) (Status: PROPOSED STANDARD)
