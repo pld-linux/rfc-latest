@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 04/03/2002.)
+(CREATED ON: 04/11/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -2869,9 +2869,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
 0906 Bootstrap loading using TFTP. R. Finlayson. Jun-01-1984. (Format:
      TXT=10102 bytes) (Status: UNKNOWN)
 
-0907 Host Access Protocol specification. Bolt Beranek and Newman,
-     Inc.. Jul-01-1984. (Format: TXT=129985 bytes) (Updated by RFC1221)
-     (Also STD0040) (Status: STANDARD)
+0907 Host Access Protocol specification. Bolt Beranek and Newman Inc..
+     Jul-01-1984. (Format: TXT=129985 bytes) (Updated by RFC1221) (Also
+     STD0040) (Status: STANDARD)
 
 0908 Reliable Data Protocol. D. Velten, R.M. Hinden, J. Sax.
      Jul-01-1984. (Format: TXT=97646 bytes) (Updated by RFC1151) (Status:
@@ -8698,7 +8698,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2458 Toward the PSTN/Internet Inter-Networking--Pre-PINT
      Implementations. H. Lu, M. Krishnaswamy, L. Conroy, S. Bellovin, F.
-     Burg, A., DeSimone, K. Tewani, P. Davidson, H. Schulzrinne, K.
+     Burg, A. DeSimone, K. Tewani, P. Davidson, H. Schulzrinne, K.
      Vishwanathan. November 1998. (Format: TXT=139100 bytes) (Status:
      INFORMATIONAL)
 
@@ -11668,6 +11668,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3253 Versioning Extensions to WebDAV (Web Distributed Authoring and
      Versioning). G. Clemm, J. Amsden, T. Ellison, C. Kaler, J. Whitehead.
      March 2002. (Format: TXT=245514 bytes) (Status: PROPOSED STANDARD)
+
+3257 Stream Control Transmission Protocol Applicability Statement. L.
+     Coene. April 2002. (Format: TXT=24198 bytes) (Status: INFORMATIONAL)
 
 3275 (Extensible Markup Language) XML-Signature Syntax and Processing.
      D. Eastlake 3rd, J. Reagle, D. Solo. March 2002. (Format: TXT=164198
