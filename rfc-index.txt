@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 07/10/2002.)
+(CREATED ON: 07/22/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -947,7 +947,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 0273 More on standard host names. R.W. Watson. Oct-18-1971. (Format:
      TXT=4589 bytes) (Obsoletes RFC0237) (Status: UNKNOWN)
 
-0274 Establishing a local guide for network usage. E. FORMAN.
+0274 Establishing a local guide for network usage. E. Forman.
      Nov-01-1971. (Format: TXT=7114 bytes) (Status: UNKNOWN)
 
 0276 NIC course. R.W. Watson. Nov-08-1971. (Format: TXT=1183 bytes)
@@ -1279,7 +1279,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 0378 Traffic statistics (July 1972). A.M. McKenzie. Aug-10-1972.
      (Format: TXT=5730 bytes) (Obsoleted by RFC0391) (Status: UNKNOWN)
 
-0379 Using TSO at CCN. R.T. BRADEN. Aug-11-1972. (Format: TXT=8674
+0379 Using TSO at CCN. R.T. Braden. Aug-11-1972. (Format: TXT=8674
      bytes) (Status: UNKNOWN)
 
 0381 Three aids to improved network operation. J.M. McQuillan.
@@ -11866,6 +11866,14 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Protocol (GSMP). H. Sjostrand, J. Buerkle, B. Srinivasan. June 2002.
      (Format: TXT=95516 bytes) (Status: PROPOSED STANDARD)
 
+3296 Named Subordinate References in Lightweight Directory Access
+     Protocol (LDAP) Directories. K. Zeilenga. July 2002. (Format:
+     TXT=27389 bytes) (Status: PROPOSED STANDARD)
+
 3301 Layer Two Tunnelling Protocol (L2TP): ATM access network
      extensions. Y. T'Joens, P. Crivellari, B. Sales. June 2002. (Format:
      TXT=42756 bytes) (Status: PROPOSED STANDARD)
+
+3348 The Internet Message Action Protocol (IMAP4) Child Mailbox
+     Extension. M. Gahrns, R. Cheng. July 2002. (Format: TXT=11868 bytes)
+     (Status: INFORMATIONAL)
