@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 05/22/2002.)
+(CREATED ON: 05/30/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -6098,8 +6098,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      bytes) (Status: EXPERIMENTAL)
 
 1766 Tags for the Identification of Languages. H. Alvestrand. March
-     1995. (Format: TXT=16966 bytes) (Obsoleted by RFC3066) (Status:
-     PROPOSED STANDARD)
+     1995. (Format: TXT=16966 bytes) (Obsoleted by RFC3066, RFC3282)
+     (Status: PROPOSED STANDARD)
 
 1767 MIME Encapsulation of EDI Objects. D. Crocker. March 1995.
      (Format: TXT=15293 bytes) (Status: PROPOSED STANDARD)
@@ -11763,8 +11763,19 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Farrell, R. Housley. April 2002. (Format: TXT=90580 bytes) (Status:
      PROPOSED STANDARD)
 
+3282 Content Language Headers. H. Alvestrand. May 2002. (Format:
+     TXT=14022 bytes) (Updates 1766) (Status: DRAFT STANDARD)
+
+3285 Using Microsoft Word to create Internet Drafts and RFCs. M.
+     Gahrns, T. Hain. May 2002. (Format: TXT=34556 bytes) (Status:
+     INFORMATIONAL)
+
 3286 An Introduction to the Stream Control Transmission Protocol
      (SCTP). L. Ong, J. Yoakum. May 2002. (Format: TXT=22644 bytes)
+     (Status: INFORMATIONAL)
+
+3290 An Informal Management Model for Diffserv Routers. Y. Bernet, S.
+     Blake, D. Grossman, A. Smith. May 2002. (Format: TXT=129443 bytes)
      (Status: INFORMATIONAL)
 
 3291 Textual Conventions for Internet Network Addresses. M. Daniele,
