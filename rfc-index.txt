@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 07/22/2002.)
+(CREATED ON: 07/23/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -1279,7 +1279,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 0378 Traffic statistics (July 1972). A.M. McKenzie. Aug-10-1972.
      (Format: TXT=5730 bytes) (Obsoleted by RFC0391) (Status: UNKNOWN)
 
-0379 Using TSO at CCN. R.T. Braden. Aug-11-1972. (Format: TXT=8674
+0379 Using TSO at CCN. R.. Braden. Aug-11-1972. (Format: TXT=8674
      bytes) (Status: UNKNOWN)
 
 0381 Three aids to improved network operation. J.M. McQuillan.
@@ -11870,9 +11870,33 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Protocol (LDAP) Directories. K. Zeilenga. July 2002. (Format:
      TXT=27389 bytes) (Status: PROPOSED STANDARD)
 
+3297 Content Negotiation for Messaging Services based on Email. G.
+     Klyne, R. Iwazaki, D. Crocker. July 2002. (Format: TXT=97094 bytes)
+     (Status: PROPOSED STANDARD)
+
 3301 Layer Two Tunnelling Protocol (L2TP): ATM access network
      extensions. Y. T'Joens, P. Crivellari, B. Sales. June 2002. (Format:
      TXT=42756 bytes) (Status: PROPOSED STANDARD)
+
+3339 Date and Time on the Internet: Timestamps. G. Klyne, C. Newman.
+     July 2002. (Format: TXT=35064 bytes) (Status: PROPOSED STANDARD)
+
+3340 The Application Exchange Core. M. Rose, G. Klyne, D. Crocker.
+     July 2002. (Format: TXT=74266 bytes) (Status: PROPOSED STANDARD)
+
+3341 The Application Exchange (APEX) Access Service. M. Rose, G.
+     Klyne, D. Crocker. July 2002. (Format: TXT=46675 bytes) (Status:
+     PROPOSED STANDARD)
+
+3342 The Application Exchange (APEX) Option Party Pack, Part Deux!. E.
+     Dixon, H. Franklin, J. Kint, G. Klyne, D. New, S. Pead, M. Rose, M.
+     Schwartz. July 2002. (Format: TXT=34300 bytes) (Status: PROPOSED
+     STANDARD)
+
+3347 Small Computer Systems Interface protocol over the Internet
+     (iSCSI) Requirements and Design Considerations. M. Krueger, R.
+     Haagens. July 2002. (Format: TXT=58097 bytes) (Status: PROPOSED
+     STANDARD)
 
 3348 The Internet Message Action Protocol (IMAP4) Child Mailbox
      Extension. M. Gahrns, R. Cheng. July 2002. (Format: TXT=11868 bytes)
