@@ -11694,7 +11694,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      April 2002. (Format: TXT=21900 bytes) (Updates RFC2474, RFC2475,
      RFC2597) (Status: INFORMATIONAL)
 
-3275 The Internet is for Everyone. V. Cerf. April 2002. (Format:
+3271 The Internet is for Everyone. V. Cerf. April 2002. (Format:
      TXT=12345 bytes) (Status: INFORMATIONAL)
 
 3275 (Extensible Markup Language) XML-Signature Syntax and Processing.
