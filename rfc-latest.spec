@@ -14,7 +14,7 @@ Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs3501-latest.tar.gz
-# Source0-md5:	RFCs3501-latest.tar.gz
+# Source0-md5:	26c6fe2093eca036fc86810e1047042a
 Source1:	ftp://ftp.isi.edu/in-notes/rfc-index.txt
 Source2:	ftp://ftp.isi.edu/in-notes/rfc3500.txt
 Source10:	http://www.kernighan.demon.co.uk/software/rfcindex-%{rfcindex_version}
