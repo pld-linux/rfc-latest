@@ -89,7 +89,7 @@ Summary:	RFC documents - pure text version
 Summary(pl):	Wersja czysto tekstowa dokumentów RFC
 Group:		Documentation
 Requires:	rfc-index >= %{version}
-# common dirs 
+# common dirs
 Requires:	rfc-text
 #Provides:	%{name}-text-basic
 #Obsoletes:	%{name}-text-basic
@@ -109,7 +109,7 @@ Summary:	RFC documents - PostScript version
 Summary(pl):	Wersja postscriptowa dokumentów RFC
 Group:		Documentation
 Requires:	rfc-index >= %{version}
-# common dirs 
+# common dirs
 Requires:	rfc-ps
 
 %description ps
@@ -123,7 +123,7 @@ Summary:	RFC documents - pdf version
 Summary(pl):	Wersja postscriptowa dokumentów RFC
 Group:		Documentation
 Requires:	rfc-index >= %{version}
-# common dirs 
+# common dirs
 Requires:	rfc-pdf
 
 %description pdf
