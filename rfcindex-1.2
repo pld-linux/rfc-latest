@@ -1,0 +1,283 @@
+#!/usr/bin/perl -w
+
+# rfcindex,v 1.7 2000/02/20 16:11:54 njh Exp
+
+=head1 NAME
+
+B<rfcindex> - add HTML markup to an rfc-index.txt file
+
+=head1 SYNOPSIS
+
+B<rfcindex> [B<--base>=base-URL] [options] [F<file> F<...>]
+
+=head1 README
+
+Online RFC repositories typically contain a text file produced by the
+RFC Editor, F<rfc-index.txt>, which lists the RFCs currently in
+existence. rfcindex is a Perl script that reads the plain text index
+file and outputs an HTML index file. The RFC number of each citation
+becomes a hyperlink to the text of that RFC (if an online version of
+the RFC exists), and the cross references between citations
+(obsoletes, obsoleted by, updates, updated by) become hyperlinks
+within the HTML index.
+
+=head1 OPTIONS
+
+=over 5
+
+=item B<--base=base-URL>
+
+Hyperlinks to RFC texts will be relative to the base URL specified.
+
+=item B<--by100>
+
+RFC documents are often stored hundred by hundred in directories
+named 0000/, 0100/, 0200/, etc. Use this option if it is your case.
+
+=item B<--gzip>
+
+This option allows to use gzipped RFC documents instead of plain text
+ones. Note: your browser has to support gzipped (text) documents.
+
+=item B<--notable>
+
+Select alternative markup which avoids table tags and produces a file
+which can be rendered in an incremental fashion.  By default the HTML
+markup applied to the index uses a table, which can result in HTML
+which is quite slow for some browsers to layout (particularly if the
+file is being accessed over a network).
+
+=item B<--nodate>
+
+Supress the date line which is normally added to the HTML output.
+
+=item B<--nocredit>
+
+Supress the hyperlink to the home page of this program, which is
+normally added to the HTML output.
+
+=item B<--version> or B<--help>
+
+Prints version information, copyright, and a pointer towards the
+documentation, then exits.
+
+=back
+
+=head1 EXAMPLES
+
+To generate an HTML index for a locally held mirror of the RFC archive:
+
+  rfcindex rfc-index.txt >index.html
+
+To generate a locally held index to a remote RFC repository:
+
+  lynx -source http://www.example.net/rfc/rfc-index.txt \
+  | rfcindex --base http://www.example.net/rfc/ >rfc-index.html
+
+(of course, this example assumes that you have the B<lynx> browser
+available - if not then download a copy of the rfc-index.txt file from
+the remote repository some other way and work on that).
+
+=head1 BUGS
+
+As part of the markup process, the title string in each citation is
+emphasised. The regular expressions used to determine where the title
+ends and the author list begins within the citation appear to produce
+correct results for all RFCs which were listed at the time of writing,
+but are not necessarily robust against all possible future title /
+author combinations.
+
+Comments, suggestions for improvement and bug reports are always
+welcome (see email address below).
+
+=head1 LICENSE
+
+Copyright (C) 1999, 2000 Neil Hoggarth <njh@kernignan.demon.co.uk>
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+The GNU General Public License is available from:
+
+  http://www.gnu.org/copyleft/gpl.html
+
+New versions of this script, and my other free software, will
+be made available from:
+
+  http://www.kernighan.demon.co.uk/software/
+
+=head1 PREREQUISITES
+
+This script requires the C<strict> and C<Getopt::Long> modules.
+
+=head1 SCRIPT CATEGORIES
+
+Web
+
+=cut
+
+use strict;
+use Getopt::Long;
+
+my $VERSION=1.2;
+my ($mk_index_start, $mk_index_end, $mk_citation_start, $mk_title_start);
+
+my $base="";
+my $gzip=0;
+my $by100=0;
+my $table=1;
+my $showdate=1;
+my $showcredit=1;
+my $suffix="";
+
+GetOptions("table!" => \$table,
+	   "date!" => \$showdate,
+	   "credit!" => \$showcredit,
+	   "base=s" => \$base,
+	   "by100" => \$by100,
+	   "gzipped" => \$gzip,
+	   "version" => \my $getversion,
+	   "help" => \my $gethelp);
+
+# If a base URL has been provided and it isn't slash-terminated then
+# make it so.
+
+if ($base && ($base =~ /[^\/]$/)) {
+    $base .= "/";
+}
+if ($gzip) {
+    $suffix = ".gz";
+}
+
+if ($table) {
+    $mk_index_start="<table cellspacing=5>";
+    $mk_index_end="</table>";
+    $mk_citation_start="<tr><td valign=\"top\">";
+    $mk_title_start="<td>";
+} else {
+    $mk_index_start="<ul>";
+    $mk_index_end="</ul>";
+    $mk_citation_start="<p><li>";
+    $mk_title_start=":&nbsp;";
+}
+
+if ($getversion || $gethelp) {
+
+    print "\nrfcindex, version $VERSION " .
+	  '(2000/02/20 16:11:54)' . "\n\n" .
+	  "Copyright (C) 1999, 2000 Neil Hoggarth <njh\@kernignan.demon.co.uk>. " .
+          "Run\n'perldoc rfcindex' for usage and licensing information.\n\n";
+
+} else {
+
+    # A previous release of this script put a <base href=...> tag in
+    # the <head> part of the output, in order to make the external RFC
+    # document references relative to any URL requested using the
+    # --base option. Unfortunately Netscape 4 appears to apply the
+    # base URL to the internal, in-document cross-references; I think
+    # that this is a Netscape bug (other browsers that I have tried do
+    # "the right thing") but Netscape is sufficiently prevalent that
+    # we ought to work around it. In this version of the script I have
+    # dropped the <base> tag and the base URL is manually hacked into
+    # the external references in the body, as and when they are made.
+
+    print "<html>\n";
+    print "<head>\n";
+    print "<title>RFC Index</title>\n";
+    print "</head>\n";
+    print "<body>\n";
+    print "<h1 align=\"center\">RFC Index</h1>\n";
+
+    # Label the output with the current date, ISO 8601 style. I'm not
+    # going to worry over much about hours, minutes, seconds,
+    # timezones, etc or the date stamp on the source file. The
+    # objective is just to indicate to the reader whether they are
+    # looking at something reasonably current or not.
+
+    my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = gmtime;
+    $year += 1900; $mon++;
+    print "<p align=\"center\"><i> Converted" if ($showdate || $showcredit);
+    printf (": %04d-%02d-%02d<br>", $year, $mon, $mday) if ($showdate);
+    print " using <a href=\"http://www.kernighan.demon.co.uk/software/\">rfcindex</a>." if ($showcredit);
+    print "</i></p>" if ($showdate || $showcredit);
+
+    print "$mk_index_start\n";
+
+    # Work "by paragraph", rather than "by line".
+
+    $/="";
+
+    while (<>) {
+
+	# Skip this chunk, unless this it happens to start with a four
+	# digit number (this bypasses all the explanatory material at the
+	# start of the file, and ensures that we only process the
+	# citations themselves).
+
+	next unless (/^[0-9]{4}/);
+
+	# Turn angle brackets into corresponding HTML entities.
+
+	s/</&gt;/g;
+	s/>/&lt;/g;
+
+	# Turn all references of the form RFCxxxx into hyperlinks. This
+	# makes "active" the RFC references in the various Obsoletes /
+	# Obsoleted / Updates / Updated notes.
+
+	s/RFC([0-9]{4})/<a href="#RFC$1">RFC$1<\/a>/g;
+
+	# Add emphasis to RFC titles, for improved readability.
+
+	# On initial inspection of the citation format it would appear
+	# that we can simply match all the characters following the
+	# RFC number at the start of the line, upto and including the
+	# first period character and call the enclosed text the
+	# title. Unfortunately a few of the titles contain period
+	# characters! We therefor have to attempt to identify the
+	# sequence "period-whitespace-author". The authors are almost
+	# always named with a middle initial, which is easy to regexp.
+
+	# This still fails for a handful of cases: a few RFCs have no
+	# author (eg. RFC212), and in some cases the "author" cited is
+	# a working group, with no initial (eg. RFCs 1001, 1002) so if
+	# the search for an author fails to find a match then we fall
+	# back to the "search for the first period" method. Finally,
+	# sandwiched in the middle, we special-case one non-standard
+	# author string which happens to appear attached to an RFC
+	# which features a period in the title (RFC2339).
+
+	s/^([0-9]*\s)(.*?\.)([\s\n]+[A-Z]\.)/$1<strong>$2<\/strong>$3/gs
+	    || s/^([0-9]*\s)(.*?\.)([\s\n]+The[\s\n]+Internet[\s\n]+Society)/$1<strong>$2<\/strong>$3/gs
+	    || s/^([0-9]*\s)(.*?\.\s+)/$1<strong>$2<\/strong>/gs;
+
+	# The RFC number at the start of each entry gets made into an
+	# anchor. If the entry is flagged "(Not online)" then it is just a
+	# name anchor, to act as a target for cross-references. Otherwise
+	# it also acts as a hyperlink to the actual text of the RFC.
+
+	s/^(0*)([1-9][0-9]*)\s(.*\(Not[\s\n]+online\))/${mk_citation_start}<a name="RFC$1$2">$1$2<\/a>${mk_title_start}$3/s;
+	if ($by100) {
+		s/^(0*)([1-9][0-9]*)\s/${mk_citation_start}<a name="RFC$1$2" href="${base}(($1$2))rfc$2.txt${suffix}">$1$2<\/a>${mk_title_start}/s;
+		s/^(.*)(\(\()([0-9][0-9])([0-9][0-9]\)\))(.*$)/$1${3}00\/$5/s;
+	} else {
+		s/^(0*)([1-9][0-9]*)\s/${mk_citation_start}<a name="RFC$1$2" href="${base}rfc$2.txt${suffix}">$1$2<\/a>${mk_title_start}/s;
+	}
+	# Okay - lets see it!
+
+	print;
+    }
+
+    print "$mk_index_end\n";
+    print "</body>\n";
+    print "</html>\n";
+
+}
+
