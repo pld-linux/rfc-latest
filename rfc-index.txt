@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 04/16/2003.)
+(CREATED ON: 05/09/2003.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -3177,7 +3177,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      UNKNOWN)
 
 0959 File Transfer Protocol. J. Postel, J.K. Reynolds. Oct-01-1985.
-     (Format: TXT=151249 bytes) (Obsoletes RFC0765) (Updated by RFC2228,
+     (Format: TXT=147316 bytes) (Obsoletes RFC0765) (Updated by RFC2228,
      RFC2640, RFC2773) (Also STD0009) (Status: STANDARD)
 
 0960 Assigned numbers. J.K. Reynolds, J. Postel. Dec-01-1985. (Format:
@@ -10933,8 +10933,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3010 NFS version 4 Protocol. S. Shepler, B. Callaghan, D. Robinson, R.
      Thurlow, C. Beame, M. Eisler, D. Noveck. December 2000. (Format:
-     TXT=450434 bytes) (Obsoletes RFC1813, RFC1094) (Status: PROPOSED
-     STANDARD)
+     TXT=450434 bytes) (Obsoletes RFC1813, RFC1094) (Obsoleted by RFC3530)
+     (Status: PROPOSED STANDARD)
 
 3011 The IPv4 Subnet Selection Option for DHCP. G. Waters. November
      2000. (Format: TXT=13967 bytes) (Status: PROPOSED STANDARD)
@@ -12112,6 +12112,11 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (3GPP) Standards. M. Wasserman, Ed.. September 2002. (Format:
      TXT=48168 bytes) (Status: INFORMATIONAL)
 
+3316 Internet Protocol Version 6 (IPv6) for Some Second and Third
+     Generation Cellular Hosts. J. Arkko, G. Kuijpers, H. Soliman, J.
+     Loughney, J. Wiljakka. April 2003. (Format: TXT=48741 bytes) (Status:
+     INFORMATIONAL)
+
 3317 Differentiated Services Quality of Service Policy Information
      Base. K. Chan, R. Sahita, S. Hahn, K. McCloghrie. March 2003.
      (Format: TXT=188553 bytes) (Status: INFORMATIONAL)
@@ -12202,6 +12207,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Dixon, H. Franklin, J. Kint, G. Klyne, D. New, S. Pead, M. Rose, M.
      Schwartz. July 2002. (Format: TXT=34300 bytes) (Status: PROPOSED
      STANDARD)
+
+3343 The Application Exchange (APEX) Presence Service. M. Rose, G.
+     Klyne, D. Crocker. April 2003. (Format: TXT=42043 bytes) (Status:
+     EXPERIMENTAL)
 
 3344 IP Mobility Support for IPv4. C. Perkins, Ed.. August 2002.
      (Format: TXT=241041 bytes) (Obsoletes RFC3220) (Status: PROPOSED
@@ -12925,10 +12934,6 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Higashiyama, F. Baker, T. Liao. April 2003. (Format: TXT=82102 bytes)
      (Obsoletes RFC2878) (Status: PROPOSED STANDARD)
 
-3519 Mobile IP Traversal of Network Address Translation (NAT) Devices.
-     H. Levkowetz, S. Vaarala. April 2003. (Format: TXT=80522 bytes)
-     (Status: PROPOSED STANDARD)
-
 3520 Session Authorization Policy Element. L-N. Hamer, B. Gage, B.
      Kosinski, H. Shieh. April 2003. (Format: TXT=63445 bytes) (Status:
      PROPOSED STANDARD)
@@ -12937,6 +12942,42 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Hamer, B. Gage, H. Shieh. April 2003. (Format: TXT=59548 bytes)
      (Status: INFORMATIONAL)
 
+3522 The Eifel Detection Algorithm for TCP. R. Ludwig, M. Meyer. April
+     2003. (Format: TXT=33731 bytes) (Status: EXPERIMENTAL)
+
 3523 Internet Emergency Preparedness (IEPREP) Telephony Topology
      Terminology. J. Polk. April 2003. (Format: TXT=10190 bytes) (Status:
+     INFORMATIONAL)
+
+3524 Mapping of Media Streams to Resource Reservation Flows. G.
+     Camarillo, A. Monrad. April 2003. (Format: TXT=11249 bytes) (Status:
+     PROPOSED STANDARD)
+
+3527 Link Selection sub-option for the Relay Agent Information Option
+     for DHCPv4. K. Kinnear, M. Stapp, R. Johnson, J. Kumarasamy. April
+     2003. (Format: TXT=16831 bytes) (Status: PROPOSED STANDARD)
+
+3528 Mesh-enhanced Service Location Protocol (mSLP). W. Zhao, H.
+     Schulzrinne, E. Guttman. April 2003. (Format: TXT=35208 bytes)
+     (Status: EXPERIMENTAL)
+
+3529 Using Extensible Markup Language-Remote Procedure Calling
+     (XML-RPC) in Blocks Extensible Exchange Protocol (BEEP). W. Harold.
+     April 2003. (Format: TXT=23314 bytes) (Status: EXPERIMENTAL)
+
+3530 Network File System (NFS) version 4 Protocol. S. Shepler, B.
+     Callaghan, D. Robinson, R. Thurlow, C. Beame, M. Eisler, D. Noveck.
+     April 2003. (Format: TXT=600988 bytes) (Obsoletes RFC3010) (Status:
+     PROPOSED STANDARD)
+
+3531 A Flexible Method for Managing the Assignment of Bits of an IPv6
+     Address Block. M. Blanchet. April 2003. (Format: TXT=11314 bytes)
+     (Status: INFORMATIONAL)
+
+3532 Requirements for the Dynamic Partitioning of Switching Elements.
+     T. Anderson, J. Buerkle. May 2003. (Format: TXT=25119 bytes) (Status:
+     INFORMATIONAL)
+
+3541 A Uniform Resource Name (URN) Namespace for the Web3D Consortium
+     (Web3D). A. Walsh. May 2003. (Format: TXT=11358 bytes) (Status:
      INFORMATIONAL)
