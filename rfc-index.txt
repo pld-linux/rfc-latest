@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 09/08/2003.)
+(CREATED ON: 11/17/2003.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -3230,7 +3230,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      RFC1035) (Updates RFC0882, RFC0883) (Status: UNKNOWN)
 
 0974 Mail routing and the domain system. C. Partridge. Jan-01-1986.
-     (Format: TXT=18581 bytes) (Obsoleted by RFC2821) (Status: HISTORIC)
+     (Format: TXT=18581 bytes) (Obsoleted by RFC2821) (Also STD0010)
+     (Status: HISTORIC)
 
 0975 Autonomous confederations. D.L. Mills. Feb-01-1986. (Format:
      TXT=28010 bytes) (Status: UNKNOWN)
@@ -3677,8 +3678,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      TXT=20629 bytes) (Status: UNKNOWN)
 
 1094 NFS: Network File System Protocol specification. Sun
-     Microsystems. Mar-01-1989. (Format: TXT=51454 bytes) (Obsoleted by
-     RFC3010) (Also RFC1813) (Status: INFORMATIONAL)
+     Microsystems. Mar-01-1989. (Format: TXT=51454 bytes) (Also RFC1813)
+     (Status: INFORMATIONAL)
 
 1095 Common Management Information Services and Protocol over TCP/IP
      (CMOT). U.S. Warrier, L. Besaw. Apr-01-1989. (Format: TXT=157506
@@ -5278,7 +5279,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 1515 Definitions of Managed Objects for IEEE 802.3 Medium Attachment
      Units (MAUs). D. McMaster, K. McCloghrie, S. Roberts. September 1993.
-     (Format: TXT=52828 bytes) (Status: PROPOSED STANDARD)
+     (Format: TXT=52828 bytes) (Obsoleted by RFC3636) (Status: PROPOSED
+     STANDARD)
 
 1516 Definitions of Managed Objects for IEEE 802.3 Repeater Devices.
      D. McMaster, K. McCloghrie. September 1993. (Format: TXT=82918 bytes)
@@ -5767,7 +5769,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 1643 Definitions of Managed Objects for the Ethernet-like Interface
      Types. F. Kastenholz. July 1994. (Format: TXT=39008 bytes) (Obsoletes
-     RFC1623) (Also STD0050) (Status: STANDARD)
+     RFC1623) (Obsoleted by RFC3638) (Also STD0050) (Status: HISTORIC)
 
 1644 T/TCP -- TCP Extensions for Transactions Functional
      Specification. R. Braden. July 1994. (Format: TXT=87362 bytes)
@@ -6396,8 +6398,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      RFC2644) (Status: PROPOSED STANDARD)
 
 1813 NFS Version 3 Protocol Specification. B. Callaghan, B. Pawlowski,
-     P. Staubach. June 1995. (Format: TXT=229793 bytes) (Obsoleted by
-     RFC3010) (Also RFC1094) (Status: INFORMATIONAL)
+     P. Staubach. June 1995. (Format: TXT=229793 bytes) (Also RFC1094)
+     (Status: INFORMATIONAL)
 
 1814 Unique Addresses are Good. E. Gerich. June 1995. (Format:
      TXT=5936 bytes) (Status: INFORMATIONAL)
@@ -6667,8 +6669,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      STANDARD)
 
 1886 DNS Extensions to support IP version 6. S. Thomson, C. Huitema.
-     December 1995. (Format: TXT=6424 bytes) (Updated by RFC2874, RFC3152)
-     (Status: PROPOSED STANDARD)
+     December 1995. (Format: TXT=6424 bytes) (Obsoleted by RFC3596)
+     (Updated by RFC2874, RFC3152) (Status: PROPOSED STANDARD)
 
 1887 An Architecture for IPv6 Unicast Address Allocation. Y. Rekhter,
      T. Li, Eds.. December 1995. (Format: TXT=66066 bytes) (Status:
@@ -7723,7 +7725,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2163 Using the Internet DNS to Distribute MIXER Conformant Global
      Address Mapping (MCGAM). C. Allocchio. January 1998. (Format:
-     TXT=58789 bytes) (Obsoletes RFC1664) (Status: PROPOSED STANDARD)
+     TXT=58789 bytes) (Obsoletes RFC1664) (Updated by RFC3597) (Status:
+     PROPOSED STANDARD)
 
 2164 Use of an X.500/LDAP directory to support MIXER address mapping.
      S. Kille. January 1998. (Format: TXT=16701 bytes) (Obsoletes RFC1838)
@@ -8168,8 +8171,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Status: INFORMATIONAL)
 
 2279 UTF-8, a transformation format of ISO 10646. F. Yergeau. January
-     1998. (Format: TXT=21634 bytes) (Obsoletes RFC2044) (Status: DRAFT
-     STANDARD)
+     1998. (Format: TXT=21634 bytes) (Obsoletes RFC2044) (Obsoleted by
+     RFC3629) (Status: DRAFT STANDARD)
 
 2280 Routing Policy Specification Language (RPSL). C. Alaettinoglu, T.
      Bates, E. Gerich, D. Karrenberg, D. Meyer, M. Terpstra, C.
@@ -8514,7 +8517,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      July 1998. (Format: TXT=30853 bytes) (Status: PROPOSED STANDARD)
 
 2370 The OSPF Opaque LSA Option. R. Coltun. July 1998. (Format:
-     TXT=33789 bytes) (Also RFC2328) (Status: PROPOSED STANDARD)
+     TXT=33789 bytes) (Updated by RFC3630) (Also RFC2328) (Status:
+     PROPOSED STANDARD)
 
 2371 Transaction Internet Protocol Version 3.0. J. Lyon, K. Evans, J.
      Klein. July 1998. (Format: TXT=71399 bytes) (Status: PROPOSED
@@ -9111,7 +9115,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2527 Internet X.509 Public Key Infrastructure Certificate Policy and
      Certification Practices Framework. S. Chokhani, W. Ford. March 1999.
-     (Format: TXT=91860 bytes) (Status: INFORMATIONAL)
+     (Format: TXT=91860 bytes) (Obsoleted by RFC3647) (Status:
+     INFORMATIONAL)
 
 2528 Internet X.509 Public Key Infrastructure Representation of Key
      Exchange Algorithm (KEA) Keys in Internet X.509 Public Key
@@ -9144,7 +9149,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 2535 Domain Name System Security Extensions. D. Eastlake 3rd. March
      1999. (Format: TXT=110958 bytes) (Obsoletes RFC2065) (Updates
      RFC2181, RFC1035, RFC1034) (Updated by RFC2931, RFC3007, RFC3008,
-     RFC3090, RFC3226, RFC3445) (Status: PROPOSED STANDARD)
+     RFC3090, RFC3226, RFC3445, RFC3597, RFC3655) (Status: PROPOSED
+     STANDARD)
 
 2536 DSA KEYs and SIGs in the Domain Name System (DNS). D. Eastlake
      3rd. March 1999. (Format: TXT=11121 bytes) (Status: PROPOSED
@@ -9636,7 +9642,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2665 Definitions of Managed Objects for the Ethernet-like Interface
      Types. J. Flick, J. Johnson. August 1999. (Format: TXT=110038 bytes)
-     (Obsoletes RFC2358) (Status: PROPOSED STANDARD)
+     (Obsoletes RFC2358) (Obsoleted by RFC3635) (Status: PROPOSED
+     STANDARD)
 
 2666 Definitions of Object Identifiers for Identifying Ethernet Chip
      Sets. J. Flick. August 1999. (Format: TXT=37699 bytes) (Status:
@@ -9648,7 +9655,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 2668 Definitions of Managed Objects for IEEE 802.3 Medium Attachment
      Units (MAUs). A. Smith, J. Flick, K. de Graaf, D. Romascanu, D.
      McMaster, K. McCloghrie, S. Roberts. August 1999. (Format: TXT=121843
-     bytes) (Obsoletes RFC2239) (Status: PROPOSED STANDARD)
+     bytes) (Obsoletes RFC2239) (Obsoleted by RFC3636) (Status: PROPOSED
+     STANDARD)
 
 2669 DOCSIS Cable Device MIB Cable Device Management Information Base
      for DOCSIS compliant Cable Modems and Cable Modem Termination
@@ -10313,7 +10321,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2845 Secret Key Transaction Authentication for DNS (TSIG). P. Vixie,
      O. Gudmundsson, D. Eastlake 3rd, B. Wellington. May 2000. (Format:
-     TXT=32272 bytes) (Updates RFC1035) (Status: PROPOSED STANDARD)
+     TXT=32272 bytes) (Updates RFC1035) (Updated by RFC3645) (Status:
+     PROPOSED STANDARD)
 
 2846 GSTN Address Element Extensions in E-mail Services. C. Allocchio.
      June 2000. (Format: TXT=54316 bytes) (Updated by RFC3191, RFC3192)
@@ -10506,7 +10515,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2895 Remote Network Monitoring MIB Protocol Identifier Reference. A.
      Bierman, C. Bucci, R. Iddon. August 2000. (Format: TXT=88094 bytes)
-     (Obsoletes RFC2074) (Updated by RFC3395) (Status: PROPOSED STANDARD)
+     (Obsoletes RFC2074) (Updated by RFC3395) (Status: DRAFT STANDARD)
 
 2896 Remote Network Monitoring MIB Protocol Identifier Macros. A.
      Bierman, C. Bucci, R. Iddon. August 2000. (Format: TXT=135768 bytes)
@@ -10938,8 +10947,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3010 NFS version 4 Protocol. S. Shepler, B. Callaghan, D. Robinson, R.
      Thurlow, C. Beame, M. Eisler, D. Noveck. December 2000. (Format:
-     TXT=450434 bytes) (Obsoletes RFC1813, RFC1094) (Obsoleted by RFC3530)
-     (Status: PROPOSED STANDARD)
+     TXT=450434 bytes) (Obsoleted by RFC3530) (Status: PROPOSED STANDARD)
 
 3011 The IPv4 Subnet Selection Option for DHCP. G. Waters. November
      2000. (Format: TXT=13967 bytes) (Status: PROPOSED STANDARD)
@@ -11470,8 +11478,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      INFORMATIONAL)
 
 3152 Delegation of IP6.ARPA. R. Bush. August 2001. (Format: TXT=5727
-     bytes) (Updates RFC2874, RFC2772, RFC2766, RFC2553, RFC1886) (Also
-     BCP0049) (Status: BEST CURRENT PRACTICE)
+     bytes) (Obsoleted by RFC3596) (Updates RFC2874, RFC2772, RFC2766,
+     RFC2553, RFC1886) (Also BCP0049) (Status: BEST CURRENT PRACTICE)
 
 3153 PPP Multiplexing. R. Pazhyannur, I. Ali, C. Fox. August 2001.
      (Format: TXT=19244 bytes) (Status: PROPOSED STANDARD)
@@ -11746,6 +11754,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3222 Terminology for Forwarding Information Base (FIB) based Router
      Performance. G. Trotter. December 2001. (Format: TXT=25483 bytes)
      (Status: INFORMATIONAL)
+
+3223 Not Issued.
 
 3224 Vendor Extensions for Service Location Protocol, Version 2. E.
      Guttman. January 2002. (Format: TXT=19618 bytes) (Updates RFC2608)
@@ -12058,7 +12068,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3300 Internet Official Protocol Standards. J. Reynolds, R. Braden, S.
      Ginoza, A. De La Cruz. November 2002. (Format: TXT=127805 bytes)
-     (Obsoletes RFC3000) (Also STD0001) (Status: STANDARD)
+     (Obsoletes RFC3000) (Obsoleted by RFC3600) (Status: STANDARD)
 
 3301 Layer Two Tunnelling Protocol (L2TP): ATM access network
      extensions. Y. T'Joens, P. Crivellari, B. Sales. June 2002. (Format:
@@ -12170,6 +12180,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3327 Session Initiation Protocol (SIP) Extension Header Field for
      Registering Non-Adjacent Contacts. D. Willis, B. Hoeneisen. December
      2002. (Format: TXT=36493 bytes) (Status: PROPOSED STANDARD)
+
+3328 Not Issued.
 
 3329 Security Mechanism Agreement for the Session Initiation Protocol
      (SIP). J. Arkko, V. Torvinen, G. Camarillo, A. Niemi, T. Haukka.
@@ -12454,6 +12466,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Session Initiation Protocol (SIP) Mapping. G. Camarillo, A. B. Roach,
      J. Peterson, L. Ong. December 2002. (Format: TXT=166197 bytes)
      (Status: PROPOSED STANDARD)
+
+3400 Not Issued.
 
 3401 Dynamic Delegation Discovery System (DDDS) Part One: The
      Comprehensive DDDS. M. Mealling. October 2002. (Format: TXT=10172
@@ -12880,6 +12894,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Kuhfeld, J. Johnson, M. Thatcher. March 2003. (Format: TXT=78701
      bytes) (Status: PROPOSED STANDARD)
 
+3500 Not Issued.
+
 3501 INTERNET MESSAGE ACCESS PROTOCOL - VERSION 4rev1. M. Crispin.
      March 2003. (Format: TXT=227640 bytes) (Obsoletes RFC2060) (Status:
      PROPOSED STANDARD)
@@ -12930,7 +12946,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Hinden, S. Deering. April 2003. (Format: TXT=53920 bytes) (Obsoletes
      RFC2373) (Status: PROPOSED STANDARD)
 
-3514 The Security Flag in the IPv4 Header. S. Bellovin. 1 April 2003.
+3514 The Security Flag in the IPv4 Header. S. Bellovin. April-01-2003.
      (Format: TXT=11211 bytes) (Status: INFORMATIONAL)
 
 3515 The Session Initiation Protocol (SIP) Refer Method. R. Sparks.
@@ -13090,8 +13106,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      2003. (Format: TXT=20102 bytes) (Status: PROPOSED STANDARD)
 
 3555 MIME Type Registration of RTP Payload Formats. S. Casner, P.
-     Hoschka. July 2003. (Format: TXT=56618 bytes) (Status: PROPOSED
-     STANDARD)
+     Hoschka. July 2003. (Format: TXT=56618 bytes) (Updated by RFC3625)
+     (Status: PROPOSED STANDARD)
 
 3556 Session Description Protocol (SDP) Bandwidth Modifiers for RTP
      Control Protocol (RTCP) Bandwidth. S. Casner. July 2003. (Format:
@@ -13133,6 +13149,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3565 Use of the Advanced Encryption Standard (AES) Encryption
      Algorithm in Cryptographic Message Syntax (CMS). J. Schaad. July
      2003. (Format: TXT=26773 bytes) (Status: PROPOSED STANDARD)
+
+3566 The AES-XCBC-MAC-96 Algorithm and Its Use With IPsec. S. Frankel,
+     H. Herbert. September 2003. (Format: TXT=24645 bytes) (Status:
+     PROPOSED STANDARD)
 
 3567 Intermediate System to Intermediate System (IS-IS) Cryptographic
      Authentication. T. Li, R. Atkinson. July 2003. (Format: TXT=13467
@@ -13219,6 +13239,14 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Nordmark. August 2003. (Format: TXT=8783 bytes) (Obsoletes RFC2374)
      (Status: INFORMATIONAL)
 
+3588 Diameter Base Protocol. P. Calhoun, J. Loughney, E. Guttman, G.
+     Zorn, J. Arkko. September 2003. (Format: TXT=341261 bytes) (Status:
+     PROPOSED STANDARD)
+
+3589 Diameter Command Codes for Third Generation Partnership Project
+     (3GPP) Release 5. J. Loughney. September 2003. (Format: TXT=8010
+     bytes) (Status: INFORMATIONAL)
+
 3590 Source Address Selection for the Multicast Listener Discovery
      (MLD) Protocol. B. Haberman. September 2003. (Format: TXT=11554
      bytes) (Updates RFC2710) (Status: PROPOSED STANDARD)
@@ -13241,13 +13269,189 @@ See the RFC Editor Web page http://www.rfc-editor.org
      CableLabs Client Configuration (CCC) Option. P. Duffy. September
      2003. (Format: TXT=12521 bytes) (Status: PROPOSED STANDARD)
 
+3595 Textual Conventions for IPv6 Flow Label. B. Wijnen. September
+     2003. (Format: TXT=11746 bytes) (Status: PROPOSED STANDARD)
+
+3596 DNS Extensions to Support IP Version 6. S. Thomson, C. Huitema,
+     V. Ksinant, M. Souissi. October 2003. (Format: TXT=14093 bytes)
+     (Obsoletes RFC3152, RFC1886) (Status: DRAFT STANDARD)
+
 3597 Handling of Unknown DNS Resource Record (RR) Types. A.
-     Gustafsson. September 2003. (Format: TXT=17559 bytes) (Status:
-     PROPOSED STANDARD)
+     Gustafsson. September 2003. (Format: TXT=17559 bytes) (Updates
+     RFC2163, RFC2535) (Status: PROPOSED STANDARD)
 
 3598 Sieve Email Filtering -- Subaddress Extension. K. Murchison.
      September 2003. (Format: TXT=11151 bytes) (Status: PROPOSED STANDARD)
 
+3600 Internet Official Protocol Standards. J. Reynolds, Ed., S.
+     Ginoza, Ed.. November 2003. (Format: TXT=134338 bytes) (Obsoletes
+     RFC3300) (Also STD0001) (Status: STANDARD)
+
 3601 Text String Notation for Dial Sequences and Global Switched
      Telephone Network (GSTN) / E.164 Addresses. C. Allocchio. September
      2003. (Format: TXT=18572 bytes) (Status: PROPOSED STANDARD)
+
+3602 The AES-CBC Cipher Algorithm and Its Use with IPsec. S. Frankel,
+     R. Glenn, S. Kelly. September 2003. (Format: TXT=30254 bytes)
+     (Status: PROPOSED STANDARD)
+
+3603 Private Session Initiation Protocol (SIP) Proxy-to-Proxy
+     Extensions for Supporting the PacketCable Distributed Call Signaling
+     Architecture. W. Marshall, Ed., F. Andreasen, Ed.. October 2003.
+     (Format: TXT=67509 bytes) (Status: INFORMATIONAL)
+
+3604 Requirements for Adding Optical Support to the General Switch
+     Management Protocol version 3 (GSMPv3). H. Khosravi, G. Kullgren, S.
+     Shew, J. Sadler, A. Watanabe. October 2003. (Format: TXT=30805 bytes)
+     (Status: INFORMATIONAL)
+
+3605 Real Time Control Protocol (RTCP) attribute in Session
+     Description Protocol (SDP). C. Huitema. October 2003. (Format:
+     TXT=17270 bytes) (Status: PROPOSED STANDARD)
+
+3606 Definitions of Supplemental Managed Objects for ATM Interface. F.
+     Ly, M. Noto, A. Smith, E. Spiegel, K. Tesink. November 2003. (Format:
+     TXT=183610 bytes) (Status: PROPOSED STANDARD)
+
+3607 Chinese Lottery Cryptanalysis Revisited: The Internet as a
+     Codebreaking Tool. M. Leech. September 2003. (Format: TXT=14526
+     bytes) (Status: INFORMATIONAL)
+
+3608 Session Initiation Protocol (SIP) Extension Header Field for
+     Service Route Discovery During Registration. D. Willis, B. Hoeneisen.
+     October 2003. (Format: TXT=35628 bytes) (Status: PROPOSED STANDARD)
+
+3609 Tracing Requirements for Generic Tunnels. R. Bonica, K. Kompella,
+     D. Meyer. September 2003. (Format: TXT=17859 bytes) (Status:
+     INFORMATIONAL)
+
+3610 Counter with CBC-MAC (CCM). D. Whiting, R. Housley, N. Ferguson.
+     September 2003. (Format: TXT=64509 bytes) (Status: INFORMATIONAL)
+
+3611 RTP Control Protocol Extended Reports (RTCP XR). T. Friedman,
+     Ed., R. Caceres, Ed., A. Clark, Ed.. November 2003. (Format:
+     TXT=126736 bytes) (Status: PROPOSED STANDARD)
+
+3612 Applicability Statement for Restart Mechanisms for the Label
+     Distribution Protocol (LDP). A. Farrel. September 2003. (Format:
+     TXT=35677 bytes) (Status: INFORMATIONAL)
+
+3613 Definition of a Uniform Resource Name (URN) Namespace for the
+     Middleware Architecture Committee for Education (MACE). R. Morgan, K.
+     Hazelton. October 2003. (Format: TXT=14296 bytes) (Status:
+     INFORMATIONAL)
+
+3614 A Uniform Resource Name (URN) Namespace for the Motion Picture
+     Experts Group (MPEG). J. Smith. September 2003. (Format: TXT=10457
+     bytes) (Status: INFORMATIONAL)
+
+3615 A Uniform Resource Name (URN) Namespace for SWIFT Financial
+     Messaging. J. Gustin, A. Goyens. September 2003. (Format: TXT=7352
+     bytes) (Status: INFORMATIONAL)
+
+3616 A Uniform Resource Name (URN) Namespace for Foundation for
+     Intelligent Physical Agents (FIPA). F. Bellifemine, I.
+     Constantinescu, S. Willmott. September 2003. (Format: TXT=13352
+     bytes) (Status: INFORMATIONAL)
+
+3617 Uniform Resource Identifier (URI) Scheme and Applicability
+     Statement for the Trivial File Transfer Protocol (TFTP). E. Lear.
+     October 2003. (Format: TXT=11848 bytes) (Status: INFORMATIONAL)
+
+3618 Multicast Source Discovery Protocol (MSDP). B. Fenner, Ed., D.
+     Meyer, Ed.. October 2003. (Format: TXT=42238 bytes) (Status:
+     EXPERIMENTAL)
+
+3619 Extreme Networks' Ethernet Automatic Protection Switching (EAPS)
+     Version 1. S. Shah, M. Yip. October 2003. (Format: TXT=14440 bytes)
+     (Status: INFORMATIONAL)
+
+3620 The TUNNEL Profile. D. New. October 2003. (Format: TXT=35365
+     bytes) (Status: PROPOSED STANDARD)
+
+3623 Graceful OSPF Restart. J. Moy, P. Pillay-Esnault, A. Lindem.
+     November 2003. (Format: TXT=38757 bytes) (Status: PROPOSED STANDARD)
+
+3624 The Media Gateway Control Protocol (MGCP) Bulk Audit Package. B.
+     Foster, D. Auerbach, F. Andreasen. November 2003. (Format: TXT=34391
+     bytes) (Status: INFORMATIONAL)
+
+3625 The QCP File Format and Media Types for Speech Data. R. Gellens,
+     H. Garudadri. September 2003. (Format: TXT=28603 bytes) (Updates
+     RFC3555) (Status: INFORMATIONAL)
+
+3626 Optimized Link State Routing Protocol (OLSR). T. Clausen, Ed., P.
+     Jacquet, Ed.. October 2003. (Format: TXT=161265 bytes) (Status:
+     EXPERIMENTAL)
+
+3627 Use of /127 Prefix Length Between Routers Considered Harmful. P.
+     Savola. September 2003. (Format: TXT=12436 bytes) (Status:
+     INFORMATIONAL)
+
+3628 Policy Requirements for Time-Stamping Authorities (TSAs). D.
+     Pinkas, N. Pope, J. Ross. November 2003. (Format: TXT=92941 bytes)
+     (Status: INFORMATIONAL)
+
+3629 UTF-8, a transformation format of ISO 10646. F. Yergeau. November
+     2003. (Format: TXT=33856 bytes) (Obsoletes RFC2279) (Also STD0063)
+     (Status: STANDARD)
+
+3630 Traffic Engineering (TE) Extensions to OSPF Version 2. D. Katz,
+     K. Kompella, D. Yeung. September 2003. (Format: TXT=27717 bytes)
+     (Updates RFC2370) (Status: PROPOSED STANDARD)
+
+3635 Definitions of Managed Objects for the Ethernet-like Interface
+     Types. J. Flick. September 2003. (Format: TXT=154476 bytes)
+     (Obsoletes RFC2665) (Status: PROPOSED STANDARD)
+
+3636 Definitions of Managed Objects for IEEE 802.3 Medium Attachment
+     Units (MAUs). J. Flick. September 2003. (Format: TXT=139990 bytes)
+     (Obsoletes RFC2668, RFC1515) (Status: PROPOSED STANDARD)
+
+3637 Definitions of Managed Objects for the Ethernet WAN Interface
+     Sublayer. C.M. Heard, Ed.. September 2003. (Format: TXT=78785 bytes)
+     (Status: PROPOSED STANDARD)
+
+3638 Applicability Statement for Reclassification of RFC 1643 to
+     Historic Status. J. Flick, C. M. Heard. September 2003. (Format:
+     TXT=8676 bytes) (Obsoletes RFC1643) (Status: INFORMATIONAL)
+
+3639 Considerations on the use of a Service Identifier in Packet
+     Headers. M. St. Johns, Ed., G. Huston, Ed., IAB. October 2003.
+     (Format: TXT=15389 bytes) (Status: INFORMATIONAL)
+
+3641 Generic String Encoding Rules (GSER) for ASN.1 Types. S. Legg.
+     October 2003. (Format: TXT=34207 bytes) (Status: PROPOSED STANDARD)
+
+3642 Common Elements of Generic String Encoding Rules (GSER)
+     Encodings. S. Legg. October 2003. (Format: TXT=27774 bytes) (Status:
+     PROPOSED STANDARD)
+
+3644 Policy Quality of Service (QoS) Information Model. Y. Snir, Y.
+     Ramberg, J. Strassner, R. Cohen, B. Moore. November 2003. (Format:
+     TXT=170150 bytes) (Status: PROPOSED STANDARD)
+
+3645 Generic Security Service Algorithm for Secret Key Transaction
+     Authentication for DNS (GSS-TSIG). S. Kwan, P. Garg, J. Gilroy, L.
+     Esibov, J. Westhead, R. Hall. October 2003. (Format: TXT=56162 bytes)
+     (Updates RFC2845) (Status: PROPOSED STANDARD)
+
+3647 Internet X.509 Public Key Infrastructure Certificate Policy and
+     Certification Practices Framework. S. Chokhani, W. Ford, R. Sabett,
+     C. Merrill, S. Wu. November 2003. (Format: TXT=228124 bytes)
+     (Obsoletes RFC2527) (Status: INFORMATIONAL)
+
+3650 Handle System Overview. S. Sun, L. Lannom, B. Boesch. November
+     2003. (Format: TXT=54927 bytes) (Status: INFORMATIONAL)
+
+3651 Handle System Namespace and Service Definition. S. Sun, S.
+     Reilly, L. Lannom. November 2003. (Format: TXT=104479 bytes) (Status:
+     INFORMATIONAL)
+
+3652 Handle System Protocol (ver 2.1) Specification. S. Sun, S.
+     Reilly, L. Lannom, J. Petrone. November 2003. (Format: TXT=124380
+     bytes) (Status: INFORMATIONAL)
+
+3655 Redefinition of DNS Authenticated Data (AD) bit. B. Wellington,
+     O. Gudmundsson. November 2003. (Format: TXT=15646 bytes) (Updates
+     RFC2535) (Status: PROPOSED STANDARD)
