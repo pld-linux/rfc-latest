@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 09/04/2002.)
+(CREATED ON: 09/13/2002.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11909,6 +11909,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3307 Allocation Guidelines for IPv6 Multicast Addresses. B. Haberman.
      August 2002. (Format: TXT=15742 bytes) (Status: PROPOSED STANDARD)
 
+3335 MIME-based Secure Peer-to-Peer Business Data Interchange over the
+     Internet. T. Harding, R. Drummond, C. Shih. September 2002. (Format:
+     TXT=59687 bytes) (Status: PROPOSED STANDARD)
+
 3339 Date and Time on the Internet: Timestamps. G. Klyne, C. Newman.
      July 2002. (Format: TXT=35064 bytes) (Status: PROPOSED STANDARD)
 
@@ -12032,3 +12036,19 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3371 Layer Two Tunneling Protocol "L2TP" Management Information Base.
      E. Caves, P. Calhoun, R. Wheeler. August 2002. (Format: TXT=139974
      bytes) (Status: PROPOSED STANDARD)
+
+3372 Session Initiation Protocol for Telephones (SIP-T): (SIP-T):
+     Context and Architectures. A. Vemuri, J. Peterson. September 2002.
+     (Format: TXT=49893 bytes) (Also BCP0063) (Status: BEST CURRENT
+     PRACTICE)
+
+3374 Problem Description: Reasons For Performing Context Transfers
+     Between Nodes in an IP Access Network. J. Kempf, Ed.. September 2002.
+     (Format: TXT=28245 bytes) (Status: INFORMATIONAL)
+
+3375 Generic Registry-Registrar Protocol Requirements. S. Hollenbeck.
+     September 2002. (Format: TXT=46022 bytes) (Status: INFORMATIONAL)
+
+3377 Lightweight Directory Access Protocol (v3): Technical
+     Specification. J. Hodges, R. Morgan. September 2002. (Format:
+     TXT=9981 bytes) (Status: PROPOSED STANDARD)
