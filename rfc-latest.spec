@@ -11,7 +11,7 @@ Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
 Version:	4109
 %define		rfcindex_version	1.2
-Release:	1
+Release:	2
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs3501-4000.tar.gz
