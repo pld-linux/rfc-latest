@@ -9,19 +9,14 @@ Summary:	Latest RFC documents
 Summary(es):	Los últimos documentos RFC
 Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
-Version:	4109
+Version:	4634
 %define		rfcindex_version	1.2
-Release:	2
+Release:	0.1
 License:	distributable
 Group:		Documentation
-Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs3501-4000.tar.gz
-# Source0-md5:	866c41972f9656635c81181b0b9e4dca
-Source1:	ftp://ftp.isi.edu/in-notes/tar/RFCs4001-latest.tar.gz
-# Source1-md5:	5d1edd1a8207f407adc70d100aa3ac27
-Source2:	RFCs-missing-from-tar.tar.gz
-# Source2-md5:	ddb8ba171dd9faf2b31e0d26029219e5
-Source3:	ftp://ftp.isi.edu/in-notes/rfc-index.txt
-Source4:	ftp://ftp.isi.edu/in-notes/rfc3500.txt
+Source1:	ftp://ftp.isi.edu/in-notes/tar/RFCs4501-latest.tar.gz
+# Source1-md5:	87bf1c6c54d43661e199d7d3e843e41b
+Source2:	ftp://ftp.isi.edu/in-notes/rfc-index.txt
 Source10:	http://www.kernighan.demon.co.uk/software/rfcindex-%{rfcindex_version}
 # Source10-md5:	2b35cdd18096517e048fd455364dd77a
 Patch0:		rfc-index-typo.patch
@@ -177,8 +172,8 @@ formato Adobe PDF.
 Dokumenty RFC (Request For Comments) w formacie Adobe PDF.
 
 %prep
-%setup -q -a1 -a2 -c
-install %{SOURCE3} %{SOURCE4} .
+%setup -q -a1 -c
+install %{SOURCE2} .
 %patch0 -p0
 
 %if %{with html_index}
@@ -215,9 +210,9 @@ pod2man rfcindex > rfcindex.1
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text/{3{5,6,7,8,9},4{0,1}}00
-install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf/{3{5,6,7,8,9},4{0,1}}00
-install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript/{3{5,6,7,8,9},4{0,1}}00
+install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text/{4{5,6}}00
+install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf/{4{5,6}}00
+install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript/{4{5,6}}00
 
 install rfc-index.txt $RPM_BUILD_ROOT%{_defaultdocdir}/RFC
 
@@ -234,14 +229,14 @@ find . -name 'rfc[1-9]*.ps' -print | xargs gzip -9
 %endif
 
 # install rfc[1-9]*.txt* $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text
-for i in 3{5,6,7,8,9} 4{0,1}; do
+for i in 4{5,6}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.]*txt* \
 		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text/${i}00
 done
 
 %if %{with pdf}
 # install rfc*.pdf $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf
-for i in 3{5,6,7,8,9} 4{0,1}; do
+for i in 4{5,6}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*pdf \
 		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf/${i}00
 done
@@ -249,7 +244,7 @@ done
 
 %if %{with ps}
 # install rfc*.ps $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript
-for i in 3{5,6,7,8,9} 4{0,1}; do
+for i in 4{5,6}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*ps* \
 		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript/${i}00
 done
