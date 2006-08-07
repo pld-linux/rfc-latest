@@ -14,9 +14,9 @@ Version:	4634
 Release:	0.1
 License:	distributable
 Group:		Documentation
-Source1:	ftp://ftp.isi.edu/in-notes/tar/RFCs4501-latest.tar.gz
-# Source1-md5:	87bf1c6c54d43661e199d7d3e843e41b
-Source2:	ftp://ftp.isi.edu/in-notes/rfc-index.txt
+Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs4501-latest.tar.gz
+# Source0-md5:	cc31021203198a7af075ad8ac95b35b2
+Source1:	ftp://ftp.isi.edu/in-notes/rfc-index.txt
 Source10:	http://www.kernighan.demon.co.uk/software/rfcindex-%{rfcindex_version}
 # Source10-md5:	2b35cdd18096517e048fd455364dd77a
 Patch0:		rfc-index-typo.patch
@@ -172,8 +172,8 @@ formato Adobe PDF.
 Dokumenty RFC (Request For Comments) w formacie Adobe PDF.
 
 %prep
-%setup -q -a1 -c
-install %{SOURCE2} .
+%setup -q -c
+install %{SOURCE1} .
 %patch0 -p0
 
 %if %{with html_index}
