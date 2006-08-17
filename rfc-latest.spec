@@ -11,7 +11,7 @@ Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
 Version:	4634
 %define		rfcindex_version	1.2
-Release:	0.1
+Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs4501-latest.tar.gz
@@ -210,9 +210,9 @@ pod2man rfcindex > rfcindex.1
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text/{4{5,6}}00
-install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf/{4{5,6}}00
-install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript/{4{5,6}}00
+install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text/4{5,6}00
+install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf/4{5,6}00
+install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript/4{5,6}00
 
 install rfc-index.txt $RPM_BUILD_ROOT%{_defaultdocdir}/RFC
 
