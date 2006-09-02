@@ -5,12 +5,12 @@
 %bcond_without	html_index	# don't build HTML index
 
 %include	/usr/lib/rpm/macros.perl
+%define		rfcindex_version	1.2
 Summary:	Latest RFC documents
 Summary(es):	Los últimos documentos RFC
 Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
 Version:	4671
-%define		rfcindex_version	1.2
 Release:	1
 License:	distributable
 Group:		Documentation
@@ -204,20 +204,20 @@ done
 
 %if %{with html_index}
 ./rfcindex --gzip --by100 --nodate --nocredit \
-	--base="file://%{_defaultdocdir}/RFC/" rfc-index.txt >rfc-index.html
+	--base="file://%{_docdir}/RFC/" rfc-index.txt >rfc-index.html
 pod2man rfcindex > rfcindex.1
 %endif
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text/4{5,6}00
-install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf/4{5,6}00
-install -d $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript/4{5,6}00
+install -d $RPM_BUILD_ROOT%{_docdir}/RFC/text/4{5,6}00
+install -d $RPM_BUILD_ROOT%{_docdir}/RFC/pdf/4{5,6}00
+install -d $RPM_BUILD_ROOT%{_docdir}/RFC/postscript/4{5,6}00
 
-install rfc-index.txt $RPM_BUILD_ROOT%{_defaultdocdir}/RFC
+install rfc-index.txt $RPM_BUILD_ROOT%{_docdir}/RFC
 
 %if %{with html_index}
-install rfc-index.html $RPM_BUILD_ROOT%{_defaultdocdir}/RFC
+install rfc-index.html $RPM_BUILD_ROOT%{_docdir}/RFC
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install rfcindex $RPM_BUILD_ROOT%{_bindir}/rfcindex
 install rfcindex.1 $RPM_BUILD_ROOT%{_mandir}/man1
@@ -228,25 +228,25 @@ find . -name 'rfc[1-9]*.txt' -print | xargs gzip -9
 find . -name 'rfc[1-9]*.ps' -print | xargs gzip -9
 %endif
 
-# install rfc[1-9]*.txt* $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text
+# install rfc[1-9]*.txt* $RPM_BUILD_ROOT%{_docdir}/RFC/text
 for i in 4{5,6}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.]*txt* \
-		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/text/${i}00
+		$RPM_BUILD_ROOT%{_docdir}/RFC/text/${i}00
 done
 
 %if %{with pdf}
-# install rfc*.pdf $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf
+# install rfc*.pdf $RPM_BUILD_ROOT%{_docdir}/RFC/pdf
 for i in 4{5,6}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*pdf \
-		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/pdf/${i}00
+		$RPM_BUILD_ROOT%{_docdir}/RFC/pdf/${i}00
 done
 %endif
 
 %if %{with ps}
-# install rfc*.ps $RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript
+# install rfc*.ps $RPM_BUILD_ROOT%{_docdir}/RFC/postscript
 for i in 4{5,6}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*ps* \
-		$RPM_BUILD_ROOT%{_defaultdocdir}/RFC/postscript/${i}00
+		$RPM_BUILD_ROOT%{_docdir}/RFC/postscript/${i}00
 done
 %endif
 
@@ -255,29 +255,29 @@ rm -rf $RPM_BUILD_ROOT
 
 %files text
 %defattr(644,root,root,755)
-%{_defaultdocdir}/RFC/text/[0-9]*
+%{_docdir}/RFC/text/[0-9]*
 
 %files -n rfc-index
 %defattr(644,root,root,755)
-%dir %{_defaultdocdir}/RFC
-%{_defaultdocdir}/RFC/rfc-index.txt
+%dir %{_docdir}/RFC
+%{_docdir}/RFC/rfc-index.txt
 
 %if %{with ps}
 %files ps
 %defattr(644,root,root,755)
-%{_defaultdocdir}/RFC/postscript/*
+%{_docdir}/RFC/postscript/*
 %endif
 
 %if %{with pdf}
 %files pdf
 %defattr(644,root,root,755)
-%{_defaultdocdir}/RFC/pdf/*
+%{_docdir}/RFC/pdf/*
 %endif
 
 %if %{with html_index}
 %files -n rfc-index-html
 %defattr(644,root,root,755)
-%{_defaultdocdir}/RFC/rfc-index.html
+%{_docdir}/RFC/rfc-index.html
 
 %files -n rfcindex
 %defattr(644,root,root,755)
