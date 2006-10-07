@@ -10,12 +10,12 @@ Summary:	Latest RFC documents
 Summary(es):	Los últimos documentos RFC
 Summary(pl):	Najnowsze dokumenty RFC
 Name:		rfc-latest
-Version:	4671
+Version:	4693
 Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs4501-latest.tar.gz
-# Source0-md5:	5de875e7f40833e3f526a7498159c9b8
+# Source0-md5:	6ee033edb5d2c4e99768eca8f6597b49
 Source1:	ftp://ftp.isi.edu/in-notes/rfc-index.txt
 Source10:	http://www.kernighan.demon.co.uk/software/rfcindex-%{rfcindex_version}
 # Source10-md5:	2b35cdd18096517e048fd455364dd77a
