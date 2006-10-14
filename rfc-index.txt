@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 10/06/2006.)
+(CREATED ON: 10/13/2006.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -13124,7 +13124,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      PROPOSED STANDARD)
 
 3548 The Base16, Base32, and Base64 Data Encodings. S. Josefsson, Ed..
-     July 2003. (Format: TXT=26363 bytes) (Status: INFORMATIONAL)
+     July 2003. (Format: TXT=26363 bytes) (Obsoleted by RFC4648) (Status:
+     INFORMATIONAL)
 
 3549 Linux Netlink as an IP Services Protocol. J. Salim, H. Khosravi,
      A. Kleen, A. Kuznetsov. July 2003. (Format: TXT=72161 bytes) (Status:
@@ -17264,6 +17265,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
      2006. (Format: TXT=43991 bytes) (Updates RFC1034, RFC2672) (Status:
      PROPOSED STANDARD)
 
+4593 Generic Threats to Routing Protocols. A. Barbir, S. Murphy, Y.
+     Yang. October 2006. (Format: TXT=48292 bytes) (Status: INFORMATIONAL)
+
 4594 Configuration Guidelines for DiffServ Service Classes. J.
      Babiarz, K. Chan, F. Baker. August 2006. (Format: TXT=144044 bytes)
      (Status: INFORMATIONAL)
@@ -17318,6 +17322,11 @@ See the RFC Editor Web page http://www.rfc-editor.org
 4608 Source-Specific Protocol Independent Multicast in 232/8. D.
      Meyer, R. Rockell, G. Shepherd. August 2006. (Format: TXT=15030
      bytes) (Also BCP0120) (Status: BEST CURRENT PRACTICE)
+
+4609 Protocol Independent Multicast - Sparse Mode (PIM-SM) Multicast
+     Routing Security Issues and Enhancements. P. Savola, R. Lehtonen, D.
+     Meyer. October 2006. (Format: TXT=49812 bytes) (Status:
+     INFORMATIONAL)
 
 4610 Anycast-RP Using Protocol Independent Multicast (PIM). D.
      Farinacci, Y. Cai. August 2006. (Format: TXT=22490 bytes) (Status:
@@ -17418,6 +17427,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
 4635 HMAC SHA (Hashed Message Authentication Code, Secure Hash
      Algorithm) TSIG Algorithm Identifiers. D. Eastlake 3rd. August 2006.
      (Format: TXT=16533 bytes) (Status: PROPOSED STANDARD)
+
+4636 Foreign Agent Error Extension for Mobile IPv4. C. Perkins.
+     October 2006. (Format: TXT=11663 bytes) (Status: PROPOSED STANDARD)
 
 4638 Accommodating a Maximum Transit Unit/Maximum Receive Unit
      (MTU/MRU) Greater Than 1492 in the Point-to-Point Protocol over
@@ -17552,6 +17564,14 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Zorn, P. Arberg, R. Rennison. September 2006. (Format: TXT=42743
      bytes) (Status: INFORMATIONAL)
 
+4680 TLS Handshake Message for Supplemental Data. S. Santesson.
+     October 2006. (Format: TXT=15602 bytes) (Updates RFC4346) (Status:
+     PROPOSED STANDARD)
+
+4681 TLS User Mapping Extension. S. Santesson, A. Medvinsky, J. Ball.
+     October 2006. (Format: TXT=20682 bytes) (Updates RFC4346) (Status:
+     PROPOSED STANDARD)
+
 4683 Internet X.509 Public Key Infrastructure Subject Identification
      Method (SIM). J. Park, J. Lee, H.. Lee, S. Park, T. Polk. October
      2006. (Format: TXT=41285 bytes) (Status: PROPOSED STANDARD)
@@ -17577,3 +17597,18 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 4693 IETF Operational Notes. H. Alvestrand. October 2006. (Format:
      TXT=19268 bytes) (Status: EXPERIMENTAL)
+
+4698 IRIS: An Address Registry (areg) Type for the Internet Registry
+     Information Service. E. Gunduz, A. Newton, S. Kerr. October 2006.
+     (Format: TXT=89932 bytes) (Status: PROPOSED STANDARD)
+
+4705 GigaBeam High-Speed Radio Link Encryption. R. Housley, A. Corry.
+     October 2006. (Format: TXT=30926 bytes) (Status: INFORMATIONAL)
+
+4713 Registration and Administration Recommendations for Chinese
+     Domain Names. X. Lee, W. Mao, E. Chen, N. Hsu, J. Klensin. October
+     2006. (Format: TXT=18883 bytes) (Status: INFORMATIONAL)
+
+4714 Requirements for IETF Technical Publication Service. A. Mankin,
+     S. Hayes. October 2006. (Format: TXT=53988 bytes) (Status:
+     INFORMATIONAL)
