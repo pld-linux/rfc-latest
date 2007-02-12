@@ -7,8 +7,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		rfcindex_version	1.2
 Summary:	Latest RFC documents
-Summary(es.UTF-8):   Los últimos documentos RFC
-Summary(pl.UTF-8):   Najnowsze dokumenty RFC
+Summary(es.UTF-8):	Los últimos documentos RFC
+Summary(pl.UTF-8):	Najnowsze dokumenty RFC
 Name:		rfc-latest
 Version:	4714
 Release:	1
@@ -47,8 +47,8 @@ proponowanych standardów internetowych.
 
 %package -n rfc-index
 Summary:	Index for RFC documents
-Summary(es.UTF-8):   Índice para los documentos RFC
-Summary(pl.UTF-8):   Spis treści dokumentów RFC
+Summary(es.UTF-8):	Índice para los documentos RFC
+Summary(pl.UTF-8):	Spis treści dokumentów RFC
 Group:		Documentation
 
 %description -n rfc-index
@@ -67,8 +67,8 @@ poszczególnych dokumentów.
 
 %package -n rfc-index-html
 Summary:	HTML-ized index of RFC documents
-Summary(es.UTF-8):   Índice de los documentos RFC en HTML
-Summary(pl.UTF-8):   Spis treści dokumentów RFC w HTML-u
+Summary(es.UTF-8):	Índice de los documentos RFC en HTML
+Summary(pl.UTF-8):	Spis treści dokumentów RFC w HTML-u
 Group:		Documentation
 Requires:	%{name}-text >= %{version}-%{release}
 
@@ -88,8 +88,8 @@ poszczególnych dokumentów.
 
 %package -n rfcindex
 Summary:	Script to generate HTML-ized index of RFC documents
-Summary(es.UTF-8):   Script para generar un índice HTML de documentos RFC
-Summary(pl.UTF-8):   Skrypt do generowania HTML-owego spisu treści dokumentów RFC
+Summary(es.UTF-8):	Script para generar un índice HTML de documentos RFC
+Summary(pl.UTF-8):	Skrypt do generowania HTML-owego spisu treści dokumentów RFC
 Group:		Base/Utilities
 Requires:	rfc-index
 
@@ -108,8 +108,8 @@ dokumentów RFC.
 
 %package text
 Summary:	RFC documents - pure text version
-Summary(es.UTF-8):   Documentos RFC - versión de texto puro
-Summary(pl.UTF-8):   Wersja czysto tekstowa dokumentów RFC
+Summary(es.UTF-8):	Documentos RFC - versión de texto puro
+Summary(pl.UTF-8):	Wersja czysto tekstowa dokumentów RFC
 Group:		Documentation
 Requires:	rfc-index >= %{version}
 # common dirs
@@ -135,8 +135,8 @@ postscriptowej i PDF.
 
 %package ps
 Summary:	RFC documents - PostScript version
-Summary(es.UTF-8):   Documentos RFC - versión PostScript
-Summary(pl.UTF-8):   Wersja postscriptowa dokumentów RFC
+Summary(es.UTF-8):	Documentos RFC - versión PostScript
+Summary(pl.UTF-8):	Wersja postscriptowa dokumentów RFC
 Group:		Documentation
 Requires:	rfc-index >= %{version}
 # common dirs
@@ -154,8 +154,8 @@ Wersja postscriptowa dokumentów RFC (Request For Comments).
 
 %package pdf
 Summary:	RFC documents - PDF version
-Summary(es.UTF-8):   Documentos RFC - versión PDF
-Summary(pl.UTF-8):   Wersja PDF dokumentów RFC
+Summary(es.UTF-8):	Documentos RFC - versión PDF
+Summary(pl.UTF-8):	Wersja PDF dokumentów RFC
 Group:		Documentation
 Requires:	rfc-index >= %{version}
 # common dirs
