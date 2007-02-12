@@ -7,8 +7,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		rfcindex_version	1.2
 Summary:	Latest RFC documents
-Summary(es):	Los últimos documentos RFC
-Summary(pl):	Najnowsze dokumenty RFC
+Summary(es.UTF-8):   Los Ãºltimos documentos RFC
+Summary(pl.UTF-8):   Najnowsze dokumenty RFC
 Name:		rfc-latest
 Version:	4714
 Release:	1
@@ -37,38 +37,38 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 RFC (Request For Comments) documents are actual and suggested Internet
 standards.
 
-%description -l es
-Los documentos RFC (Request For Comments: petición de comentarios) son
-los estándares actuales y sugeridos del Internet.
+%description -l es.UTF-8
+Los documentos RFC (Request For Comments: peticiÃ³n de comentarios) son
+los estÃ¡ndares actuales y sugeridos del Internet.
 
-%description -l pl
-Dokumenty RFC (Request For Comments) zawieraj± opis obowi±zuj±cych i
-proponowanych standardów internetowych.
+%description -l pl.UTF-8
+Dokumenty RFC (Request For Comments) zawierajÄ… opis obowiÄ…zujÄ…cych i
+proponowanych standardÃ³w internetowych.
 
 %package -n rfc-index
 Summary:	Index for RFC documents
-Summary(es):	Índice para los documentos RFC
-Summary(pl):	Spis tre¶ci dokumentów RFC
+Summary(es.UTF-8):   Ãndice para los documentos RFC
+Summary(pl.UTF-8):   Spis treÅ›ci dokumentÃ³w RFC
 Group:		Documentation
 
 %description -n rfc-index
 Index file for RFC (Request For Comments) documents containing
 information about document title, authors, status, size, etc.
 
-%description -n rfc-index -l es
-Fichero índice para los documentos RFC (Request For Comments: petición
-de comentarios) que contiene informaciones sobre el título de
-documento, su autores, estado, tamaño, etc.
+%description -n rfc-index -l es.UTF-8
+Fichero Ã­ndice para los documentos RFC (Request For Comments: peticiÃ³n
+de comentarios) que contiene informaciones sobre el tÃ­tulo de
+documento, su autores, estado, tamaÃ±o, etc.
 
-%description -n rfc-index -l pl
-Plik spisu tre¶ci dokumentów RFC (Request For Comments) zawieraj±cy
-informacje takie, jak: tytu³, autorzy, status, rozmiar itp. dla
-poszczególnych dokumentów.
+%description -n rfc-index -l pl.UTF-8
+Plik spisu treÅ›ci dokumentÃ³w RFC (Request For Comments) zawierajÄ…cy
+informacje takie, jak: tytuÅ‚, autorzy, status, rozmiar itp. dla
+poszczegÃ³lnych dokumentÃ³w.
 
 %package -n rfc-index-html
 Summary:	HTML-ized index of RFC documents
-Summary(es):	Índice de los documentos RFC en HTML
-Summary(pl):	Spis tre¶ci dokumentów RFC w HTML-u
+Summary(es.UTF-8):   Ãndice de los documentos RFC en HTML
+Summary(pl.UTF-8):   Spis treÅ›ci dokumentÃ³w RFC w HTML-u
 Group:		Documentation
 Requires:	%{name}-text >= %{version}-%{release}
 
@@ -76,20 +76,20 @@ Requires:	%{name}-text >= %{version}-%{release}
 Index file for RFC (Request For Comments) documents containing
 information about document title, authors, status, size, etc.
 
-%description -n rfc-index -l es
-Fichero índice para los documentos RFC (Request For Comments: petición
-de comentarios) que contiene informaciones sobre el título de
-documento, su autores, estado, tamaño, etc.
+%description -n rfc-index -l es.UTF-8
+Fichero Ã­ndice para los documentos RFC (Request For Comments: peticiÃ³n
+de comentarios) que contiene informaciones sobre el tÃ­tulo de
+documento, su autores, estado, tamaÃ±o, etc.
 
-%description -n rfc-index-html -l pl
-Plik spisu tre¶ci dokumentów RFC (Request For Comments) zawieraj±cy
-informacje takie, jak: tytu³, autorzy, status, rozmiar itp. dla
-poszczególnych dokumentów.
+%description -n rfc-index-html -l pl.UTF-8
+Plik spisu treÅ›ci dokumentÃ³w RFC (Request For Comments) zawierajÄ…cy
+informacje takie, jak: tytuÅ‚, autorzy, status, rozmiar itp. dla
+poszczegÃ³lnych dokumentÃ³w.
 
 %package -n rfcindex
 Summary:	Script to generate HTML-ized index of RFC documents
-Summary(es):	Script para generar un índice HTML de documentos RFC
-Summary(pl):	Skrypt do generowania HTML-owego spisu tre¶ci dokumentów RFC
+Summary(es.UTF-8):   Script para generar un Ã­ndice HTML de documentos RFC
+Summary(pl.UTF-8):   Skrypt do generowania HTML-owego spisu treÅ›ci dokumentÃ³w RFC
 Group:		Base/Utilities
 Requires:	rfc-index
 
@@ -97,19 +97,19 @@ Requires:	rfc-index
 Perl script that reads the plain rfc-index.txt and outputs an HTML
 index file with hyperlinks to appropriate RFCs.
 
-%description -n rfcindex -l pl
+%description -n rfcindex -l pl.UTF-8
 Script de Perl que lee el plano rfc-index.txt y devuelve un fichero
-índice en HTML con hiperenlaces a los RFC adecuados.
+Ã­ndice en HTML con hiperenlaces a los RFC adecuados.
 
-%description -n rfcindex -l pl
+%description -n rfcindex -l pl.UTF-8
 Skrypt w Perlu generujacy na podstawie tekstowego pliku rfc-index.txt
-spis tre¶ci w HTML-u zawieraj±cy przekierowania do odpowiednich
-dokumentów RFC.
+spis treÅ›ci w HTML-u zawierajÄ…cy przekierowania do odpowiednich
+dokumentÃ³w RFC.
 
 %package text
 Summary:	RFC documents - pure text version
-Summary(es):	Documentos RFC - versión de texto puro
-Summary(pl):	Wersja czysto tekstowa dokumentów RFC
+Summary(es.UTF-8):   Documentos RFC - versiÃ³n de texto puro
+Summary(pl.UTF-8):   Wersja czysto tekstowa dokumentÃ³w RFC
 Group:		Documentation
 Requires:	rfc-index >= %{version}
 # common dirs
@@ -122,21 +122,21 @@ This is pure text version of RFC (Request For Comments) documents. The
 set is incomplete. Some documents are available in PostScript and PDF
 formats only.
 
-%description text -l es
-Ésta es la versión de texto puro de los documentos RFC (Request For
-Comments: petición de comentarios). Este conjunto es incompleto, ya
-que algunos documentos son disponibles sólo en los formatos PostScript
+%description text -l es.UTF-8
+Ã‰sta es la versiÃ³n de texto puro de los documentos RFC (Request For
+Comments: peticiÃ³n de comentarios). Este conjunto es incompleto, ya
+que algunos documentos son disponibles sÃ³lo en los formatos PostScript
 y PDF.
 
-%description text -l pl
-Wersja tekstowa dokumentów RFC (Request For Comments). Zbiór jest
-niepe³ny, gdy¿ niektóre dokumenty s± dostêpne wy³±cznie w postaci
+%description text -l pl.UTF-8
+Wersja tekstowa dokumentÃ³w RFC (Request For Comments). ZbiÃ³r jest
+niepeÅ‚ny, gdyÅ¼ niektÃ³re dokumenty sÄ… dostÄ™pne wyÅ‚Ä…cznie w postaci
 postscriptowej i PDF.
 
 %package ps
 Summary:	RFC documents - PostScript version
-Summary(es):	Documentos RFC - versión PostScript
-Summary(pl):	Wersja postscriptowa dokumentów RFC
+Summary(es.UTF-8):   Documentos RFC - versiÃ³n PostScript
+Summary(pl.UTF-8):   Wersja postscriptowa dokumentÃ³w RFC
 Group:		Documentation
 Requires:	rfc-index >= %{version}
 # common dirs
@@ -145,17 +145,17 @@ Requires:	rfc-ps
 %description ps
 PostScript version of RFC (Request For Comments) documents.
 
-%description ps -l es
-La versión PostScript de los documentos RFC (Request For Comments:
-petición de comentarios).
+%description ps -l es.UTF-8
+La versiÃ³n PostScript de los documentos RFC (Request For Comments:
+peticiÃ³n de comentarios).
 
-%description ps -l pl
-Wersja postscriptowa dokumentów RFC (Request For Comments).
+%description ps -l pl.UTF-8
+Wersja postscriptowa dokumentÃ³w RFC (Request For Comments).
 
 %package pdf
 Summary:	RFC documents - PDF version
-Summary(es):	Documentos RFC - versión PDF
-Summary(pl):	Wersja PDF dokumentów RFC
+Summary(es.UTF-8):   Documentos RFC - versiÃ³n PDF
+Summary(pl.UTF-8):   Wersja PDF dokumentÃ³w RFC
 Group:		Documentation
 Requires:	rfc-index >= %{version}
 # common dirs
@@ -164,11 +164,11 @@ Requires:	rfc-pdf
 %description pdf
 RFC (Request For Comments) documents in Adobe PDF format.
 
-%description pdf -l es
-Documentos RFC (Request For Comments: petición de comentarios) en
+%description pdf -l es.UTF-8
+Documentos RFC (Request For Comments: peticiÃ³n de comentarios) en
 formato Adobe PDF.
 
-%description pdf -l pl
+%description pdf -l pl.UTF-8
 Dokumenty RFC (Request For Comments) w formacie Adobe PDF.
 
 %prep
