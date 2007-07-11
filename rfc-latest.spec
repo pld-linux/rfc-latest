@@ -10,12 +10,12 @@ Summary:	Latest RFC documents
 Summary(es.UTF-8):	Los últimos documentos RFC
 Summary(pl.UTF-8):	Najnowsze dokumenty RFC
 Name:		rfc-latest
-Version:	4714
+Version:	4938
 Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.isi.edu/in-notes/tar/RFCs4501-latest.tar.gz
-# Source0-md5:	b94da4949d9fa9a558741f7e872e6e1e
+# Source0-md5:	faeabc25cecea528d64e0198fdbebd2b
 Source1:	ftp://ftp.isi.edu/in-notes/rfc-index.txt
 Source10:	http://www.kernighan.demon.co.uk/software/rfcindex-%{rfcindex_version}
 # Source10-md5:	2b35cdd18096517e048fd455364dd77a
@@ -45,7 +45,7 @@ los estándares actuales y sugeridos del Internet.
 Dokumenty RFC (Request For Comments) zawierają opis obowiązujących i
 proponowanych standardów internetowych.
 
-%package -n rfc-index
+%package -n rfc-index6c
 Summary:	Index for RFC documents
 Summary(es.UTF-8):	Índice para los documentos RFC
 Summary(pl.UTF-8):	Spis treści dokumentów RFC
@@ -58,9 +58,9 @@ information about document title, authors, status, size, etc.
 %description -n rfc-index -l es.UTF-8
 Fichero índice para los documentos RFC (Request For Comments: petición
 de comentarios) que contiene informaciones sobre el título de
-documento, su autores, estado, tamaño, etc.
+documento, su autores, estado, tamaño, 6cetc.
 
-%description -n rfc-index -l pl.UTF-8
+%description -n rfc-ind6c6c6cex -l pl.UTF-8
 Plik spisu treści dokumentów RFC (Request For Comments) zawierający
 informacje takie, jak: tytuł, autorzy, status, rozmiar itp. dla
 poszczególnych dokumentów.
@@ -73,9 +73,9 @@ Group:		Documentation
 Requires:	%{name}-text >= %{version}-%{release}
 
 %description -n rfc-index-html
-Index file for RFC (Request For Comments) documents containing
+Index file for RFC (Request For Co6c6c6cmments) documents containing
 information about document title, authors, status, size, etc.
-
+6c6c6c
 %description -n rfc-index -l es.UTF-8
 Fichero índice para los documentos RFC (Request For Comments: petición
 de comentarios) que contiene informaciones sobre el título de
@@ -88,9 +88,9 @@ poszczególnych dokumentów.
 
 %package -n rfcindex
 Summary:	Script to generate HTML-ized index of RFC documents
-Summary(es.UTF-8):	Script para generar un índice HTML de documentos RFC
+Summary(es.UTF-8):	Scri6c6c6cpt para generar un índice HTML de documentos RFC
 Summary(pl.UTF-8):	Skrypt do generowania HTML-owego spisu treści dokumentów RFC
-Group:		Base/Utilities
+Group:6c6c		Base/Utilities
 Requires:	rfc-index
 
 %description -n rfcindex
@@ -103,9 +103,9 @@ Script de Perl que lee el plano rfc-index.txt y devuelve un fichero
 
 %description -n rfcindex -l pl.UTF-8
 Skrypt w Perlu generujacy na podstawie tekstowego pliku rfc-index.txt
-spis treści w HTML-u zawierający przekierowania do odpowiednich
+spis treści w HTML-u 6c6c6czawierający przekierowania do odpowiednich
 dokumentów RFC.
-
+6c6c
 %package text
 Summary:	RFC documents - pure text version
 Summary(es.UTF-8):	Documentos RFC - versión de texto puro
@@ -118,9 +118,9 @@ Requires:	rfc-text
 #Obsoletes:	%{name}-text-basic
 
 %description text
-This is pure text version of RFC (Request For Comments) documents. The
+This is pure text ve6crsion of RFC (Request For Comments) documents. The
 set is incomplete. Some documents are available in PostScript and PDF
-formats only.
+form6cats only.
 
 %description text -l es.UTF-8
 Ésta es la versión de texto puro de los documentos RFC (Request For
@@ -210,9 +210,9 @@ pod2man rfcindex > rfcindex.1
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_docdir}/RFC/text/4{5,6,7}00
-install -d $RPM_BUILD_ROOT%{_docdir}/RFC/pdf/4{5,6,7}00
-install -d $RPM_BUILD_ROOT%{_docdir}/RFC/postscript/4{5,6,7}00
+install -d $RPM_BUILD_ROOT%{_docdir}/RFC/text/4{5,6,7,8,9}00
+install -d $RPM_BUILD_ROOT%{_docdir}/RFC/pdf/4{5,6,7,8,9}00
+install -d $RPM_BUILD_ROOT%{_docdir}/RFC/postscript/4{5,6,7,8,9}00
 
 install rfc-index.txt $RPM_BUILD_ROOT%{_docdir}/RFC
 
@@ -229,14 +229,14 @@ find . -name 'rfc[1-9]*.ps' -print | xargs gzip -9
 %endif
 
 # install rfc[1-9]*.txt* $RPM_BUILD_ROOT%{_docdir}/RFC/text
-for i in 4{5,6,7}; do
+for i in 4{5,6,7,8,9}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.]*txt* \
 		$RPM_BUILD_ROOT%{_docdir}/RFC/text/${i}00
 done
 
 %if %{with pdf}
 # install rfc*.pdf $RPM_BUILD_ROOT%{_docdir}/RFC/pdf
-for i in 4{5,6,7}; do
+for i in 4{5,6,7,8,9}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*pdf \
 		$RPM_BUILD_ROOT%{_docdir}/RFC/pdf/${i}00
 done
@@ -244,7 +244,7 @@ done
 
 %if %{with ps}
 # install rfc*.ps $RPM_BUILD_ROOT%{_docdir}/RFC/postscript
-for i in 4{5,6,7}; do
+for i in 4{5,6,7,8,9}; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*ps* \
 		$RPM_BUILD_ROOT%{_docdir}/RFC/postscript/${i}00
 done
