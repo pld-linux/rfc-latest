@@ -4,8 +4,17 @@
  0378 Traffic statistics (July 1972). A.M. McKenzie. August 1972.
       (Format: TXT=5730 bytes) (Obsoleted by RFC0391) (Status: UNKNOWN)
  
--0379 Using TSO at CCN. R.. Braden. August 1972. (Format: TXT=8674
+-0379 Using TSO at CCN. R. Braden. August 1972. (Format: TXT=8674
 +0379 Using TSO at CCN. R.T. Braden. August 1972. (Format: TXT=8674
       bytes) (Status: UNKNOWN)
  
  0380 Not Issued.
+@@ -2701,7 +2701,7 @@
+
+ 0826 Ethernet Address Resolution Protocol: Or Converting Network
+      Protocol Addresses to 48.bit Ethernet Address for Transmission on
+-     Ethernet Hardware. D. Plummer. November 1982. (Format: TXT=21556
++     Ethernet Hardware. D.C. Plummer. November 1982. (Format: TXT=21556
+      bytes) (Also STD0037) (Status: STANDARD)
+
+ 0827 Exterior Gateway Protocol (EGP). E.C. Rosen. October 1982.
