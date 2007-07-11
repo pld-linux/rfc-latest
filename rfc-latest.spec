@@ -45,7 +45,7 @@ los estándares actuales y sugeridos del Internet.
 Dokumenty RFC (Request For Comments) zawierają opis obowiązujących i
 proponowanych standardów internetowych.
 
-%package -n rfc-index6c
+%package -n rfc-index
 Summary:	Index for RFC documents
 Summary(es.UTF-8):	Índice para los documentos RFC
 Summary(pl.UTF-8):	Spis treści dokumentów RFC
@@ -58,9 +58,9 @@ information about document title, authors, status, size, etc.
 %description -n rfc-index -l es.UTF-8
 Fichero índice para los documentos RFC (Request For Comments: petición
 de comentarios) que contiene informaciones sobre el título de
-documento, su autores, estado, tamaño, 6cetc.
+documento, su autores, estado, tamaño, etc.
 
-%description -n rfc-ind6c6c6cex -l pl.UTF-8
+%description -n rfc-index -l pl.UTF-8
 Plik spisu treści dokumentów RFC (Request For Comments) zawierający
 informacje takie, jak: tytuł, autorzy, status, rozmiar itp. dla
 poszczególnych dokumentów.
@@ -73,9 +73,9 @@ Group:		Documentation
 Requires:	%{name}-text >= %{version}-%{release}
 
 %description -n rfc-index-html
-Index file for RFC (Request For Co6c6c6cmments) documents containing
+Index file for RFC (Request For Comments) documents containing
 information about document title, authors, status, size, etc.
-6c6c6c
+
 %description -n rfc-index -l es.UTF-8
 Fichero índice para los documentos RFC (Request For Comments: petición
 de comentarios) que contiene informaciones sobre el título de
@@ -88,9 +88,9 @@ poszczególnych dokumentów.
 
 %package -n rfcindex
 Summary:	Script to generate HTML-ized index of RFC documents
-Summary(es.UTF-8):	Scri6c6c6cpt para generar un índice HTML de documentos RFC
+Summary(es.UTF-8):	Script para generar un índice HTML de documentos RFC
 Summary(pl.UTF-8):	Skrypt do generowania HTML-owego spisu treści dokumentów RFC
-Group:6c6c		Base/Utilities
+Group:		Base/Utilities
 Requires:	rfc-index
 
 %description -n rfcindex
@@ -103,9 +103,9 @@ Script de Perl que lee el plano rfc-index.txt y devuelve un fichero
 
 %description -n rfcindex -l pl.UTF-8
 Skrypt w Perlu generujacy na podstawie tekstowego pliku rfc-index.txt
-spis treści w HTML-u 6c6c6czawierający przekierowania do odpowiednich
+spis treści w HTML-u zawierający przekierowania do odpowiednich
 dokumentów RFC.
-6c6c
+
 %package text
 Summary:	RFC documents - pure text version
 Summary(es.UTF-8):	Documentos RFC - versión de texto puro
@@ -118,9 +118,9 @@ Requires:	rfc-text
 #Obsoletes:	%{name}-text-basic
 
 %description text
-This is pure text ve6crsion of RFC (Request For Comments) documents. The
+This is pure text version of RFC (Request For Comments) documents. The
 set is incomplete. Some documents are available in PostScript and PDF
-form6cats only.
+formats only.
 
 %description text -l es.UTF-8
 Ésta es la versión de texto puro de los documentos RFC (Request For
