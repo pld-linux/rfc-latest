@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 07/10/2007.)
+(CREATED ON: 09/01/2007.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -6085,7 +6085,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      1994. (Format: TXT=6205 bytes) (Status: INFORMATIONAL)
 
 1734 POP3 AUTHentication command. J. Myers. December 1994. (Format:
-     TXT=8499 bytes) (Status: PROPOSED STANDARD)
+     TXT=8499 bytes) (Obsoleted by RFC5034) (Status: PROPOSED STANDARD)
 
 1735 NBMA Address Resolution Protocol (NARP). J. Heinanen, R.
      Govindan. December 1994. (Format: TXT=24485 bytes) (Status:
@@ -8672,7 +8672,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2413 Dublin Core Metadata for Resource Discovery. S. Weibel, J. Kunze,
      C. Lagoze, M. Wolf. September 1998. (Format: TXT=15501 bytes)
-     (Status: INFORMATIONAL)
+     (Obsoleted by RFC5013) (Status: INFORMATIONAL)
 
 2414 Increasing TCP's Initial Window. M. Allman, S. Floyd, C.
      Partridge. September 1998. (Format: TXT=32019 bytes) (Obsoleted by
@@ -8811,8 +8811,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Status: INFORMATIONAL)
 
 2449 POP3 Extension Mechanism. R. Gellens, C. Newman, L. Lundblade.
-     November 1998. (Format: TXT=36017 bytes) (Updates RFC1939) (Status:
-     PROPOSED STANDARD)
+     November 1998. (Format: TXT=36017 bytes) (Updates RFC1939) (Updated
+     by RFC5034) (Status: PROPOSED STANDARD)
 
 2450 Proposed TLA and NLA Assignment Rule. R. Hinden. December 1998.
      (Format: TXT=24486 bytes) (Status: INFORMATIONAL)
@@ -9225,7 +9225,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Status: INFORMATIONAL)
 
 2554 SMTP Service Extension for Authentication. J. Myers. March 1999.
-     (Format: TXT=20534 bytes) (Status: PROPOSED STANDARD)
+     (Format: TXT=20534 bytes) (Obsoleted by RFC4954) (Status: PROPOSED
+     STANDARD)
 
 2555 30 Years of RFCs. RFC Editor, et al.. April 1999. (Format:
      TXT=42902 bytes) (Status: INFORMATIONAL)
@@ -9538,7 +9539,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      PROPOSED STANDARD)
 
 2634 Enhanced Security Services for S/MIME. P. Hoffman, Ed.. June
-     1999. (Format: TXT=131153 bytes) (Status: PROPOSED STANDARD)
+     1999. (Format: TXT=131153 bytes) (Updated by RFC5035) (Status:
+     PROPOSED STANDARD)
 
 2635 DON'T SPEW A Set of Guidelines for Mass Unsolicited Mailings and
      Postings (spam*). S. Hambridge, A. Lunde. June 1999. (Format:
@@ -10043,7 +10045,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2766 Network Address Translation - Protocol Translation (NAT-PT). G.
      Tsirtsis, P. Srisuresh. February 2000. (Format: TXT=49836 bytes)
-     (Updated by RFC3152) (Status: PROPOSED STANDARD)
+     (Obsoleted by RFC4966) (Updated by RFC3152) (Status: HISTORIC)
 
 2767 Dual Stack Hosts using the "Bump-In-the-Stack" Technique (BIS).
      K. Tsuchiya, H. Higuchi, Y. Atarashi. February 2000. (Format:
@@ -10278,7 +10280,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      RFC3704) (Also BCP0038) (Status: BEST CURRENT PRACTICE)
 
 2828 Internet Security Glossary. R. Shirey. May 2000. (Format:
-     TXT=489292 bytes) (Also FYI0036) (Status: INFORMATIONAL)
+     TXT=489292 bytes) (Obsoleted by RFC4949) (Status: INFORMATIONAL)
 
 2829 Authentication Methods for LDAP. M. Wahl, H. Alvestrand, J.
      Hodges, R. Morgan. May 2000. (Format: TXT=33471 bytes) (Obsoleted by
@@ -11186,7 +11188,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3065 Autonomous System Confederations for BGP. P. Traina, D.
      McPherson, J. Scudder. February 2001. (Format: TXT=20529 bytes)
-     (Obsoletes RFC1965) (Status: PROPOSED STANDARD)
+     (Obsoletes RFC1965) (Obsoleted by RFC5065) (Status: PROPOSED
+     STANDARD)
 
 3066 Tags for the Identification of Languages. H. Alvestrand. January
      2001. (Format: TXT=26522 bytes) (Obsoletes RFC1766) (Obsoleted by
@@ -12739,7 +12742,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3452 Forward Error Correction (FEC) Building Block. M. Luby, L.
      Vicisano, J. Gemmell, L. Rizzo, M. Handley, J. Crowcroft. December
-     2002. (Format: TXT=38368 bytes) (Status: EXPERIMENTAL)
+     2002. (Format: TXT=38368 bytes) (Obsoleted by RFC5052) (Status:
+     EXPERIMENTAL)
 
 3453 The Use of Forward Error Correction (FEC) in Reliable Multicast.
      M. Luby, L. Vicisano, J. Gemmell, L. Rizzo, M. Handley, J. Crowcroft.
@@ -12785,7 +12789,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3463 Enhanced Mail System Status Codes. G. Vaudreuil. January 2003.
      (Format: TXT=31832 bytes) (Obsoletes RFC1893) (Updated by RFC3886,
-     RFC4468, RFC4865) (Status: DRAFT STANDARD)
+     RFC4468, RFC4865, RFC4954) (Status: DRAFT STANDARD)
 
 3464 An Extensible Message Format for Delivery Status Notifications.
      K. Moore, G. Vaudreuil. January 2003. (Format: TXT=83060 bytes)
@@ -12830,8 +12834,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3473 Generalized Multi-Protocol Label Switching (GMPLS) Signaling
      Resource ReserVation Protocol-Traffic Engineering (RSVP-TE)
      Extensions. L. Berger, Ed.. January 2003. (Format: TXT=91808 bytes)
-     (Updated by RFC4003, RFC4201, RFC4420, RFC4783, RFC4874, RFC4873)
-     (Status: PROPOSED STANDARD)
+     (Updated by RFC4003, RFC4201, RFC4420, RFC4783, RFC4874, RFC4873,
+     RFC4974) (Status: PROPOSED STANDARD)
 
 3474 Documentation of IANA assignments for Generalized MultiProtocol
      Label Switching (GMPLS) Resource Reservation Protocol - Traffic
@@ -14819,8 +14823,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      PROPOSED STANDARD)
 
 3972 Cryptographically Generated Addresses (CGA). T. Aura. March 2005.
-     (Format: TXT=51473 bytes) (Updated by RFC4581) (Status: PROPOSED
-     STANDARD)
+     (Format: TXT=51473 bytes) (Updated by RFC4581, RFC4982) (Status:
+     PROPOSED STANDARD)
 
 3973 Protocol Independent Multicast - Dense Mode (PIM-DM): Protocol
      Specification (Revised). A. Adams, J. Nicholas, W. Siadak. January
@@ -14857,7 +14861,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3981 IRIS: The Internet Registry Information Service (IRIS) Core
      Protocol. A. Newton, M. Sanz. January 2005. (Format: TXT=101359
-     bytes) (Status: PROPOSED STANDARD)
+     bytes) (Updated by RFC4992) (Status: PROPOSED STANDARD)
 
 3982 IRIS: A Domain Registry (dreg) Type for the Internet Registry
      Information Service (IRIS). A. Newton, M. Sanz. January 2005.
@@ -15412,7 +15416,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 4120 The Kerberos Network Authentication Service (V5). C. Neuman, T.
      Yu, S. Hartman, K. Raeburn. July 2005. (Format: TXT=340314 bytes)
-     (Obsoletes RFC1510) (Updated by RFC4537) (Status: PROPOSED STANDARD)
+     (Obsoletes RFC1510) (Updated by RFC4537, RFC5021) (Status: PROPOSED
+     STANDARD)
 
 4121 The Kerberos Version 5 Generic Security Service Application
      Program Interface (GSS-API) Mechanism: Version 2. L. Zhu, K.
@@ -16480,7 +16485,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Format: TXT=63182 bytes) (Status: PROPOSED STANDARD)
 
 4388 Dynamic Host Configuration Protocol (DHCP) Leasequery. R. Woundy,
-     K. Kinnear,. February 2006. (Format: TXT=63914 bytes) (Status:
+     K. Kinnear. February 2006. (Format: TXT=63914 bytes) (Status:
      PROPOSED STANDARD)
 
 4389 Neighbor Discovery Proxies (ND Proxy). D. Thaler, M. Talwar, C.
@@ -16957,10 +16962,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
      PROPOSED STANDARD)
 
 4510 Lightweight Directory Access Protocol (LDAP): Technical
-     Specification Road Map. K. Zeilenga. June 2006. (Format: TXT=12354
-     bytes) (Obsoletes RFC2251, RFC2252, RFC2253, RFC2254, RFC2255,
-     RFC2256, RFC2829, RFC2830, RFC3377, RFC3771) (Status: PROPOSED
-     STANDARD)
+     Specification Road Map. K. Zeilenga, Ed.. June 2006. (Format:
+     TXT=12354 bytes) (Obsoletes RFC2251, RFC2252, RFC2253, RFC2254,
+     RFC2255, RFC2256, RFC2829, RFC2830, RFC3377, RFC3771) (Status:
+     PROPOSED STANDARD)
 
 4511 Lightweight Directory Access Protocol (LDAP): The Protocol. J.
      Sermersheim, Ed.. June 2006. (Format: TXT=150116 bytes) (Obsoletes
@@ -18302,6 +18307,18 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Identifiers (ORCHID). P. Nikander, J. Laganier, F. Dupont. April
      2007. (Format: TXT=32483 bytes) (Status: EXPERIMENTAL)
 
+4844 The RFC Series and RFC Editor. L. Daigle, Ed., Internet
+     Architecture Board. July 2007. (Format: TXT=38752 bytes) (Status:
+     INFORMATIONAL)
+
+4845 Process for Publication of IAB RFCs. L. Daigle, Ed., Internet
+     Architecture Board. July 2007. (Format: TXT=9228 bytes) (Status:
+     INFORMATIONAL)
+
+4846 Independent Submissions to the RFC Editor. J. Klensin, Ed., D.
+     Thaler, Ed.. July 2007. (Format: TXT=36562 bytes) (Status:
+     INFORMATIONAL)
+
 4847 Framework and Requirements for Layer 1 Virtual Private Networks.
      T. Takeda, Ed.. April 2007. (Format: TXT=85807 bytes) (Status:
      INFORMATIONAL)
@@ -18441,9 +18458,31 @@ See the RFC Editor Web page http://www.rfc-editor.org
      R. Koodli. May 2007. (Format: TXT=24987 bytes) (Status:
      INFORMATIONAL)
 
+4883 Benchmarking Terminology for Resource Reservation Capable
+     Routers. G. Feher, K. Nemeth, A. Korn, I. Cselenyi. July 2007.
+     (Format: TXT=54205 bytes) (Status: INFORMATIONAL)
+
 4884 Extended ICMP to Support Multi-Part Messages. R. Bonica, D. Gan,
      D. Tappan, C. Pignataro. April 2007. (Format: TXT=42169 bytes)
      (Updates RFC0792, RFC4443) (Status: PROPOSED STANDARD)
+
+4885 Network Mobility Support Terminology. T. Ernst, H-Y. Lach. July
+     2007. (Format: TXT=37967 bytes) (Status: INFORMATIONAL)
+
+4886 Network Mobility Support Goals and Requirements. T. Ernst. July
+     2007. (Format: TXT=29083 bytes) (Status: INFORMATIONAL)
+
+4887 Network Mobility Home Network Models. P. Thubert, R. Wakikawa, V.
+     Devarapalli. July 2007. (Format: TXT=40372 bytes) (Status:
+     INFORMATIONAL)
+
+4888 Network Mobility Route Optimization Problem Statement. C. Ng, P.
+     Thubert, M. Watari, F. Zhao. July 2007. (Format: TXT=56756 bytes)
+     (Status: INFORMATIONAL)
+
+4889 Network Mobility Route Optimization Solution Space Analysis. C.
+     Ng, F. Zhao, M. Watari, P. Thubert. July 2007. (Format: TXT=95880
+     bytes) (Status: INFORMATIONAL)
 
 4890 Recommendations for Filtering ICMPv6 Messages in Firewalls. E.
      Davies, J. Mohacsi. May 2007. (Format: TXT=83479 bytes) (Status:
@@ -18464,10 +18503,13 @@ See the RFC Editor Web page http://www.rfc-editor.org
      P. Hoffman. May 2007. (Format: TXT=22899 bytes) (Status:
      INFORMATIONAL)
 
+4895 Authenticated Chunks for the Stream Control Transmission Protocol
+     (SCTP). M. Tuexen, R. Stewart, P. Lei, E. Rescorla. August 2007.
+     (Format: TXT=42507 bytes) (Status: PROPOSED STANDARD)
+
 4896 Signaling Compression (SigComp) Corrections and Clarifications.
-     A. Surtees, M. West, A.B. Roach,. June 2007. (Format: TXT=58435
-     bytes) (Updates RFC3320, RFC3321, RFC3485) (Status: PROPOSED
-     STANDARD)
+     A. Surtees, M. West, A.B. Roach. June 2007. (Format: TXT=58435 bytes)
+     (Updates RFC3320, RFC3321, RFC3485) (Status: PROPOSED STANDARD)
 
 4897 Handling Normative References to Standards-Track Documents. J.
      Klensin, S. Hartman. June 2007. (Format: TXT=13023 bytes) (Updates
@@ -18512,6 +18554,24 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Castleford, F. Hartung. June 2007. (Format: TXT=12228 bytes) (Status:
      INFORMATIONAL)
 
+4910 Robust XML Encoding Rules (RXER) for Abstract Syntax Notation One
+     (ASN.1). S. Legg, D. Prager. July 2007. (Format: TXT=182175 bytes)
+     (Status: EXPERIMENTAL)
+
+4911 Encoding Instructions for the Robust XML Encoding Rules (RXER).
+     S. Legg. July 2007. (Format: TXT=178977 bytes) (Status: EXPERIMENTAL)
+
+4912 Abstract Syntax Notation X (ASN.X). S. Legg. July 2007. (Format:
+     TXT=325190 bytes) (Status: EXPERIMENTAL)
+
+4913 Abstract Syntax Notation X (ASN.X) Representation of Encoding
+     Instructions for the Generic String Encoding Rules (GSER). S. Legg.
+     July 2007. (Format: TXT=17194 bytes) (Status: EXPERIMENTAL)
+
+4914 Abstract Syntax Notation X (ASN.X) Representation of Encoding
+     Instructions for the XML Encoding Rules (XER. S. Legg. July 2007.
+     (Format: TXT=71526 bytes) (Status: EXPERIMENTAL)
+
 4915 Multi-Topology (MT) Routing in OSPF. P. Psenak, S. Mirtorabi, A.
      Roy, L. Nguyen, P. Pillay-Esnault. June 2007. (Format: TXT=43115
      bytes) (Status: PROPOSED STANDARD)
@@ -18527,6 +18587,26 @@ See the RFC Editor Web page http://www.rfc-editor.org
 4918 HTTP Extensions for Web Distributed Authoring and Versioning
      (WebDAV). L. Dusseault, Ed.. June 2007. (Format: TXT=276352 bytes)
      (Obsoletes RFC2518) (Status: PROPOSED STANDARD)
+
+4919 IPv6 over Low-Power Wireless Personal Area Networks (6LoWPANs):
+     Overview, Assumptions, Problem Statement, and Goals. N. Kushalnagar,
+     G. Montenegro, C. Schumacher. August 2007. (Format: TXT=27650 bytes)
+     (Status: INFORMATIONAL)
+
+4920 Crankback Signaling Extensions for MPLS and GMPLS RSVP-TE. A.
+     Farrel, Ed., A. Satyanarayana, A. Iwata, N. Fujita, G. Ash. July
+     2007. (Format: TXT=88679 bytes) (Status: PROPOSED STANDARD)
+
+4923 Quality of Service (QoS) Signaling in a Nested Virtual Private
+     Network. F. Baker, P. Bose. August 2007. (Format: TXT=92632 bytes)
+     (Status: INFORMATIONAL)
+
+4924 Reflections on Internet Transparency. B. Aboba, Ed., E. Davies.
+     July 2007. (Format: TXT=35040 bytes) (Status: INFORMATIONAL)
+
+4925 Softwire Problem Statement. X. Li, Ed., S. Dawkins, Ed., D. Ward,
+     Ed., A. Durand, Ed.. July 2007. (Format: TXT=49299 bytes) (Status:
+     INFORMATIONAL)
 
 4926 A URN Namespace for GEANT. T.Kalin, M.Molina. July 2007. (Format:
      TXT=16672 bytes) (Status: INFORMATIONAL)
@@ -18565,6 +18645,14 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Hollenbeck. May 2007. (Format: TXT=22914 bytes) (Obsoletes RFC3734)
      (Status: DRAFT STANDARD)
 
+4935 Fibre Channel Fabric Configuration Server MIB. C. DeSanti, H.K.
+     Vivek, K. McCloghrie, S. Gai. August 2007. (Format: TXT=97345 bytes)
+     (Status: PROPOSED STANDARD)
+
+4936 Fibre Channel Zone Server MIB. C. DeSanti, H.K. Vivek, K.
+     McCloghrie, S. Gai. August 2007. (Format: TXT=170801 bytes) (Status:
+     PROPOSED STANDARD)
+
 4937 IANA Considerations for PPP over Ethernet (PPPoE). P. Arberg, V.
      Mammoliti. June 2007. (Format: TXT=11070 bytes) (Status:
      INFORMATIONAL)
@@ -18572,3 +18660,209 @@ See the RFC Editor Web page http://www.rfc-editor.org
 4938 PPP Over Ethernet (PPPoE) Extensions for Credit Flow and Link
      Metrics. B. Berry, H. Holgate. June 2007. (Format: TXT=38288 bytes)
      (Status: INFORMATIONAL)
+
+4939 Definitions of Managed Objects for iSNS (Internet Storage Name
+     Service). K. Gibbons, G. Ramkumar, S. Kipp. July 2007. (Format:
+     TXT=165381 bytes) (Status: PROPOSED STANDARD)
+
+4940 IANA Considerations for OSPF. K. Kompella, B. Fenner. July 2007.
+     (Format: TXT=27595 bytes) (Also BCP0130) (Status: BEST CURRENT
+     PRACTICE)
+
+4945 The Internet IP Security PKI Profile of IKEv1/ISAKMP, IKEv2, and
+     PKIX. B. Korver. August 2007. (Format: TXT=101495 bytes) (Status:
+     PROPOSED STANDARD)
+
+4946 Atom License Extension. J. Snell. July 2007. (Format: TXT=14602
+     bytes) (Status: EXPERIMENTAL)
+
+4947 Address Resolution Mechanisms for IP Datagrams over MPEG-2
+     Networks. G. Fairhurst, M. Montpetit. July 2007. (Format: TXT=102717
+     bytes) (Status: INFORMATIONAL)
+
+4948 Report from the IAB workshop on Unwanted Traffic March 9-10,
+     2006. L. Andersson, E. Davies, L. Zhang. August 2007. (Format:
+     TXT=106199 bytes) (Status: INFORMATIONAL)
+
+4949 Internet Security Glossary, Version 2. R. Shirey. August 2007.
+     (Format: TXT=867626 bytes) (Obsoletes RFC2828) (Also FYI0036)
+     (Status: INFORMATIONAL)
+
+4950 ICMP Extensions for Multiprotocol Label Switching. R. Bonica, D.
+     Gan, D. Tappan, C. Pignataro. August 2007. (Format: TXT=15091 bytes)
+     (Status: PROPOSED STANDARD)
+
+4951 Fail Over Extensions for Layer 2 Tunneling Protocol (L2TP)
+     "failover". V. Jain, Ed.. August 2007. (Format: TXT=53659 bytes)
+     (Status: PROPOSED STANDARD)
+
+4952 Overview and Framework for Internationalized Email. J. Klensin,
+     Y. Ko. July 2007. (Format: TXT=48409 bytes) (Status: INFORMATIONAL)
+
+4953 Defending TCP Against Spoofing Attacks. J. Touch. July 2007.
+     (Format: TXT=72756 bytes) (Status: INFORMATIONAL)
+
+4954 SMTP Service Extension for Authentication. R. Siemborski, Ed., A.
+     Melnikov, Ed.. July 2007. (Format: TXT=43493 bytes) (Obsoletes
+     RFC2554) (Updates RFC3463) (Status: PROPOSED STANDARD)
+
+4955 DNS Security (DNSSEC) Experiments. D. Blacka. July 2007. (Format:
+     TXT=15417 bytes) (Status: PROPOSED STANDARD)
+
+4956 DNS Security (DNSSEC) Opt-In. R. Arends, M. Kosters, D. Blacka.
+     July 2007. (Format: TXT=32033 bytes) (Status: EXPERIMENTAL)
+
+4957 Link-Layer Event Notifications for Detecting Network Attachments.
+     S. Krishnan, Ed., N. Montavont, E. Njedjou, S. Veerepalli, A. Yegin,
+     Ed.. August 2007. (Format: TXT=41840 bytes) (Status: INFORMATIONAL)
+
+4958 A Framework for Supporting Emergency Telecommunications Services
+     (ETS) within a Single Administrative Domain. K. Carlberg. July 2007.
+     (Format: TXT=44008 bytes) (Status: INFORMATIONAL)
+
+4961 Symmetric RTP / RTP Control Protocol (RTCP). D. Wing. July 2007.
+     (Format: TXT=12539 bytes) (Also BCP0131) (Status: BEST CURRENT
+     PRACTICE)
+
+4962 Guidance for Authentication, Authorization, and Accounting (AAA)
+     Key Management. R. Housley, B. Aboba. July 2007. (Format: TXT=54927
+     bytes) (Also BCP0132) (Status: BEST CURRENT PRACTICE)
+
+4963 IPv4 Reassembly Errors at High Data Rates. J. Heffner, M. Mathis,
+     B. Chandler. July 2007. (Format: TXT=22399 bytes) (Status:
+     INFORMATIONAL)
+
+4966 Reasons to Move the Network Address Translator - Protocol
+     Translator (NAT-PT) to Historic Status. C. Aoun, E. Davies. July
+     2007. (Format: TXT=60284 bytes) (Obsoletes RFC2766) (Status:
+     INFORMATIONAL)
+
+4967 Dial String Parameter for the Session Initiation Protocol Uniform
+     Resource Identifier. B. Rosen. July 2007. (Format: TXT=12659 bytes)
+     (Status: PROPOSED STANDARD)
+
+4968 Analysis of IPv6 Link Models for 802.16 Based Networks. S.
+     Madanapalli, Ed.. August 2007. (Format: TXT=34536 bytes) (Status:
+     INFORMATIONAL)
+
+4969 IANA Registration for vCard Enumservice. A. Mayrhofer. August
+     2007. (Format: TXT=14038 bytes) (Status: PROPOSED STANDARD)
+
+4970 Extensions to OSPF for Advertising Optional Router Capabilities.
+     A. Lindem, Ed., N. Shen, JP. Vasseur, R. Aggarwal, S. Shaffer. July
+     2007. (Format: TXT=26416 bytes) (Status: PROPOSED STANDARD)
+
+4971 Intermediate System to Intermediate System (IS-IS) Extensions for
+     Advertising Router Information. JP. Vasseur, Ed., N. Shen, Ed., R.
+     Aggarwal, Ed.. July 2007. (Format: TXT=18541 bytes) (Status: PROPOSED
+     STANDARD)
+
+4972 Routing Extensions for Discovery of Multiprotocol (MPLS) Label
+     Switch Router (LSR) Traffic Engineering (TE) Mesh Membership. JP.
+     Vasseur, Ed., JL. Leroux, Ed., S. Yasukawa, S. Previdi, P. Psenak, P.
+     Mabbey. July 2007. (Format: TXT=32044 bytes) (Status: PROPOSED
+     STANDARD)
+
+4973 OSPF-xTE: Experimental Extension to OSPF for Traffic Engineering.
+     P. Srisuresh, P. Joseph. July 2007. (Format: TXT=115361 bytes)
+     (Status: EXPERIMENTAL)
+
+4974 Generalized MPLS (GMPLS) RSVP-TE Signaling Extensions in Support
+     of Calls. D. Papadimitriou, A. Farrel. August 2007. (Format:
+     TXT=72000 bytes) (Updates RFC3473) (Status: PROPOSED STANDARD)
+
+4977 Problem Statement: Dual Stack Mobility. G. Tsirtsis, H. Soliman.
+     August 2007. (Format: TXT=16758 bytes) (Status: INFORMATIONAL)
+
+4978 The IMAP COMPRESS Extension. A. Gulbrandsen. August 2007.
+     (Format: TXT=17554 bytes) (Status: PROPOSED STANDARD)
+
+4979 IANA Registration for Enumservice 'XMPP'. A. Mayrhofer. August
+     2007. (Format: TXT=11719 bytes) (Status: PROPOSED STANDARD)
+
+4982 Support for Multiple Hash Algorithms in Cryptographically
+     Generated Addresses (CGAs). M. Bagnulo, J. Arkko. July 2007. (Format:
+     TXT=20961 bytes) (Updates RFC3972) (Status: PROPOSED STANDARD)
+
+4983 Fibre Channel Registered State Change Notification (RSCN) MIB. C.
+     DeSanti, H.K. Vivek, K. McCloghrie, S. Gai. August 2007. (Format:
+     TXT=56049 bytes) (Status: PROPOSED STANDARD)
+
+4985 Internet X.509 Public Key Infrastructure Subject Alternative Name
+     for Expression of Service Name. S. Santesson. August 2007. (Format:
+     TXT=17868 bytes) (Status: PROPOSED STANDARD)
+
+4986 Requirements Related to DNS Security (DNSSEC) Trust Anchor
+     Rollover. H. Eland, R. Mundy, S. Crocker, S. Krishnaswamy. August
+     2007. (Format: TXT=22647 bytes) (Status: INFORMATIONAL)
+
+4987 TCP SYN Flooding Attacks and Common Mitigations. W. Eddy. August
+     2007. (Format: TXT=48753 bytes) (Status: INFORMATIONAL)
+
+4991 A Common Schema for Internet Registry Information Service
+     Transfer Protocols. A. Newton. August 2007. (Format: TXT=24418 bytes)
+     (Status: PROPOSED STANDARD)
+
+4992 XML Pipelining with Chunks for the Internet Registry Information
+     Service. A. Newton. August 2007. (Format: TXT=55848 bytes) (Updates
+     RFC3981) (Status: PROPOSED STANDARD)
+
+4993 A Lightweight UDP Transfer Protocol for the Internet Registry
+     Information Service. A. Newton. August 2007. (Format: TXT=34383
+     bytes) (Status: PROPOSED STANDARD)
+
+4995 The RObust Header Compression (ROHC) Framework. L-E. Jonsson, G.
+     Pelletier, K. Sandlund. July 2007. (Format: TXT=87198 bytes) (Status:
+     PROPOSED STANDARD)
+
+4996 RObust Header Compression (ROHC): A Profile for TCP/IP
+     (ROHC-TCP). G. Pelletier, K. Sandlund, L-E. Jonsson, M. West. July
+     2007. (Format: TXT=183113 bytes) (Status: PROPOSED STANDARD)
+
+4997 Formal Notation for RObust Header Compression (ROHC-FN). R.
+     Finking, G. Pelletier. July 2007. (Format: TXT=131231 bytes) (Status:
+     PROPOSED STANDARD)
+
+4998 Evidence Record Syntax (ERS). T. Gondrom, R. Brandner, U.
+     Pordesch. August 2007. (Format: TXT=66888 bytes) (Status: PROPOSED
+     STANDARD)
+
+5001 DNS Name Server Identifier (NSID) Option. R. Austein. August
+     2007. (Format: TXT=23754 bytes) (Status: PROPOSED STANDARD)
+
+5002 The Session Initiation Protocol (SIP) P-Profile-Key Private
+     Header (P-Header). G. Camarillo, G. Blanco. August 2007. (Format:
+     TXT=15137 bytes) (Status: INFORMATIONAL)
+
+5013 The Dublin Core Metadata Element Set. J. Kunze, T. Baker. August
+     2007. (Format: TXT=17776 bytes) (Obsoletes RFC2413) (Status:
+     INFORMATIONAL)
+
+5020 The Lightweight Directory Access Protocol (LDAP) entryDN
+     Operational Attribute. K. Zeilenga. August 2007. (Format: TXT=8607
+     bytes) (Status: PROPOSED STANDARD)
+
+5021 Extended Kerberos Version 5 Key Distribution Center (KDC)
+     Exchanges over TCP. S. Josefsson. August 2007. (Format: TXT=13431
+     bytes) (Updates RFC4120) (Status: PROPOSED STANDARD)
+
+5033 Specifying New Congestion Control Algorithms. S. Floyd, M.
+     Allman. August 2007. (Format: TXT=23469 bytes) (Also BCP0133)
+     (Status: BEST CURRENT PRACTICE)
+
+5034 The Post Office Protocol (POP3) Simple Authentication and
+     Security Layer (SASL) Authentication Mechanism. R. Siemborski, A.
+     Menon-Sen. July 2007. (Format: TXT=24170 bytes) (Obsoletes RFC1734)
+     (Updates RFC2449) (Status: PROPOSED STANDARD)
+
+5035 Enhanced Security Services (ESS) Update: Adding CertID Algorithm
+     Agility. J. Schaad. August 2007. (Format: TXT=32674 bytes) (Updates
+     RFC2634) (Status: PROPOSED STANDARD)
+
+5052 Forward Error Correction (FEC) Building Block. M. Watson, M.
+     Luby, L. Vicisano. August 2007. (Format: TXT=57754 bytes) (Obsoletes
+     RFC3452) (Status: PROPOSED STANDARD)
+
+5065 Autonomous System Confederations for BGP. P. Traina, D.
+     McPherson, J. Scudder. August 2007. (Format: TXT=28732 bytes)
+     (Obsoletes RFC3065) (Status: DRAFT STANDARD)
