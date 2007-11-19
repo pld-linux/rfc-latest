@@ -1,0 +1,31 @@
+--- rfc-index.txt~	2007-11-19 10:54:21.000000000 +0100
++++ rfc-index.txt	2007-11-19 10:54:21.000000000 +0100
+@@ -19099,6 +19099,10 @@
+      Sparks. November 2007. (Format: TXT=62654 bytes) (Status:
+      INFORMATIONAL)
+ 
++5058 Explicit Multicast (Xcast) Concepts and Options. R. Boivie, N.
++     Feldman, Y. Imai, W. Livens, D. Ooms. November 2007. (Format:
++     TXT=80072 bytes) (Status: EXPERIMENTAL)
++
+ 5061 Stream Control Transmission Protocol (SCTP) Dynamic Address
+      Reconfiguration. R. Stewart, Q. Xie, M. Tuexen, S. Maruyama, M.
+      Kozuka. September 2007. (Format: TXT=91851 bytes) (Status: PROPOSED
+@@ -19118,6 +19122,9 @@
+      McPherson, J. Scudder. August 2007. (Format: TXT=28732 bytes)
+      (Obsoletes RFC3065) (Status: DRAFT STANDARD)
+ 
++5067 Infrastructure ENUM Requirements. S. Lind, P. Pfautz. November 2007.
++     (Format: TXT=14311 bytes) (Status: INFORMATIONAL)
++
+ 5068 Email Submission Operations: Access and Accountability
+      Requirements. C. Hutzler, D. Crocker, P. Resnick, E. Allman, T.
+      Finch. November 2007. (Format: TXT=24481 bytes) (Also BCP0134)
+@@ -19143,3 +19150,7 @@
+      Heasley, D. Meyer, P. Savola, Ed., C. Pignataro. October 2007.
+      (Format: TXT=36579 bytes) (Obsoletes RFC3682) (Status: PROPOSED
+      STANDARD)
++
++5092 IMAP URL Scheme. A. Melnikov, Ed., C. Newman. November 2007. (Format:
++     TXT=65197 bytes) (Obsoletes RFC2192) (Updates RFC4467) (Status:
++     PROPOSED STANDARD)
