@@ -15,6 +15,6 @@
       Protocol Addresses to 48.bit Ethernet Address for Transmission on
 -     Ethernet Hardware. D. Plummer. November 1982. (Format: TXT=21556
 +     Ethernet Hardware. D.C. Plummer. November 1982. (Format: TXT=21556
-      bytes) (Also STD0037) (Status: STANDARD)
+      bytes) (Updated by RFC5227) (Also STD0037) (Status: STANDARD)
 
  0827 Exterior Gateway Protocol (EGP). E.C. Rosen. October 1982.
