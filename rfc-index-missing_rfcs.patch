@@ -1,53 +1,21 @@
---- rfc-index.txt.orig	2008-02-20 10:53:35.000000000 +0100
-+++ rfc-index.txt	2008-02-20 11:05:54.000000000 +0100
-@@ -18309,7 +18309,7 @@
- 4842 Synchronous Optical Network/Synchronous Digital Hierarchy
-      (SONET/SDH) Circuit Emulation over Packet (CEP). A. Malis, P. Pate,
-      R. Cohen, Ed., D. Zelig. April 2007. (Format: TXT=96719 bytes)
--     (Status: PROPOSED STANDARD)
-+     (Obsoletes RFC5143) (Status: PROPOSED STANDARD)
+--- rfc-index.txt.orig	2008-09-05 12:36:00.000000000 +0200
++++ rfc-index.txt	2008-09-05 12:36:00.000000000 +0200
+@@ -20085,6 +20085,18 @@
+      September 2008. (Format: TXT=27018 bytes) (Obsoletes RFC3534)
+      (Status: PROPOSED STANDARD)
  
- 4843 An IPv6 Prefix for Overlay Routable Cryptographic Hash
-      Identifiers (ORCHID). P. Nikander, J. Laganier, F. Dupont. April
-@@ -19314,6 +19314,10 @@
-      (IPFIX). B. Trammell, E. Boschi. January 2008. (Format: TXT=53534
-      bytes) (Status: PROPOSED STANDARD)
- 
-+5104 Codec Control Messages in the RTP Audio-Visual Profile with Feedback
-+     (AVPF). S. Wenger, U. Chandra, M. Westerlund, B. Burman. February
-+     2008. (Format: TXT=158098 bytes) (Status: PROPOSED STANDARD)
++5335 Internationalized Email Headers. Y. Abel, Ed.. September 2008.
++     (Format: TXT=27945 bytes) (Updates RFC2045, RFC2822) (Status:
++     EXPERIMENTAL)
 +
- 5105 ENUM Validation Token Format Definition. O. Lendl. December 2007.
-      (Format: TXT=33057 bytes) (Status: PROPOSED STANDARD)
- 
-@@ -19383,6 +19387,10 @@
-      2008. (Format: TXT=6646 bytes) (Obsoletes RFC3525) (Status:
-      INFORMATIONAL)
- 
-+5127 Aggregation of Diffserv Service Classes. K. Chan, J. Babiarz, F.
-+     Baker. February 2008. (Format: TXT=43751 bytes) (Status:
-+     INFORMATIONAL)
++5336 SMTP Extension for Internationalized Email Addresses. J. Yao, Ed.,
++     W. Mao, Ed.. September 2008. (Format: TXT=48110) (Updates RFC2821,
++     RFC2822, RFC4952) (Status: EXPERIMENTAL)
 +
- 5129 Explicit Congestion Marking in MPLS. B. Davie, B. Briscoe, J.
-      Tay. January 2008. (Format: TXT=49496 bytes) (Status: PROPOSED
-      STANDARD)
-@@ -19414,10 +19422,19 @@
- 5136 Defining Network Capacity. P. Chimento, J. Ishac. February 2008.
-      (Format: TXT=30682 bytes) (Status: INFORMATIONAL)
- 
-+5138 A Uniform Resource Name (URN) Namespace for the Commission for the
-+     Management and Application of Geoscience Information (CGI). S. Cox.
-+     February 2008. (Format: TXT=15005 bytes) (Status: INFORMATIONAL)
++5337 Internationalized Delivery Status and Disposition Notifications.
++     C. Newman, A. Melnikov, Ed.. September 2008. (Format: TXT=36324)
++     (Updates RFC3461, RFC3464, RFC3798) (Status: EXPERIMENTAL)
 +
- 5142 Mobility Header Home Agent Switch Message. B. Haley, V.
-      Devarapalli, H. Deng, J. Kempf. January 2008. (Format: TXT=27460
-      bytes) (Status: PROPOSED STANDARD)
- 
-+5143 Synchronous Optical Network/Synchronous Digital Hierarchy (SONET/SDH)
-+     Circuit Emulation Service over MPLS (CEM) Encapsulation. A. Malis, J.
-+     Brayley, J. Shirron, L. Martini, S. Vogelsang. January 2008. (Format:
-+     TXT=52534 bytes) (Obsoleted by RFC0750) (Status: HISTORIC)
-+
- 5176 Dynamic Authorization Extensions to Remote Authentication Dial In
-      User Service (RADIUS). M. Chiba, G. Dommety, M. Eklund, D. Mitton, B.
-      Aboba. January 2008. (Format: TXT=79541 bytes) (Obsoletes RFC3576)
+ 5340 OSPF for IPv6. R. Coltun, D. Ferguson, J. Moy, A. Lindem. July
+      2008. (Format: TXT=225664 bytes) (Obsoletes RFC2740) (Status:
+      PROPOSED STANDARD)
