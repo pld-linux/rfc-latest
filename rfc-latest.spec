@@ -10,18 +10,18 @@ Summary:	Latest RFC documents
 Summary(es.UTF-8):	Los últimos documentos RFC
 Summary(pl.UTF-8):	Najnowsze dokumenty RFC
 Name:		rfc-latest
-Version:	5340
+Version:	5389
 Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.rfc-editor.org/in-notes/tar/RFCs5001-latest.tar.gz
-# Source0-md5:	555c9dd215bf68a4d606b5128877d850
+# Source0-md5:	17d0b292ef58091d740cb4fd3acb1c47
 Source1:	ftp://ftp.rfc-editor.org/in-notes/rfc-index.txt
 Source2:	ftp://ftp.rfc-editor.org/in-notes/rfc5000.txt
 Source10:	rfcindex-%{rfcindex_version}
 # Source10-md5:	2b35cdd18096517e048fd455364dd77a
 Patch0:		rfc-index-typo.patch
-Patch1:		rfc-index-missing_rfcs.patch
+Patch1:		rfc-index-online_updates.patch
 Patch10:	rfcindex-pld.patch
 URL:		http://www.rfc.net/
 %if %{with ps} || %{with pdf}
