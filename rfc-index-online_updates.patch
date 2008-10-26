@@ -1,0 +1,86 @@
+--- rfc-index.txt~	2008-10-26 22:37:39.000000000 +0100
++++ rfc-index.txt	2008-10-26 22:37:39.000000000 +0100
+@@ -1257,8 +1257,8 @@
+      June 1972. (Format: TXT=2015 bytes) (Obsoletes RFC0343) (Status:
+      UNKNOWN)
+ 
+-0360 Proposed Remote Job Entry Protocol. C. Holland. June 1972. (Not
+-     online) (Obsoleted by RFC0407) (Status: UNKNOWN)
++0360 Proposed Remote Job Entry Protocol. C. Holland. June 1972. (Obsoleted
++     by RFC0407) (Status: UNKNOWN)
+ 
+ 0361 Deamon Processes on Host 106. R.D. Bressler. July 1972. (Format:
+      TXT=1480 bytes) (Status: UNKNOWN)
+@@ -1395,7 +1395,7 @@
+      TXT=28162 bytes) (Obsoletes RFC0363) (Status: UNKNOWN)
+ 
+ 0403 Desirability of a network 1108 service. G. Hicks. January 1973.
+-     (Not online) (Status: UNKNOWN)
++     (Status: UNKNOWN)
+ 
+ 0404 Host Address Changes Involving Rand and ISI. A.M. McKenzie.
+      October 1972. (Format: TXT=944 bytes) (Updated by RFC0405) (Status:
+@@ -1444,7 +1444,7 @@
+      (Format: TXT=901 bytes) (Status: UNKNOWN)
+ 
+ 0418 Server file transfer under TSS/360 at NASA Ames. W. Hathaway.
+-     November 1972. (Not online) (Status: UNKNOWN)
++     November 1972. (Status: UNKNOWN)
+ 
+ 0419 To: Network liaisons and station agents. A. Vezza. December 1972.
+      (Format: TXT=1252 bytes) (Status: UNKNOWN)
+@@ -1615,8 +1615,8 @@
+ 0474 Announcement of NGWG meeting: Call for papers. S. Bunch. March
+      1973. (Format: TXT=1170 bytes) (Updates RFC0396) (Status: UNKNOWN)
+ 
+-0475 FTP and network mail system. A.K. Bhushan. March 1973. (Not
+-     online) (Status: UNKNOWN)
++0475 FTP and network mail system. A.K. Bhushan. March 1973. (Status:
++     UNKNOWN)
+ 
+ 0476 IMP/TIP memory retrofit schedule (rev 2). A.M. McKenzie. March
+      1973. (Format: TXT=2281 bytes) (Obsoletes RFC0447) (Status: UNKNOWN)
+@@ -1754,8 +1754,8 @@
+ 0521 Restricted use of IMP DDT. A.M. McKenzie. May 1973. (Format:
+      TXT=3724 bytes) (Status: UNKNOWN)
+ 
+-0522 Traffic statistics (May 1973). A.M. McKenzie. June 1973. (Not
+-     online) (Status: UNKNOWN)
++0522 Traffic statistics (May 1973). A.M. McKenzie. June 1973. (Status:
++     UNKNOWN)
+ 
+ 0523 SURVEY is in operation again. A.K. Bhushan. June 1973. (Format:
+      TXT=2852 bytes) (Status: UNKNOWN)
+@@ -1780,8 +1780,8 @@
+      Tomlinson, K.T. Pogran. June 1973. (Format: TXT=9068 bytes) (Status:
+      UNKNOWN)
+ 
+-0530 Report on the Survey project. A.K. Bhushan. June 1973. (Not
+-     online) (Status: UNKNOWN)
++0530 Report on the Survey project. A.K. Bhushan. June 1973. (Status:
++     UNKNOWN)
+ 
+ 0531 Feast or famine? A response to two recent RFC's about network
+      information. M.A. Padlipsky. June 1973. (Format: TXT=5070 bytes)
+@@ -1796,8 +1796,8 @@
+ 0534 Lost message detection. D.C. Walden. July 1973. (Format: TXT=3227
+      bytes) (Status: UNKNOWN)
+ 
+-0535 Comments on File Access Protocol. R. Thomas. July 1973. (Not
+-     online) (Status: UNKNOWN)
++0535 Comments on File Access Protocol. R. Thomas. July 1973. (Status:
++     UNKNOWN)
+ 
+ 0536 Not Issued.
+ 
+@@ -1842,8 +1842,8 @@
+ 0550 NIC NCP experiment. L.P. Deutsch. August 1973. (Format: TXT=3688
+      bytes) (Status: UNKNOWN)
+ 
+-0551 NYU, ANL, and LBL Joining the Net. Feinroth. August 1973. (Not
+-     online) (Status: UNKNOWN)
++0551 NYU, ANL, and LBL Joining the Net. Feinroth. August 1973. (Status:
++     UNKNOWN)
+ 
+ 0552 Single access to standard protocols. A.D. Owen. July 1973.
+      (Format: TXT=1404 bytes) (Status: UNKNOWN)
