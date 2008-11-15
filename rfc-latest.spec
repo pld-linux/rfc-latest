@@ -21,7 +21,7 @@ Source2:	ftp://ftp.rfc-editor.org/in-notes/rfc5000.txt
 Source10:	rfcindex-%{rfcindex_version}
 # Source10-md5:	2b35cdd18096517e048fd455364dd77a
 Patch0:		rfc-index-typo.patch
-Patch1:		rfc-index-online_updates.patch
+#Patch1:		rfc-index-online_updates.patch
 Patch10:	rfcindex-pld.patch
 URL:		http://www.rfc.net/
 %if %{with ps} || %{with pdf}
@@ -177,7 +177,7 @@ Dokumenty RFC (Request For Comments) w formacie Adobe PDF.
 %setup -q -c
 install %{SOURCE1} .
 %patch0 -p0
-%patch1 -p0
+#%%patch1 -p0
 install %{SOURCE2} .
 
 %if %{with html_index}
