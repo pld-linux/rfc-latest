@@ -1,0 +1,67 @@
+--- /home/ankry/rpm/SOURCES/rfc-index.txt~	2008-11-15 09:59:07.000000000 +0100
++++ /home/ankry/rpm/SOURCES/rfc-index.txt	2008-11-15 10:08:19.000000000 +0100
+@@ -1093,7 +1093,7 @@
+      (Format: TXT=12032 bytes) (Status: UNKNOWN)
+ 
+ 0308 ARPANET host availability data. M. Seriff. March 1972. (Format:
+-     TXT=5948 bytes) (Status: UNKNOWN)
++     TXT=5948 bytes) (Updated by RFC0530) (Status: UNKNOWN)
+ 
+ 0309 Data and File Transfer Workshop Announcement. A.K. Bhushan. March
+      1972. (Format: TXT=9404 bytes) (Status: UNKNOWN)
+@@ -1719,7 +1719,7 @@
+      McAfee. May 1973. (Format: TXT=25002 bytes) (Status: UNKNOWN)
+ 
+ 0509 Traffic statistics (April 1973). A.M. McKenzie. April 1973.
+-     (Format: TXT=6538 bytes) (Status: UNKNOWN)
++     (Format: TXT=6538 bytes) (Updated by RFC0522) (Status: UNKNOWN)
+ 
+ 0510 Request for network mailbox addresses. J.E. White. May 1973.
+      (Format: TXT=4150 bytes) (Status: UNKNOWN)
+@@ -1760,7 +1760,7 @@
+      PDF=163705 bytes) (Updates RFC0509) (Status: UNKNOWN)
+ 
+ 0523 SURVEY is in operation again. A.K. Bhushan. June 1973. (Format:
+-     TXT=2852 bytes) (Status: UNKNOWN)
++     TXT=2852 bytes) (Updated by RFC0530) (Status: UNKNOWN)
+ 
+ 0524 Proposed Mail Protocol. J.E. White. June 1973. (Format: TXT=75385
+      bytes) (Status: UNKNOWN)
+@@ -4030,7 +4030,7 @@
+ 
+ 1183 New DNS RR Definitions. C.F. Everhart, L.A. Mamakos, R. Ullmann,
+      P.V. Mockapetris. October 1990. (Format: TXT=23788 bytes) (Updates
+-     RFC1034, RFC1035) (Status: EXPERIMENTAL)
++     RFC1034, RFC1035) (Updated by RFC5395) (Status: EXPERIMENTAL)
+ 
+ 1184 Telnet Linemode Option. D.A. Borman. October 1990. (Format:
+      TXT=53085 bytes) (Obsoletes RFC1116) (Status: DRAFT STANDARD)
+@@ -10695,7 +10695,8 @@
+ 
+ 2929 Domain Name System (DNS) IANA Considerations. D. Eastlake 3rd, E.
+      Brunner-Williams, B. Manning. September 2000. (Format: TXT=22454
+-     bytes) (Also BCP0042) (Status: BEST CURRENT PRACTICE)
++     bytes) (Obsoleted by RFC5395) (Also BCP0042) (Status: BEST CURRENT
++     PRACTICE)
+ 
+ 2930 Secret Key Establishment for DNS (TKEY RR). D. Eastlake 3rd.
+      September 2000. (Format: TXT=34894 bytes) (Status: PROPOSED STANDARD)
+@@ -13379,8 +13380,8 @@
+ 
+ 3597 Handling of Unknown DNS Resource Record (RR) Types. A.
+      Gustafsson. September 2003. (Format: TXT=17559 bytes) (Updates
+-     RFC2163, RFC2535) (Updated by RFC4033, RFC4034, RFC4035) (Status:
+-     PROPOSED STANDARD)
++     RFC2163, RFC2535) (Updated by RFC4033, RFC4034, RFC4035, RFC5395)
++     (Status: PROPOSED STANDARD)
+ 
+ 3598 Sieve Email Filtering -- Subaddress Extension. K. Murchison.
+      September 2003. (Format: TXT=11151 bytes) (Obsoleted by RFC5233)
+@@ -20426,3 +20427,7 @@
+ 5389 Session Traversal Utilities for NAT (STUN). J. Rosenberg, R.
+      Mahy, P. Matthews, D. Wing. October 2008. (Format: TXT=125650 bytes)
+      (Obsoletes RFC3489) (Status: PROPOSED STANDARD)
++
++5395 Domain Name System (DNS) IANA Considerations. D. Eastlake 3rd.
++     November 2008. (Format: TXT=33634 bytes) (Obsoletes RFC2929) (Updates
++     RFC1183, RFC3597) (Status: BEST CURRENT PRACTICE)
