@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 11/14/2008.)
+(CREATED ON: 12/14/2008.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -2606,8 +2606,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      RFC4884) (Also STD0005) (Status: STANDARD)
 
 0793 Transmission Control Protocol. J. Postel. September 1981.
-     (Format: TXT=172710 bytes) (Updated by RFC3168) (Also STD0007)
-     (Status: STANDARD)
+     (Format: TXT=172710 bytes) (Updated by RFC1122, RFC3168) (Also
+     STD0007) (Status: STANDARD)
 
 0794 Pre-emption. V.G. Cerf. September 1981. (Format: TXT=5906 bytes)
      (Updates IEN 125) (Status: UNKNOWN)
@@ -3788,8 +3788,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
      INFORMATIONAL)
 
 1122 Requirements for Internet Hosts - Communication Layers. R.
-     Braden, Ed.. October 1989. (Format: TXT=295992 bytes) (Updated by
-     RFC1349, RFC4379) (Also STD0003) (Status: STANDARD)
+     Braden, Ed.. October 1989. (Format: TXT=295992 bytes) (Updates
+     RFC0793) (Updated by RFC1349, RFC4379) (Also STD0003) (Status:
+     STANDARD)
 
 1123 Requirements for Internet Hosts - Application and Support. R.
      Braden, Ed.. October 1989. (Format: TXT=245503 bytes) (Updates
@@ -10695,8 +10696,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2929 Domain Name System (DNS) IANA Considerations. D. Eastlake 3rd, E.
      Brunner-Williams, B. Manning. September 2000. (Format: TXT=22454
-     bytes) (Obsoleted by RFC5395) (Also BCP0042) (Status: BEST CURRENT
-     PRACTICE)
+     bytes) (Obsoleted by RFC5395) (Status: BEST CURRENT PRACTICE)
 
 2930 Secret Key Establishment for DNS (TKEY RR). D. Eastlake 3rd.
      September 2000. (Format: TXT=34894 bytes) (Status: PROPOSED STANDARD)
@@ -11978,8 +11978,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3261 SIP: Session Initiation Protocol. J. Rosenberg, H. Schulzrinne,
      G. Camarillo, A. Johnston, J. Peterson, R. Sparks, M. Handley, E.
      Schooler. June 2002. (Format: TXT=647976 bytes) (Obsoletes RFC2543)
-     (Updated by RFC3265, RFC3853, RFC4320, RFC4916) (Status: PROPOSED
-     STANDARD)
+     (Updated by RFC3265, RFC3853, RFC4320, RFC4916, RFC5393) (Status:
+     PROPOSED STANDARD)
 
 3262 Reliability of Provisional Responses in Session Initiation
      Protocol (SIP). J. Rosenberg, H. Schulzrinne. June 2002. (Format:
@@ -14740,7 +14740,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3941 Negative-Acknowledgment (NACK)-Oriented Reliable Multicast (NORM)
      Building Blocks. B. Adamson, C. Bormann, M. Handley, J. Macker.
-     November 2004. (Format: TXT=92785 bytes) (Status: EXPERIMENTAL)
+     November 2004. (Format: TXT=92785 bytes) (Obsoleted by RFC5401)
+     (Status: EXPERIMENTAL)
 
 3942 Reclassifying Dynamic Host Configuration Protocol version 4
      (DHCPv4) Options. B. Volz. November 2004. (Format: TXT=13996 bytes)
@@ -20170,6 +20171,14 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Protocols. N. Shen, Ed., A. Zinin, Ed.. October 2008. (Format:
      TXT=21287 bytes) (Status: INFORMATIONAL)
 
+5316 ISIS Extensions in Support of Inter-Autonomous System (AS) MPLS
+     and GMPLS Traffic Engineering. M. Chen, R. Zhang, X. Duan. December
+     2008. (Format: TXT=45408 bytes) (Status: PROPOSED STANDARD)
+
+5318 The Session Initiation Protocol (SIP) P-Refused-URI-List
+     Private-Header (P-Header). J. Hautakorpi, G. Camarillo. December
+     2008. (Format: TXT=24589 bytes) (Status: INFORMATIONAL)
+
 5321 Simple Mail Transfer Protocol. J. Klensin. October 2008. (Format:
      TXT=225929 bytes) (Obsoletes RFC2821) (Updates RFC1123) (Status:
      DRAFT STANDARD)
@@ -20177,6 +20186,10 @@ See the RFC Editor Web page http://www.rfc-editor.org
 5322 Internet Message Format. P. Resnick, Ed.. October 2008. (Format:
      TXT=122322 bytes) (Obsoletes RFC2822) (Updates RFC4021) (Status:
      DRAFT STANDARD)
+
+5323 Web Distributed Authoring and Versioning (WebDAV) SEARCH. J.
+     Reschke, Ed., S. Reddy, J. Davis, A. Babich. November 2008. (Format:
+     TXT=91077 bytes) (Status: PROPOSED STANDARD)
 
 5324 MIB for Fibre-Channel Security Protocols (FC-SP). C. DeSanti, F.
      Maino, K. McCloghrie. September 2008. (Format: TXT=449246 bytes)
@@ -20382,6 +20395,18 @@ See the RFC Editor Web page http://www.rfc-editor.org
      and Main Header Recovery. A. Leung, S. Futemma, E. Itakura. October
      2008. (Format: TXT=53150 bytes) (Status: PROPOSED STANDARD)
 
+5373 Requesting Answering Modes for the Session Initiation Protocol
+     (SIP). D. Willis, Ed., A. Allen. November 2008. (Format: TXT=59839
+     bytes) (Status: PROPOSED STANDARD)
+
+5374 Multicast Extensions to the Security Architecture for the
+     Internet Protocol. B. Weis, G. Gross, D. Ignjatic. November 2008.
+     (Format: TXT=87729 bytes) (Status: PROPOSED STANDARD)
+
+5375 IPv6 Unicast Address Assignment Considerations. G. Van de Velde,
+     C. Popoviciu, T. Chown, O. Bonness, C. Hahn. December 2008. (Format:
+     TXT=83809 bytes) (Status: INFORMATIONAL)
+
 5376 Inter-AS Requirements for the Path Computation Element
      Communication Protocol (PCECP). N. Bitar, R. Zhang, K. Kumaki.
      November 2008. (Format: TXT=33114 bytes) (Status: INFORMATIONAL)
@@ -20424,10 +20449,58 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Security (BTNS). J. Touch, D. Black, Y. Wang. November 2008. (Format:
      TXT=71707 bytes) (Status: INFORMATIONAL)
 
+5388 Information Model and XML Data Model for Traceroute Measurements.
+     S. Niccolini, S. Tartarelli, J. Quittek, T. Dietz, M. Swany. December
+     2008. (Format: TXT=156801 bytes) (Status: PROPOSED STANDARD)
+
 5389 Session Traversal Utilities for NAT (STUN). J. Rosenberg, R.
      Mahy, P. Matthews, D. Wing. October 2008. (Format: TXT=125650 bytes)
      (Obsoletes RFC3489) (Status: PROPOSED STANDARD)
 
+5390 Requirements for Management of Overload in the Session Initiation
+     Protocol. J. Rosenberg. December 2008. (Format: TXT=32851 bytes)
+     (Status: INFORMATIONAL)
+
+5391 RTP Payload Format for ITU-T Recommendation G.711.1. A. Sollaud.
+     November 2008. (Format: TXT=26304 bytes) (Status: PROPOSED STANDARD)
+
+5392 OSPF Extensions in Support of Inter-Autonomous System (AS) MPLS and
+     GMPLS Traffic Engineering. M. Chen, R. Zhang, X. Duan. December 2008.
+     (Format: TXT=38687 bytes) (Status: PROPOSED STANDARD)
+
+5393 Addressing an Amplification Vulnerability in Session Initiation
+     Protocol (SIP) Forking Proxies. R. Sparks, Ed., S. Lawrence, A.
+     Hawrylyshen, B. Campen. December 2008. (Format: TXT=48722 bytes)
+     (Updates RFC3261) (Status: PROPOSED STANDARD)
+
+5394 Policy-Enabled Path Computation Framework. I. Bryskin, D.
+     Papadimitriou, L. Berger, J. Ash. December 2008. (Format: TXT=82226
+     bytes) (Status: INFORMATIONAL)
+
 5395 Domain Name System (DNS) IANA Considerations. D. Eastlake 3rd.
-     November 2008. (Format: TXT=33634 bytes) (Obsoletes RFC2929) (Updates
-     RFC1183, RFC3597) (Status: BEST CURRENT PRACTICE)
+     November 2008. (Format: TXT=33725 bytes) (Obsoletes RFC2929) (Updates
+     RFC1183, RFC3597) (Also BCP0042) (Status: BEST CURRENT PRACTICE)
+
+5396 Textual Representation of Autonomous System (AS) Numbers. G.
+     Huston, G. Michaelson. December 2008. (Format: TXT=5373 bytes)
+     (Status: PROPOSED STANDARD)
+
+5397 WebDAV Current Principal Extension. W. Sanchez, C. Daboo.
+     December 2008. (Format: TXT=8828 bytes) (Status: PROPOSED STANDARD)
+
+5398 Autonomous System (AS) Number Reservation for Documentation Use.
+     G. Huston. December 2008. (Format: TXT=5433 bytes) (Status:
+     INFORMATIONAL)
+
+5401 Multicast Negative-Acknowledgment (NACK) Building Blocks. B.
+     Adamson, C. Bormann, M. Handley, J. Macker. November 2008. (Format:
+     TXT=109312 bytes) (Obsoletes RFC3941) (Status: PROPOSED STANDARD)
+
+5405 Unicast UDP Usage Guidelines for Application Designers. L.
+     Eggert, G. Fairhurst. November 2008. (Format: TXT=69607 bytes) (Also
+     BCP0145) (Status: BEST CURRENT PRACTICE)
+
+5407 Example Call Flows of Race Conditions in the Session Initiation
+     Protocol (SIP). M. Hasebe, J. Koshiko, Y. Suzuki, T. Yoshikawa, P.
+     Kyzivat. December 2008. (Format: TXT=120005 bytes) (Also BCP0147)
+     (Status: BEST CURRENT PRACTICE)
