@@ -177,7 +177,7 @@ Dokumenty RFC (Request For Comments) w formacie Adobe PDF.
 %setup -q -c
 install %{SOURCE1} .
 %patch0 -p0
-#%%patch1 -p0
+%patch1 -p0
 install %{SOURCE2} .
 
 %if %{with html_index}
