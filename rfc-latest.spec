@@ -10,12 +10,12 @@ Summary:	Latest RFC documents
 Summary(es.UTF-8):	Los últimos documentos RFC
 Summary(pl.UTF-8):	Najnowsze dokumenty RFC
 Name:		rfc-latest
-Version:	5407
+Version:	5459
 Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.rfc-editor.org/in-notes/tar/RFCs5001-latest.tar.gz
-# Source0-md5:	1297e2aa5417fd3832822b3ee0da54b2
+# Source0-md5:	33af0b87d58e3c68ba0f4f4d02d68063
 Source1:	ftp://ftp.rfc-editor.org/in-notes/rfc-index.txt
 Source2:	ftp://ftp.rfc-editor.org/in-notes/rfc5000.txt
 Source10:	rfcindex-%{rfcindex_version}
