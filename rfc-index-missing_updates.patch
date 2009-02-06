@@ -1,0 +1,29 @@
+--- rfc-index.txt.orig	2009-02-06 21:26:22.000000000 +0100
++++ rfc-index.txt	2008-12-16 07:38:52.000000000 +0100
+@@ -1093,7 +1093,7 @@
+      (Format: TXT=12032 bytes) (Status: UNKNOWN)
+ 
+ 0308 ARPANET host availability data. M. Seriff. March 1972. (Format:
+-     TXT=5948 bytes) (Status: UNKNOWN)
++     TXT=5948 bytes) (Updated by RFC0530) (Status: UNKNOWN)
+ 
+ 0309 Data and File Transfer Workshop Announcement. A.K. Bhushan. March
+      1972. (Format: TXT=9404 bytes) (Status: UNKNOWN)
+@@ -1719,7 +1719,7 @@
+      McAfee. May 1973. (Format: TXT=25002 bytes) (Status: UNKNOWN)
+ 
+ 0509 Traffic statistics (April 1973). A.M. McKenzie. April 1973.
+-     (Format: TXT=6538 bytes) (Status: UNKNOWN)
++     (Format: TXT=6538 bytes) (Updated by RFC0522) (Status: UNKNOWN)
+ 
+ 0510 Request for network mailbox addresses. J.E. White. May 1973.
+      (Format: TXT=4150 bytes) (Status: UNKNOWN)
+@@ -1760,7 +1760,7 @@
+      PDF=163705 bytes) (Updates RFC0509) (Status: UNKNOWN)
+ 
+ 0523 SURVEY is in operation again. A.K. Bhushan. June 1973. (Format:
+-     TXT=2852 bytes) (Status: UNKNOWN)
++     TXT=2852 bytes) (Updated by RFC0530) (Status: UNKNOWN)
+ 
+ 0524 Proposed Mail Protocol. J.E. White. June 1973. (Format: TXT=75385
+      bytes) (Status: UNKNOWN)
