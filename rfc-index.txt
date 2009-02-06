@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 12/14/2008.)
+(CREATED ON: 02/05/2009.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -1093,7 +1093,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Format: TXT=12032 bytes) (Status: UNKNOWN)
 
 0308 ARPANET host availability data. M. Seriff. March 1972. (Format:
-     TXT=5948 bytes) (Updated by RFC0530) (Status: UNKNOWN)
+     TXT=5948 bytes) (Status: UNKNOWN)
 
 0309 Data and File Transfer Workshop Announcement. A.K. Bhushan. March
      1972. (Format: TXT=9404 bytes) (Status: UNKNOWN)
@@ -1719,7 +1719,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      McAfee. May 1973. (Format: TXT=25002 bytes) (Status: UNKNOWN)
 
 0509 Traffic statistics (April 1973). A.M. McKenzie. April 1973.
-     (Format: TXT=6538 bytes) (Updated by RFC0522) (Status: UNKNOWN)
+     (Format: TXT=6538 bytes) (Status: UNKNOWN)
 
 0510 Request for network mailbox addresses. J.E. White. May 1973.
      (Format: TXT=4150 bytes) (Status: UNKNOWN)
@@ -1760,7 +1760,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      PDF=163705 bytes) (Updates RFC0509) (Status: UNKNOWN)
 
 0523 SURVEY is in operation again. A.K. Bhushan. June 1973. (Format:
-     TXT=2852 bytes) (Updated by RFC0530) (Status: UNKNOWN)
+     TXT=2852 bytes) (Status: UNKNOWN)
 
 0524 Proposed Mail Protocol. J.E. White. June 1973. (Format: TXT=75385
      bytes) (Status: UNKNOWN)
@@ -7799,8 +7799,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 2181 Clarifications to the DNS Specification. R. Elz, R. Bush. July
      1997. (Format: TXT=36989 bytes) (Updates RFC1034, RFC1035, RFC1123)
-     (Updated by RFC4035, RFC2535, RFC4343, RFC4033, RFC4034) (Status:
-     PROPOSED STANDARD)
+     (Updated by RFC4035, RFC2535, RFC4343, RFC4033, RFC4034, RFC5452)
+     (Status: PROPOSED STANDARD)
 
 2182 Selection and Operation of Secondary DNS Servers. R. Elz, R.
      Bush, S. Bradner, M. Patton. July 1997. (Format: TXT=27456 bytes)
@@ -7882,7 +7882,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      September 1997. (Format: TXT=11945 bytes) (Status: INFORMATIONAL)
 
 2203 RPCSEC_GSS Protocol Specification. M. Eisler, A. Chiu, L. Ling.
-     September 1997. (Format: TXT=50937 bytes) (Status: PROPOSED STANDARD)
+     September 1997. (Format: TXT=50937 bytes) (Updated by RFC5403)
+     (Status: PROPOSED STANDARD)
 
 2204 ODETTE File Transfer Protocol. D. Nash. September 1997. (Format:
      TXT=151857 bytes) (Obsoleted by RFC5024) (Status: INFORMATIONAL)
@@ -9879,8 +9880,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      EXPERIMENTAL)
 
 2717 Registration Procedures for URL Scheme Names. R. Petke, I. King.
-     November 1999. (Format: TXT=19780 bytes) (Obsoleted by RFC4395) (Also
-     BCP0035) (Status: BEST CURRENT PRACTICE)
+     November 1999. (Format: TXT=19780 bytes) (Obsoleted by RFC4395)
+     (Status: BEST CURRENT PRACTICE)
 
 2718 Guidelines for new URL Schemes. L. Masinter, H. Alvestrand, D.
      Zigmond, R. Petke. November 1999. (Format: TXT=19208 bytes)
@@ -11767,7 +11768,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3209 RSVP-TE: Extensions to RSVP for LSP Tunnels. D. Awduche, L.
      Berger, D. Gan, T. Li, V. Srinivasan, G. Swallow. December 2001.
      (Format: TXT=132264 bytes) (Updated by RFC3936, RFC4420, RFC4874,
-     RFC5151) (Status: PROPOSED STANDARD)
+     RFC5151, RFC5420) (Status: PROPOSED STANDARD)
 
 3210 Applicability Statement for Extensions to RSVP for LSP-Tunnels.
      D. Awduche, A. Hannan, X. Xiao. December 2001. (Format: TXT=17691
@@ -12871,7 +12872,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Resource ReserVation Protocol-Traffic Engineering (RSVP-TE)
      Extensions. L. Berger, Ed.. January 2003. (Format: TXT=91808 bytes)
      (Updated by RFC4003, RFC4201, RFC4420, RFC4783, RFC4874, RFC4873,
-     RFC4974, RFC5063, RFC5151) (Status: PROPOSED STANDARD)
+     RFC4974, RFC5063, RFC5151, RFC5420) (Status: PROPOSED STANDARD)
 
 3474 Documentation of IANA assignments for Generalized MultiProtocol
      Label Switching (GMPLS) Resource Reservation Protocol - Traffic
@@ -14143,7 +14144,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3786 Extending the Number of Intermediate System to Intermediate
      System (IS-IS) Link State PDU (LSP) Fragments Beyond the 256 Limit.
      A. Hermelin, S. Previdi, M. Shand. May 2004. (Format: TXT=29164
-     bytes) (Status: INFORMATIONAL)
+     bytes) (Obsoleted by RFC5311) (Status: INFORMATIONAL)
 
 3787 Recommendations for Interoperable IP Networks using Intermediate
      System to Intermediate System (IS-IS). J. Parker, Ed.. May 2004.
@@ -14336,8 +14337,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      INFORMATIONAL)
 
 3834 Recommendations for Automatic Responses to Electronic Mail. K.
-     Moore. August 2004. (Format: TXT=53119 bytes) (Status: PROPOSED
-     STANDARD)
+     Moore. August 2004. (Format: TXT=53119 bytes) (Updated by RFC5436)
+     (Status: PROPOSED STANDARD)
 
 3835 An Architecture for Open Pluggable Edge Services (OPES). A.
      Barbir, R. Penno, R. Chen, M. Hofmann, H. Orman. August 2004.
@@ -16559,7 +16560,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 4395 Guidelines and Registration Procedures for New URI Schemes. T.
      Hansen, T. Hardie, L. Masinter. February 2006. (Format: TXT=31933
-     bytes) (Obsoletes RFC2717, RFC2718) (Also BCP0115) (Status: BEST
+     bytes) (Obsoletes RFC2717, RFC2718) (Also BCP0035) (Status: BEST
      CURRENT PRACTICE)
 
 4396 RTP Payload Format for 3rd Generation Partnership Project (3GPP)
@@ -16656,8 +16657,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Label Switched Path (LSP) Establishment Using Resource ReserVation
      Protocol-Traffic Engineering (RSVP-TE). A. Farrel, Ed., D.
      Papadimitriou, J.-P. Vasseur, A. Ayyangar. February 2006. (Format:
-     TXT=47235 bytes) (Updates RFC3209, RFC3473) (Status: PROPOSED
-     STANDARD)
+     TXT=47235 bytes) (Obsoleted by RFC5420) (Updates RFC3209, RFC3473)
+     (Status: PROPOSED STANDARD)
 
 4421 RTP Payload Format for Uncompressed Video: Additional Colour
      Sampling Modes. C. Perkins. February 2006. (Format: TXT=8000 bytes)
@@ -18616,8 +18617,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 4909 Multimedia Internet KEYing (MIKEY) General Extension Payload for
      Open Mobile Alliance BCAST LTKM/STKM Transport. L. Dondeti, Ed., D.
-     Castleford, F. Hartung. June 2007. (Format: TXT=12228 bytes) (Status:
-     INFORMATIONAL)
+     Castleford, F. Hartung. June 2007. (Format: TXT=12228 bytes)
+     (Obsoleted by RFC5410) (Status: INFORMATIONAL)
 
 4910 Robust XML Encoding Rules (RXER) for Abstract Syntax Notation One
      (ASN.1). S. Legg, D. Prager. July 2007. (Format: TXT=182175 bytes)
@@ -19567,9 +19568,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
      JP. Vasseur, Ed., A. Ayyangar, Ed., R. Zhang. February 2008. (Format:
      TXT=50563 bytes) (Status: PROPOSED STANDARD)
 
-5153 IPFIX Implementation Guidelines. E. Boschi, L. Mark, J. Quittek,
-     M. Stiemerling, P. Aitken. April 2008. (Format: TXT=82845 bytes)
-     (Status: INFORMATIONAL)
+5153 IP Flow Information Export (IPFIX) Implementation Guidelines. E.
+     Boschi, L. Mark, J. Quittek, M. Stiemerling, P. Aitken. April 2008.
+     (Format: TXT=82845 bytes) (Status: INFORMATIONAL)
 
 5154 IP over IEEE 802.16 Problem Statement and Goals. J. Jee, Ed., S.
      Madanapalli, J. Mandin. April 2008. (Format: TXT=29853 bytes)
@@ -20171,6 +20172,11 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Protocols. N. Shen, Ed., A. Zinin, Ed.. October 2008. (Format:
      TXT=21287 bytes) (Status: INFORMATIONAL)
 
+5311 Simplified Extension of Link State PDU (LSP) Space for IS-IS. D.
+     McPherson, Ed., L. Ginsberg, S. Previdi, M. Shand. February 2009.
+     (Format: TXT=23886 bytes) (Obsoletes RFC3786) (Status: PROPOSED
+     STANDARD)
+
 5316 ISIS Extensions in Support of Inter-Autonomous System (AS) MPLS
      and GMPLS Traffic Engineering. M. Chen, R. Zhang, X. Duan. December
      2008. (Format: TXT=45408 bytes) (Status: PROPOSED STANDARD)
@@ -20464,9 +20470,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
 5391 RTP Payload Format for ITU-T Recommendation G.711.1. A. Sollaud.
      November 2008. (Format: TXT=26304 bytes) (Status: PROPOSED STANDARD)
 
-5392 OSPF Extensions in Support of Inter-Autonomous System (AS) MPLS and
-     GMPLS Traffic Engineering. M. Chen, R. Zhang, X. Duan. December 2008.
-     (Format: TXT=38687 bytes) (Status: PROPOSED STANDARD)
+5392 OSPF Extensions in Support of Inter-Autonomous System (AS) MPLS
+     and GMPLS Traffic Engineering. M. Chen, R. Zhang, X. Duan. January
+     2009. (Format: TXT=38690 bytes) (Status: PROPOSED STANDARD)
 
 5393 Addressing an Amplification Vulnerability in Session Initiation
      Protocol (SIP) Forking Proxies. R. Sparks, Ed., S. Lawrence, A.
@@ -20496,6 +20502,12 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Adamson, C. Bormann, M. Handley, J. Macker. November 2008. (Format:
      TXT=109312 bytes) (Obsoletes RFC3941) (Status: PROPOSED STANDARD)
 
+5403 RPCSEC_GSS Version 2. M. Eisler. February 2009. (Format:
+     TXT=30812 bytes) (Updates RFC2203) (Status: PROPOSED STANDARD)
+
+5404 RTP Payload Format for G.719. M. Westerlund, I. Johansson.
+     January 2009. (Format: TXT=64644 bytes) (Status: PROPOSED STANDARD)
+
 5405 Unicast UDP Usage Guidelines for Application Designers. L.
      Eggert, G. Fairhurst. November 2008. (Format: TXT=69607 bytes) (Also
      BCP0145) (Status: BEST CURRENT PRACTICE)
@@ -20504,3 +20516,59 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Protocol (SIP). M. Hasebe, J. Koshiko, Y. Suzuki, T. Yoshikawa, P.
      Kyzivat. December 2008. (Format: TXT=120005 bytes) (Also BCP0147)
      (Status: BEST CURRENT PRACTICE)
+
+5408 Identity-Based Encryption Architecture and Supporting Data
+     Structures. G. Appenzeller, L. Martin, M. Schertler. January 2009.
+     (Format: TXT=62160 bytes) (Status: INFORMATIONAL)
+
+5409 Using the Boneh-Franklin and Boneh-Boyen Identity-Based
+     Encryption Algorithms with the Cryptographic Message Syntax (CMS). L.
+     Martin, M. Schertler. January 2009. (Format: TXT=25481 bytes)
+     (Status: INFORMATIONAL)
+
+5410 Multimedia Internet KEYing (MIKEY) General Extension Payload for
+     Open Mobile Alliance BCAST 1.0. A. Jerichow, Ed., L. Piron. January
+     2009. (Format: TXT=12444 bytes) (Obsoletes RFC4909) (Status:
+     INFORMATIONAL)
+
+5411 A Hitchhiker's Guide to the Session Initiation Protocol (SIP). J.
+     Rosenberg. February 2009. (Format: TXT=96538 bytes) (Status:
+     INFORMATIONAL)
+
+5419 Why the Authentication Data Suboption is Needed for Mobile IPv6
+     (MIPv6). B. Patil, G. Dommety. January 2009. (Format: TXT=45178
+     bytes) (Status: INFORMATIONAL)
+
+5420 Encoding of Attributes for MPLS LSP Establishment Using Resource
+     Reservation Protocol Traffic Engineering (RSVP-TE). A. Farrel, Ed.,
+     D. Papadimitriou, JP. Vasseur, A. Ayyangarps. February 2009. (Format:
+     TXT=47668 bytes) (Obsoletes RFC4420) (Updates RFC3209, RFC3473)
+     (Status: PROPOSED STANDARD)
+
+5434 Considerations for Having a Successful Birds-of-a-Feather (BOF)
+     Session. T. Narten. February 2009. (Format: TXT=33887 bytes) (Status:
+     INFORMATIONAL)
+
+5435 Sieve Email Filtering: Extension for Notifications. A. Melnikov,
+     Ed., B. Leiba, Ed., W. Segmuller, T. Martin. January 2009. (Format:
+     TXT=36181 bytes) (Status: PROPOSED STANDARD)
+
+5436 Sieve Notification Mechanism: mailto. B. Leiba, M. Haardt.
+     January 2009. (Format: TXT=26519 bytes) (Updates RFC3834) (Status:
+     PROPOSED STANDARD)
+
+5437 Sieve Notification Mechanism: Extensible Messaging and Presence
+     Protocol (XMPP). P. Saint-Andre, A. Melnikov. January 2009. (Format:
+     TXT=28448 bytes) (Status: PROPOSED STANDARD)
+
+5444 Generalized Mobile Ad Hoc Network (MANET) Packet/Message Format.
+     T. Clausen, C. Dearlove, J. Dean, C. Adjih. February 2009. (Format:
+     TXT=139048 bytes) (Status: PROPOSED STANDARD)
+
+5452 Measures for Making DNS More Resilient against Forged Answers. A.
+     Hubert, R. van Mook. January 2009. (Format: TXT=37432 bytes) (Updates
+     RFC2181) (Status: PROPOSED STANDARD)
+
+5459 G.729.1 RTP Payload Format Update: Discontinuous Transmission
+     (DTX) Support. A. Sollaud. January 2009. (Format: TXT=14671 bytes)
+     (Updates RFC4749) (Status: PROPOSED STANDARD)
