@@ -10,14 +10,16 @@ Summary:	Latest RFC documents
 Summary(es.UTF-8):	Los últimos documentos RFC
 Summary(pl.UTF-8):	Najnowsze dokumenty RFC
 Name:		rfc-latest
-Version:	5492
+Version:	5503
 Release:	1
 License:	distributable
 Group:		Documentation
-Source0:	ftp://ftp.rfc-editor.org/in-notes/tar/RFCs5001-latest.tar.gz
-# Source0-md5:	94ceff0bc1a321337ccb6ce34bf39871
+Source0:	ftp://ftp.rfc-editor.org/in-notes/tar/RFCs5501-latest.tar.gz
+# Source0-md5:	94ceac5ad595ae4b53d7cf8e33ff0ea7
 Source1:	ftp://ftp.rfc-editor.org/in-notes/rfc-index.txt
 Source2:	ftp://ftp.rfc-editor.org/in-notes/rfc5000.txt
+Source3:	ftp://ftp.rfc-editor.org/in-notes/tar/RFCs5001-5500.tar.gz
+# Source0-md5:	42ddaff108597082ea30b06a5c69aa76
 Source10:	rfcindex-%{rfcindex_version}
 # Source10-md5:	2b35cdd18096517e048fd455364dd77a
 Patch0:		rfc-index-typo.patch
@@ -174,7 +176,7 @@ formato Adobe PDF.
 Dokumenty RFC (Request For Comments) w formacie Adobe PDF.
 
 %prep
-%setup -q -c
+%setup -q -c -a3
 install %{SOURCE1} .
 %patch0 -p0
 %patch1 -p0
@@ -214,9 +216,9 @@ pod2man rfcindex > rfcindex.1
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_docdir}/RFC/text/5{0,1,2,3}00
-install -d $RPM_BUILD_ROOT%{_docdir}/RFC/pdf/5{0,1,2,3}00
-install -d $RPM_BUILD_ROOT%{_docdir}/RFC/postscript/5{0,1,2,3}00
+install -d $RPM_BUILD_ROOT%{_docdir}/RFC/text/5{0,1,2,3,4,5}00
+install -d $RPM_BUILD_ROOT%{_docdir}/RFC/pdf/5{0,1,2,3,4,5}00
+install -d $RPM_BUILD_ROOT%{_docdir}/RFC/postscript/5{0,1,2,3,4,5}00
 
 install rfc-index.txt $RPM_BUILD_ROOT%{_docdir}/RFC
 
@@ -233,14 +235,14 @@ find . -name 'rfc[1-9]*.ps' -print | xargs gzip -9
 %endif
 
 # install rfc[1-9]*.txt* $RPM_BUILD_ROOT%{_docdir}/RFC/text
-for i in 5{0,1,2,3} ; do
+for i in 5{0,1,2,3,4,5} ; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.]*txt* \
 		$RPM_BUILD_ROOT%{_docdir}/RFC/text/${i}00
 done
 
 %if %{with pdf}
 # install rfc*.pdf $RPM_BUILD_ROOT%{_docdir}/RFC/pdf
-for i in 5{0,1,2,3} ; do
+for i in 5{0,1,2,3,4,5} ; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*pdf \
 		$RPM_BUILD_ROOT%{_docdir}/RFC/pdf/${i}00
 done
@@ -248,7 +250,7 @@ done
 
 %if %{with ps}
 # install rfc*.ps $RPM_BUILD_ROOT%{_docdir}/RFC/postscript
-for i in 5{0,1,2,3} ; do
+for i in 5{0,1,2,3,4,5} ; do
 	install rfc`echo $i|sed s/^0\*//g`[0-9][0-9][a.-]*ps* \
 		$RPM_BUILD_ROOT%{_docdir}/RFC/postscript/${i}00
 done
