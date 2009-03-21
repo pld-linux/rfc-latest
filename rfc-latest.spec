@@ -19,7 +19,7 @@ Source0:	ftp://ftp.rfc-editor.org/in-notes/tar/RFCs5501-latest.tar.gz
 Source1:	ftp://ftp.rfc-editor.org/in-notes/rfc-index.txt
 Source2:	ftp://ftp.rfc-editor.org/in-notes/rfc5000.txt
 Source3:	ftp://ftp.rfc-editor.org/in-notes/tar/RFCs5001-5500.tar.gz
-# Source0-md5:	42ddaff108597082ea30b06a5c69aa76
+# Source3-md5:	42ddaff108597082ea30b06a5c69aa76
 Source10:	rfcindex-%{rfcindex_version}
 # Source10-md5:	2b35cdd18096517e048fd455364dd77a
 Patch0:		rfc-index-typo.patch
