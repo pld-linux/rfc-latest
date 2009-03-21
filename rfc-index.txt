@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 02/26/2009.)
+(CREATED ON: 03/20/2009.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -11071,8 +11071,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Status: INFORMATIONAL)
 
 3028 Sieve: A Mail Filtering Language. T. Showalter. January 2001.
-     (Format: TXT=73582 bytes) (Obsoleted by RFC5228) (Status: PROPOSED
-     STANDARD)
+     (Format: TXT=73582 bytes) (Obsoleted by RFC5228, RFC5429) (Status:
+     PROPOSED STANDARD)
 
 3029 Internet X.509 Public Key Infrastructure Data Validation and
      Certification Server Protocols. C. Adams, P. Sylvester, M. Zolotarev,
@@ -11589,7 +11589,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
      EXPERIMENTAL)
 
 3164 The BSD Syslog Protocol. C. Lonvick. August 2001. (Format:
-     TXT=72951 bytes) (Status: INFORMATIONAL)
+     TXT=72951 bytes) (Obsoleted by RFC5424) (Status: INFORMATIONAL)
 
 3165 Definitions of Managed Objects for the Delegation of Management
      Scripts. D. Levi, J. Schoenwaelder. August 2001. (Format: TXT=134479
@@ -12058,8 +12058,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3279 Algorithms and Identifiers for the Internet X.509 Public Key
      Infrastructure Certificate and Certificate Revocation List (CRL)
      Profile. L. Bassham, W. Polk, R. Housley. April 2002. (Format:
-     TXT=53833 bytes) (Updated by RFC4055, RFC4491) (Status: PROPOSED
-     STANDARD)
+     TXT=53833 bytes) (Updated by RFC4055, RFC4491, RFC5480) (Status:
+     PROPOSED STANDARD)
 
 3280 Internet X.509 Public Key Infrastructure Certificate and
      Certificate Revocation List (CRL) Profile. R. Housley, W. Polk, W.
@@ -12779,8 +12779,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 3452 Forward Error Correction (FEC) Building Block. M. Luby, L.
      Vicisano, J. Gemmell, L. Rizzo, M. Handley, J. Crowcroft. December
-     2002. (Format: TXT=38368 bytes) (Obsoleted by RFC5052) (Status:
-     EXPERIMENTAL)
+     2002. (Format: TXT=38368 bytes) (Obsoleted by RFC5052, RFC5445)
+     (Status: EXPERIMENTAL)
 
 3453 The Use of Forward Error Correction (FEC) in Reliable Multicast.
      M. Luby, L. Vicisano, J. Gemmell, L. Rizzo, M. Handley, J. Crowcroft.
@@ -13408,7 +13408,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
 3603 Private Session Initiation Protocol (SIP) Proxy-to-Proxy
      Extensions for Supporting the PacketCable Distributed Call Signaling
      Architecture. W. Marshall, Ed., F. Andreasen, Ed.. October 2003.
-     (Format: TXT=67509 bytes) (Status: INFORMATIONAL)
+     (Format: TXT=67509 bytes) (Obsoleted by RFC5503) (Status:
+     INFORMATIONAL)
 
 3604 Requirements for Adding Optical Support to the General Switch
      Management Protocol version 3 (GSMPv3). H. Khosravi, G. Kullgren, S.
@@ -13778,8 +13779,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      (Status: INFORMATIONAL)
 
 3695 Compact Forward Error Correction (FEC) Schemes. M. Luby, L.
-     Vicisano. February 2004. (Format: TXT=32012 bytes) (Status:
-     EXPERIMENTAL)
+     Vicisano. February 2004. (Format: TXT=32012 bytes) (Obsoleted by
+     RFC5445) (Status: EXPERIMENTAL)
 
 3696 Application Techniques for Checking and Transformation of Names.
      J. Klensin. February 2004. (Format: TXT=39238 bytes) (Status:
@@ -19867,7 +19868,7 @@ See the RFC Editor Web page http://www.rfc-editor.org
 
 5228 Sieve: An Email Filtering Language. P. Guenther, Ed., T.
      Showalter, Ed.. January 2008. (Format: TXT=87531 bytes) (Obsoletes
-     RFC3028) (Updated by RFC5229) (Status: PROPOSED STANDARD)
+     RFC3028) (Updated by RFC5229, RFC5429) (Status: PROPOSED STANDARD)
 
 5229 Sieve Email Filtering: Variables Extension. K. Homme. January
      2008. (Format: TXT=20023 bytes) (Updates RFC5228) (Updated by
@@ -20555,6 +20556,24 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Rosenberg. February 2009. (Format: TXT=96538 bytes) (Status:
      INFORMATIONAL)
 
+5415 Control And Provisioning of Wireless Access Points (CAPWAP)
+     Protocol Specification. P. Calhoun, Ed., M. Montemurro, Ed., D.
+     Stanley, Ed.. March 2009. (Format: TXT=345381 bytes) (Status:
+     PROPOSED STANDARD)
+
+5416 Control and Provisioning of Wireless Access Points (CAPWAP)
+     Protocol Binding for IEEE 802.11. P. Calhoun, Ed., M. Montemurro,
+     Ed., D. Stanley, Ed.. March 2009. (Format: TXT=175870 bytes) (Status:
+     PROPOSED STANDARD)
+
+5417 Control And Provisioning of Wireless Access Points (CAPWAP)
+     Access Controller DHCP Option. P. Calhoun. March 2009. (Format:
+     TXT=11551 bytes) (Status: PROPOSED STANDARD)
+
+5418 Control And Provisioning of Wireless Access Points (CAPWAP)
+     Threat Analysis for IEEE 802.11 Deployments. S. Kelly, T. Clancy.
+     March 2009. (Format: TXT=74169 bytes) (Status: INFORMATIONAL)
+
 5419 Why the Authentication Data Suboption is Needed for Mobile IPv6
      (MIPv6). B. Patil, G. Dommety. January 2009. (Format: TXT=45178
      bytes) (Status: INFORMATIONAL)
@@ -20564,6 +20583,41 @@ See the RFC Editor Web page http://www.rfc-editor.org
      D. Papadimitriou, JP. Vasseur, A. Ayyangarps. February 2009. (Format:
      TXT=47668 bytes) (Obsoletes RFC4420) (Updates RFC3209, RFC3473)
      (Status: PROPOSED STANDARD)
+
+5421 Basic Password Exchange within the Flexible Authentication via
+     Secure Tunneling Extensible Authentication Protocol (EAP-FAST). N.
+     Cam-Winget, H. Zhou. March 2009. (Format: TXT=22345 bytes) (Status:
+     INFORMATIONAL)
+
+5422 Dynamic Provisioning Using Flexible Authentication via Secure
+     Tunneling Extensible Authentication Protocol (EAP-FAST). N.
+     Cam-Winget, D. McGrew, J. Salowey, H. Zhou. March 2009. (Format:
+     TXT=85200 bytes) (Status: INFORMATIONAL)
+
+5424 The Syslog Protocol. R. Gerhards. March 2009. (Format: TXT=85162
+     bytes) (Obsoletes RFC3164) (Status: PROPOSED STANDARD)
+
+5425 Transport Layer Security (TLS) Transport Mapping for Syslog. F.
+     Miao, Ed., Y. Ma, Ed., J. Salowey, Ed.. March 2009. (Format:
+     TXT=28159 bytes) (Status: PROPOSED STANDARD)
+
+5426 Transmission of Syslog Messages over UDP. A. Okmianski. March
+     2009. (Format: TXT=19354 bytes) (Status: PROPOSED STANDARD)
+
+5429 Sieve Email Filtering: Reject and Extended Reject Extensions. A.
+     Stone, Ed.. March 2009. (Format: TXT=28822 bytes) (Obsoletes RFC3028)
+     (Updates RFC5228) (Status: PROPOSED STANDARD)
+
+5430 Suite B Profile for Transport Layer Security (TLS). M. Salter, E.
+     Rescorla, R. Housley. March 2009. (Format: TXT=27586 bytes) (Status:
+     INFORMATIONAL)
+
+5431 Diameter ITU-T Rw Policy Enforcement Interface Application. D.
+     Sun. March 2009. (Format: TXT=10412 bytes) (Status: INFORMATIONAL)
+
+5432 Quality of Service (QoS) Mechanism Selection in the Session
+     Description Protocol (SDP). J. Polk, S. Dhesikan, G. Camarillo. March
+     2009. (Format: TXT=17614 bytes) (Status: PROPOSED STANDARD)
 
 5433 Extensible Authentication Protocol - Generalized Pre-Shared Key
      (EAP-GPSK) Method. T. Clancy, H. Tschofenig. February 2009. (Format:
@@ -20593,9 +20647,24 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Yasukawa, A. Farrel, O. Komolafe. February 2009. (Format: TXT=93845
      bytes) (Status: INFORMATIONAL)
 
+5440 Path Computation Element (PCE) Communication Protocol (PCEP). JP.
+     Vasseur, Ed., JL. Le Roux, Ed.. March 2009. (Format: TXT=190529
+     bytes) (Status: PROPOSED STANDARD)
+
+5442 LEMONADE Architecture - Supporting Open Mobile Alliance (OMA)
+     Mobile Email (MEM) Using Internet Mail. E. Burger, G. Parsons. March
+     2009. (Format: TXT=28758 bytes) (Status: INFORMATIONAL)
+
+5443 LDP IGP Synchronization. M. Jork, A. Atlas, L. Fang. March 2009.
+     (Format: TXT=15475 bytes) (Status: INFORMATIONAL)
+
 5444 Generalized Mobile Ad Hoc Network (MANET) Packet/Message Format.
      T. Clausen, C. Dearlove, J. Dean, C. Adjih. February 2009. (Format:
      TXT=139048 bytes) (Status: PROPOSED STANDARD)
+
+5445 Basic Forward Error Correction (FEC) Schemes. M. Watson. March
+     2009. (Format: TXT=41713 bytes) (Obsoletes RFC3452, RFC3695) (Status:
+     PROPOSED STANDARD)
 
 5446 Service Selection for Mobile IPv4. J. Korhonen, U. Nilsson.
      February 2009. (Format: TXT=19089 bytes) (Status: INFORMATIONAL)
@@ -20609,12 +20678,18 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Baccelli, P. Jacquet, D. Nguyen, T. Clausen. February 2009. (Format:
      TXT=67216 bytes) (Status: EXPERIMENTAL)
 
+5450 Transmission Time Offsets in RTP Streams. D. Singer, H. Desineni.
+     March 2009. (Format: TXT=17073 bytes) (Status: PROPOSED STANDARD)
+
 5452 Measures for Making DNS More Resilient against Forged Answers. A.
      Hubert, R. van Mook. January 2009. (Format: TXT=37432 bytes) (Updates
      RFC2181) (Status: PROPOSED STANDARD)
 
 5453 Reserved IPv6 Interface Identifiers. S. Krishnan. February 2009.
      (Format: TXT=11754 bytes) (Status: PROPOSED STANDARD)
+
+5454 Dual-Stack Mobile IPv4. G. Tsirtsis, V. Park, H. Soliman. March
+     2009. (Format: TXT=38606 bytes) (Status: PROPOSED STANDARD)
 
 5459 G.729.1 RTP Payload Format Update: Discontinuous Transmission
      (DTX) Support. A. Sollaud. January 2009. (Format: TXT=14671 bytes)
@@ -20632,6 +20707,9 @@ See the RFC Editor Web page http://www.rfc-editor.org
      RFC3272, RFC3443, RFC3469, RFC3564, RFC3985, RFC4182, RFC4364,
      RFC4379, RFC4448, RFC4761, RFC5129) (Status: PROPOSED STANDARD)
 
+5463 Sieve Email Filtering: Ihave Extension. N. Freed. March 2009.
+     (Format: TXT=12481 bytes) (Status: PROPOSED STANDARD)
+
 5464 The IMAP METADATA Extension. C. Daboo. February 2009. (Format:
      TXT=39425 bytes) (Status: PROPOSED STANDARD)
 
@@ -20643,10 +20721,72 @@ See the RFC Editor Web page http://www.rfc-editor.org
      King. February 2009. (Format: TXT=19415 bytes) (Status: PROPOSED
      STANDARD)
 
+5467 GMPLS Asymmetric Bandwidth Bidirectional Label Switched Paths
+     (LSPs). L. Berger, A. Takacs, D. Caviglia, D. Fedyk, J. Meuric. March
+     2009. (Format: TXT=29335 bytes) (Status: EXPERIMENTAL)
+
 5469 DES and IDEA Cipher Suites for Transport Layer Security (TLS). P.
      Eronen, Ed.. February 2009. (Format: TXT=8558 bytes) (Status:
+     INFORMATIONAL)
+
+5478 IANA Registration of New Session Initiation Protocol (SIP)
+     Resource-Priority Namespaces. J. Polk. March 2009. (Format: TXT=12810
+     bytes) (Status: PROPOSED STANDARD)
+
+5480 Elliptic Curve Cryptography Subject Public Key Information. S.
+     Turner, D. Brown, K. Yiu, R. Housley, T. Polk. March 2009. (Format:
+     TXT=36209 bytes) (Updates RFC3279) (Status: PROPOSED STANDARD)
+
+5481 Packet Delay Variation Applicability Statement. A. Morton, B.
+     Claise. March 2009. (Format: TXT=92218 bytes) (Status: INFORMATIONAL)
+
+5482 TCP User Timeout Option. L. Eggert, F. Gont. March 2009. (Format:
+     TXT=33568 bytes) (Status: PROPOSED STANDARD)
+
+5483 ENUM Implementation Issues and Experiences. L. Conroy, K.
+     Fujiwara. March 2009. (Format: TXT=72780 bytes) (Status:
+     INFORMATIONAL)
+
+5484 Associating Time-Codes with RTP Streams. D. Singer. March 2009.
+     (Format: TXT=25408 bytes) (Status: PROPOSED STANDARD)
+
+5485 Digital Signatures on Internet-Draft Documents. R. Housley. March
+     2009. (Format: TXT=29582 bytes) (Status: INFORMATIONAL)
+
+5486 Session Peering for Multimedia Interconnect (SPEERMINT)
+     Terminology. D. Malas, Ed., D. Meyer, Ed.. March 2009. (Format:
+     TXT=22036 bytes) (Status: INFORMATIONAL)
+
+5487 Pre-Shared Key Cipher Suites for TLS with SHA-256/384 and AES
+     Galois Counter Mode. M. Badra. March 2009. (Format: TXT=15537 bytes)
+     (Status: PROPOSED STANDARD)
+
+5489 ECDHE_PSK Cipher Suites for Transport Layer Security (TLS). M.
+     Badra, I. Hajjeh. March 2009. (Format: TXT=14194 bytes) (Status:
      INFORMATIONAL)
 
 5492 Capabilities Advertisement with BGP-4. J. Scudder, R. Chandra.
      February 2009. (Format: TXT=13581 bytes) (Obsoletes RFC3392) (Status:
      DRAFT STANDARD)
+
+5495 Description of the Resource Reservation Protocol -
+     Traffic-Engineered (RSVP-TE) Graceful Restart Procedures. D. Li, J.
+     Gao, A. Satyanarayana, S. Bardalai. March 2009. (Format: TXT=39325
+     bytes) (Status: INFORMATIONAL)
+
+5497 Representing Multi-Value Time in Mobile Ad Hoc Networks (MANETs).
+     T. Clausen, C. Dearlove. March 2009. (Format: TXT=30653 bytes)
+     (Status: PROPOSED STANDARD)
+
+5498 IANA Allocations for Mobile Ad Hoc Network (MANET) Protocols. I.
+     Chakeres. March 2009. (Format: TXT=8399 bytes) (Status: PROPOSED
+     STANDARD)
+
+5501 Requirements for Multicast Support in Virtual Private LAN
+     Services. Y. Kamite, Ed., Y. Wada, Y. Serbest, T. Morin, L. Fang.
+     March 2009. (Format: TXT=71507 bytes) (Status: INFORMATIONAL)
+
+5503 Private Session Initiation Protocol (SIP) Proxy-to-Proxy
+     Extensions for Supporting the PacketCable Distributed Call Signaling
+     Architecture. F. Andreasen, B. McKibben, B. Marshall. March 2009.
+     (Format: TXT=80201 bytes) (Obsoletes RFC3603) (Status: INFORMATIONAL)
