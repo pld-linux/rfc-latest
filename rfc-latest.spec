@@ -80,7 +80,7 @@ Requires:	%{name}-text >= %{version}-%{release}
 Index file for RFC (Request For Comments) documents containing
 information about document title, authors, status, size, etc.
 
-%description -n rfc-index -l es.UTF-8
+%description -n rfc-index-html -l es.UTF-8
 Fichero índice para los documentos RFC (Request For Comments: petición
 de comentarios) que contiene informaciones sobre el título de
 documento, su autores, estado, tamaño, etc.
