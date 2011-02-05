@@ -101,7 +101,7 @@ Requires:	rfc-index
 Perl script that reads the plain rfc-index.txt and outputs an HTML
 index file with hyperlinks to appropriate RFCs.
 
-%description -n rfcindex -l pl.UTF-8
+%description -n rfcindex -l es.UTF-8
 Script de Perl que lee el plano rfc-index.txt y devuelve un fichero
 índice en HTML con hiperenlaces a los RFC adecuados.
 
