@@ -11,7 +11,7 @@ Summary(es.UTF-8):	Los últimos documentos RFC
 Summary(pl.UTF-8):	Najnowsze dokumenty RFC
 Name:		rfc-latest
 Version:	5503
-Release:	1
+Release:	2
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.rfc-editor.org/in-notes/tar/RFCs5501-latest.tar.gz
