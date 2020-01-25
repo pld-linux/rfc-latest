@@ -4,7 +4,6 @@
 %bcond_without	pdf		# don't build package with RFCs in PDF format
 %bcond_without	html_index	# don't build HTML index
 
-%include	/usr/lib/rpm/macros.perl
 %define		rfcindex_version	1.2
 Summary:	Latest RFC documents
 Summary(es.UTF-8):	Los últimos documentos RFC
